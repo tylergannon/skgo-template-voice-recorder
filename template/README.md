@@ -20,6 +20,17 @@ preparation command is needed. Its repository fetch must preserve the nested
 `recorder/` module: a root Go module zip omits those canonical payload inputs.
 The installer command remains pending release; the following explicit helper
 procedure is the qualified v0.27.0 path.
+The plugin module's minimum Go version is 1.27.1; this is separate from the
+Go 1.27.2 used by the retained native consumer qualification.
+
+## Historical manual helper — before managed installation
+
+Released v0.27.0 was qualified with the procedure below; v0.28.0 also predates the
+planned installer. Keep one discovered recorder copy for a host: remove its
+manual `.so` before managed installation, or use the planned `skgo plugin remove
+github.com/tylergannon/skgo-template-voice-recorder` to remove its managed copy
+when retaining manual discovery. `SKGO_PLUGIN_DIRS` will not disable managed
+discovery. Neither planned command is available in v0.27.0 or v0.28.0.
 
 The source-build wrapper stages those assets and invokes SKGo's shared
 `skgo-plugin-build`. Build separately for the actual standalone or project-tool

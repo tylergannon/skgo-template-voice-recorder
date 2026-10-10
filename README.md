@@ -60,11 +60,17 @@ This runs trusted repository code. Git, Go and a working C toolchain are require
 Installing for a consumer's `go tool skgo` is a separate invocation against that
 actual host; a changed host requires installation again.
 
-This packaging convention is prepared, but source installation and automatic
-discovery have not been demonstrated. The released v0.27.0 path below remains
-the qualified creation procedure.
+Keep one discovered copy per host. Before using managed installation, remove the
+manual recorder `.so` from the directories that host discovers. To keep a manual
+copy instead, the planned `skgo plugin remove
+github.com/tylergannon/skgo-template-voice-recorder` will remove only that host's
+managed selection. Changing `SKGO_PLUGIN_DIRS` will not hide managed copies.
 
-### Qualified v0.27.0 creation
+This packaging convention is prepared, but source installation and automatic
+discovery have not been demonstrated. The manual path below retains the historical
+v0.27.0 qualification; v0.28.0 also predates the managed installer.
+
+### Historical manual qualification — v0.27.0
 
 Use Go 1.27.2, Node 24+, VitePlus 1.0.0 and pnpm 12.9.1 for the qualified
 SKGo v0.27.0 creation path. Native builds need Xcode 27; macOS/simulator target
@@ -88,6 +94,8 @@ The equivalent manual composition is ordinary `skgo new`, followed by
 `skgo add --set bundle-id=com.example.fieldnotes native-app` and
 `skgo add voice-notes`. A generated application owns its copied sources and does
 not load the plugin at runtime. Signing inputs belong to the consumer developer.
+This manual helper procedure is retained for reproducing that release's evidence;
+it should not be combined with managed installation for the same host.
 Rebuild the development plugin for each changed SKGo host or Go toolchain;
 the shared helper verifies compatibility against the host that will load it.
 See the [qualification limits](ephemeral/validation/fresh-consumer/release-report.md#limits)

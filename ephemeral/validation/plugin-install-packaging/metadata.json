@@ -4,5 +4,7 @@
   },
   "allowlistEntries": 47,
   "installer": "pending release",
-  "runtimeChanges": false
+  "runtimeChanges": false,
+  "pluginGoMinimum": "1.27.1",
+  "cleanPayloadGenerationAndRootTests": "passed with GOTOOLCHAIN=go1.27.1 GOWORK=off"
 }
