@@ -1,0 +1,24 @@
+$ go version
+go version go1.27.2 darwin/arm64
+$ node --version
+v26.11.0
+$ vp --version
+vp v1.0.0
+
+Local vite-plus:
+  vite-plus  Not found
+
+Tools:
+  vite             Not found
+  rolldown         Not found
+  vitest           Not found
+  oxfmt            Not found
+  oxlint           Not found
+  oxlint-tsgolint  Not found
+  tsdown           Not found
+
+Environment:
+  Package manager  Not found
+  Node.js          v24.21.0
+$ pnpm --version
+12.10.1

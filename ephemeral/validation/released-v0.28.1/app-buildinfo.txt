@@ -1,0 +1,24 @@
+/private/tmp/recorder-v0281-7iiyiinf/ReleaseFieldNotes/bin/ReleaseFieldNotes: go1.27.2
+	path	example.com/release-field-notes/cmd
+	mod	example.com/release-field-notes	(devel)	
+	dep	github.com/dlclark/regexp2/v2	v2.8.1	h1:I1jbaCbXeOxdVN8z3fb55Mvtgb94/6+Dh0zjmXjKV/0=
+	dep	github.com/dop251/goja	v0.0.0-20261008222547-e9f698900731	h1:j4pHbSFW20XvSKGrXR/m3YbITBSt8S2SvqFc29BXaHo=
+	dep	github.com/dop251/goja_nodejs	v0.0.0-20260212111938-1f56ff5bcf14	h1:3U8dTgyNBhEQ/GVw0jZW5q+93Zw2gAZPRWhJ9TwV3rM=
+	dep	github.com/go-sourcemap/sourcemap	v2.1.4+incompatible	h1:a+iTbH5auLKxaNwQFg0B+TCYl6lbukKPc7b5x0n1s6Q=
+	dep	github.com/google/pprof	v0.0.0-20260906184651-6331bc6350fe	h1:QAinXoAFJdGQYztXn3VpFey7KCwpedbZ/EkzbplQ0cY=
+	dep	github.com/tylergannon/devalue/v5	v5.0.0	h1:UZuNeNpVXHnn79lOS/l7gEWcC4jKoILHUb0s3F2+3J8=
+	dep	github.com/tylergannon/polytype	v1.5.0	h1:lcGJ0Rav1HA3Wa+qe/bl3fEcWbMgNFsRE6mfV8QrQs8=
+	dep	github.com/tylergannon/skgo	v0.28.1	h1:faO0BKrCs4xfNZD55jVi2QLY8C9T50+8McZmLk3WqE8=
+	dep	golang.org/x/net	v0.59.0	h1:5zfYln+w5XCxwrnMMJPufRgNoXEaGxl0wo5GqPXyues=
+	dep	golang.org/x/text	v0.42.0	h1:JbOZXgfeCPU9gacVtYliJqOhD+zhrEqK4LfdpmlUZqI=
+	build	-buildmode=exe
+	build	-compiler=gc
+	build	-ldflags="-X main.origin=http://127.0.0.1:8080"
+	build	CGO_ENABLED=1
+	build	CGO_CFLAGS=
+	build	CGO_CPPFLAGS=
+	build	CGO_CXXFLAGS=
+	build	CGO_LDFLAGS=
+	build	GOARCH=arm64
+	build	GOOS=darwin
+	build	GOARM64=v8.0

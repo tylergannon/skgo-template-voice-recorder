@@ -1,0 +1,9 @@
+$ scripts/feed-transcript.sh --origin http://127.0.0.1:8197
+Synthetic session active: fixture-e9e4cd68202f61efc63ad86c0744f441
+Accepted 1 (final=false)
+Accepted 2 (final=false)
+Accepted 3 (final=false)
+Accepted 4 (final=true)
+Accepted 5 (final=false)
+Accepted 6 (final=true)
+Synthetic session closed; acknowledged final text: This is synthetic text.

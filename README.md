@@ -22,6 +22,19 @@ and run with this checkout and its plugins unavailable.
 See [retained validation](ephemeral/validation/fresh-consumer/release-report.md)
 for evidence and limits.
 
+Released SKGo v0.28.1 also created the fresh **ReleaseFieldNotes** consumer through
+ordinary `skgo new` with the released manual plugin helper and qualified VitePlus
+1.0.0, without a private wrapper. It selected pnpm 12.9.1 despite ambient 12.10.1;
+the production web/Go build, Go checks, Svelte diagnostics and all 11 frontend
+tests passed, and regular browser computer use observed synthetic text.
+This is separate from the v0.27.0 native/physical evidence;
+no new native result is claimed. See the [v0.28.1 report](ephemeral/validation/released-v0.28.1/report.md).
+To supply 1.0.0 alongside a newer global installation, follow the
+[vendor's installation guide](https://viteplus.dev/guide/global-cli) with
+`VP_VERSION=1.0.0` and an absolute `VP_HOME`, then select that home's `bin` on PATH
+and keep the same `VP_HOME` for `skgo new`. This vendor-documented fresh-install
+procedure was not exercised here; qualification reused an existing installation.
+
 The recorder preserves microphone selection, native recording controls, timer,
 five horizontal green bars stacked upward, live transcript delivery, synthetic
 playback and active iPhone background recording. Its transcription package remains
