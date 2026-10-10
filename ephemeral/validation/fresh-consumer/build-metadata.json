@@ -1,0 +1,178 @@
+{
+  "module": "example.com/field-notes",
+  "name": "FieldNotes",
+  "baseBundleID": "com.example.fieldnotes",
+  "skgoCommit": "2bde811",
+  "sourceSHA256": {
+    "recorder/native/Sources/ApplicationView.swift": "bb59f0adc5b8118fd88e17041add25ae24cfeab521d6fe8b215c08062d953551",
+    "recorder/cmd/transcript-fixture/main.go": "e3b5544dfa05f5a532a843762af66dc6581f31d2a29aa1782fc3d22ea9ea830e",
+    "recorder/cmd/transcript-fixture/main_test.go": "933427bc0dc1d7096877fa8fd0127bea4c33b9533ecc96976ad578ac2ffaeb33",
+    "recorder/internal/transcript/store.go": "047bb7d47463280f1d2267bd82f377b517a38d3d49c98502393c18a10c0b6c15",
+    "recorder/internal/transcript/store_test.go": "491004af703b4d8cf98c6e86a43cc3ab7fc02a6341977fa5929aa2559b1e0e40",
+    "recorder/internal/transcript/stream_real.go": "31f283292605039a8e6a24f9c328992ef681cdf667e5556680aab9b391db1201",
+    "recorder/internal/transcript/stream_synthetic.go": "d0593d5363db7aed61c0037c99988a9330a67ac9e53a04449fec5f62e9bb95de",
+    "recorder/internal/transcript/stream_synthetic_test.go": "9dd9390ed7063fdeefad9ccfef6a80fcbf452fa4de602237888d6c1b8cc0deb6",
+    "recorder/native/Resources/Licenses/AppleSample-LICENSE.txt": "ef80d1c2ac05c7040c0ced9d603c2c359712f90fdb3ece8da70b976981a69e89",
+    "recorder/native/Resources/Licenses/AuralKit-LICENSE.txt": "bb3ed780d373ad8ee41ea8d2f5dffe62475f90914c77a24a7eae715cbe40f9a8",
+    "recorder/native/Resources/synthetic-transcript.json": "78a5e29af815b030d93fbadc0435085f1444fab94609dde03cb41ccd95c641a0",
+    "recorder/native/Sources/MicrophoneSource.swift": "aa4f0e95afc12d066e48a941ebe20c26fa715d2e4aa3bd462c52b10bff0a8774",
+    "recorder/native/Sources/NativeCommands.swift": "3e1735dc5c65a6d28b4ceeb0a5b1ff3643b667e262c05df056616f7fd6a2c99f",
+    "recorder/native/Sources/RecorderController.swift": "3deb5392ef936510b05e509dac1efff771db3812e8c5d1bc22607ac84b1530db",
+    "recorder/native/Sources/RecorderControls.swift": "63f9e184ee2b6a04295af102bbcdd63a082496a32726bd06e10ebfe5cbb3a76f",
+    "recorder/native/Sources/RecorderScreen.swift": "d659ba7e9d71618b2abb0e9a3c5f13e64794abaf81c0ec11430f20faf4ee2b66",
+    "recorder/native/Sources/RecordingInput.swift": "84dc9d60899f2f7a8fc29dc82ffa87069d2f2240c1200acdc1b40550f9a9ca9d",
+    "recorder/native/Sources/RecordingSettings.swift": "c4a5b79b0ab78b2d170708e20092e46476b91d4460793359e8e7c5c119d6ac72",
+    "recorder/native/Sources/SyntheticSource.swift": "22c0929891d7e1d462b3254a8eabf20fdcc4203b9cd7abd978a22f2dfc565c66",
+    "recorder/native/Sources/TranscriptCore.swift": "be656efe3df8c575d5c349051bb9a30559f200ba66c187d4d6f57929141d2ce3",
+    "recorder/native/Tests/ControllerTests.swift": "29435e39dc3bb30ef9fa7c4f2975fb168d4b04591e761fc70a55349f21e1c09e",
+    "recorder/native/Tests/CoreTests.swift": "8cc2d1923acbfbfd288d94ec5be9c66d24080938a99d166f48f40d8ff42b1a6a",
+    "recorder/native/Tests/Fixtures/burst-transcript.json": "e8ddb840da2150fb82aca51e29b3095b568da8f6aed84966f6cf0b84251455fc",
+    "recorder/native/Tests/RecordingInputTests.swift": "9f54bc6f94c3766dbf432866f90f69c31f58b69428f320b9bd8c5ad1600fd639",
+    "recorder/native/Tests/ScriptedControllerTests.swift": "8f1d89a57f6d2c9b14e7113ca0a31745e315178962a754831f1bade1b91681de",
+    "recorder/native/Transcription/.gitignore": "a5fe6c65674f5049b10bac541bcbf85b47991c3553526ea7bbdeedd5f45512e1",
+    "recorder/native/Transcription/Package.swift": "46986a1c3fa76b6792b4d3952a2efaf452f1e33524313acbecdf9cd4da85c6f1",
+    "recorder/native/Transcription/ProbeInfo.plist": "8435487ff6f054d20991f587af57bf3bf866823c1808ccd66790ce7a336cf6d2",
+    "recorder/native/Transcription/README.md": "1c062d2307bd304394c63783c706003fbfee8d2d58eb9e211b9c4c7e658e12a3",
+    "recorder/native/Transcription/Sources/AppleTranscription/AudioInputLevel.swift": "0c8e0989eb32ee857b2a34a493d96b76b825468ff80353e043f81181906d4ef4",
+    "recorder/native/Transcription/Sources/AppleTranscription/InputDevices.swift": "c34705629975098bf7baae85ecb48d060859651107c3b92a724bd31856b708ce",
+    "recorder/native/Transcription/Sources/AppleTranscription/MicrophoneSource.swift": "0eaea96b978092fd899f882445de26ab5072ea08513785b5c996b3d9dd3f4f83",
+    "recorder/native/Transcription/Sources/ScriptedTranscription/SyntheticSource.swift": "3556ff04086927a7ab5b7cfa267305b17e9d130942430a6701ee908c3e76e226",
+    "recorder/native/Transcription/Sources/TranscriptSource/TranscriptSource.swift": "3ea06a59164a6c165c769a59d0de8f3fa1ad4e5fd2e7b3c9f136d13b4ba74f79",
+    "recorder/native/Transcription/Sources/TranscriptionProbe/main.swift": "1c4ad471502c9dcdd2a9ed17ff457713fc83b573dd18db12e554c7749baf3dc0",
+    "recorder/native/Transcription/Tests/AudioTests/AudioTests.swift": "6c2a182c6e79b5b4d160af143cdf3e5a013e3fe8b6c70dc2e78d8ac1e5cdd265",
+    "recorder/native/Transcription/Tests/SyntheticTests/SyntheticTests.swift": "be99873d7fc90ca4d13f8cdd0085a976fcb857a3e0d4f058ca342cae662b5e3b",
+    "recorder/scripts/check-transcription.sh": "ad139a391996fba09041fc21c03c9b4639b7e2a42a49aa7c021faf3813c1e751",
+    "recorder/scripts/feed-transcript.sh": "0b13deb9d4bdeb6042baedb5767ed81aa8849a0cb20e81337f123dd82d4f1d96",
+    "recorder/scripts/probe-transcription.sh": "f11e680ec0c54f4412f8ef25b38ad66c28d800972045405e5636e47e48c61ca9",
+    "recorder/web/src/lib/TranscriptScreen.svelte": "53dba41e80840ccef739c54f782c992481aacd221de44f6e09ed26aea74ad576",
+    "recorder/web/src/lib/TranscriptScreen.svelte.spec.ts": "30e59ba40877abd3c3be64dde16ae53aed6dc59821e84a2f9227338107d464b2",
+    "recorder/web/src/lib/native-status.spec.ts": "9403c79724c99067108b29f14c5fba88ff92e14e3cffe3628c93f3609132c6e0",
+    "recorder/web/src/lib/native-status.ts": "d127ad5be2713067655d7ea3a669458556590b781e9e065b2e6381d764321e8b",
+    "recorder/web/src/lib/transcript.remote.go": "f09cc84c2a250de4ec7c90f02424bedddd327fd2e0436bd3eccaa28ced7a0ac8",
+    "recorder/web/src/routes/+page.svelte": "ee9ad6a4f31520b1bac611d2c39469a1a9262f5f53c0305332faf836b0baddf8",
+    "scripts/check-recorder.sh": "34d7033beb8a6650bdcce7fd1017b9a5383d497561c5cecf7cdf35490adf22ec",
+    "template/apply.go": "24e809d769c416596d241f53b28de7bb5b43161005f4ada13415a7f89ca64b17",
+    "template/config.go": "4f1f6473c89f274284e88b486688b0e8706a4058106280e95939ec85cc645cd6",
+    "template/recorder.go": "0c4da98a80a1ce239d3b73957c2b4d12c07a7fb9b6ee3f3a48400e91efdb669a",
+    "template/allowlist.json": "9ba391c190bcfc5d744b216580d0f16c06619731acf2af3f657f42140cb00555",
+    "go.mod": "c9a76ff798dd27d8c2649a037ff6f5188b8a82cf7fd804e622d2dadf67430a2d"
+  },
+  "consumerConfig": {
+    "bundleId": "com.example.fieldnotes",
+    "deploymentTargets": {
+      "iphone": "26.0",
+      "macos": "27.0",
+      "simulator": "27.0"
+    },
+    "info": {
+      "NSMicrophoneUsageDescription": "Use the microphone to transcribe speech into live notes.",
+      "NSSpeechRecognitionUsageDescription": "Use Apple's on-device speech recognition to transcribe your notes.",
+      "VNDefaultSource": "real"
+    },
+    "iosInfo": {
+      "UIBackgroundModes": [
+        "audio"
+      ]
+    },
+    "packages": [
+      {
+        "name": "RecorderTranscription",
+        "path": "native/Transcription",
+        "products": [
+          "TranscriptSource",
+          "AppleTranscription",
+          "ScriptedTranscription"
+        ]
+      }
+    ],
+    "presets": {
+      "real": {
+        "bundleSuffix": "real",
+        "info": {
+          "VNDefaultSource": "real"
+        }
+      },
+      "synthetic": {
+        "bundleSuffix": "synthetic",
+        "goTags": [
+          "synthetic"
+        ],
+        "info": {
+          "VNDefaultSource": "synthetic"
+        }
+      },
+      "synthetic-burst": {
+        "bundleSuffix": "synthetic.burst",
+        "goTags": [
+          "synthetic"
+        ],
+        "info": {
+          "VNDefaultSource": "synthetic",
+          "VNTranscriptFixture": "burst-transcript"
+        },
+        "resources": [
+          "native/Tests/Fixtures/burst-transcript.json",
+          "native/Resources/Licenses"
+        ]
+      },
+      "synthetic-faults": {
+        "bundleSuffix": "synthetic.faults",
+        "goTags": [
+          "synthetic"
+        ],
+        "info": {
+          "VNDefaultSource": "synthetic"
+        }
+      }
+    },
+    "resources": [
+      "native/Resources"
+    ],
+    "swiftRemotes": [
+      "src/lib/transcript.remote.ts#abortSession",
+      "src/lib/transcript.remote.ts#acceptTranscript",
+      "src/lib/transcript.remote.ts#activateSession",
+      "src/lib/transcript.remote.ts#closeSession",
+      "src/lib/transcript.remote.ts#openSession"
+    ],
+    "version": 1
+  },
+  "products": {
+    "macosSynthetic": {
+      "bundleID": "com.example.fieldnotes.synthetic",
+      "defaultSource": "synthetic",
+      "executableSHA256": "d60ed4d27f4c883a12cc01103cc5505f4839fa45cc43f39ba1d0b657723b0423",
+      "backgroundModes": [],
+      "microphonePermission": "Use the microphone to transcribe speech into live notes.",
+      "speechPermission": "Use Apple's on-device speech recognition to transcribe your notes."
+    },
+    "simulatorSynthetic": {
+      "bundleID": "com.example.fieldnotes.synthetic",
+      "defaultSource": "synthetic",
+      "executableSHA256": "b8ee0fdd92a3d85336c55fe0c29add4d50c867dedd71af8dfb91032906182018",
+      "backgroundModes": [
+        "audio"
+      ],
+      "microphonePermission": "Use the microphone to transcribe speech into live notes.",
+      "speechPermission": "Use Apple's on-device speech recognition to transcribe your notes."
+    },
+    "iphoneRealUnsigned": {
+      "bundleID": "com.example.fieldnotes.real",
+      "defaultSource": "real",
+      "executableSHA256": "748b330f433cd93773a9185fd96cd2b2877f2f7991bad82384b1725df8a125d0",
+      "backgroundModes": [
+        "audio"
+      ],
+      "microphonePermission": "Use the microphone to transcribe speech into live notes.",
+      "speechPermission": "Use Apple's on-device speech recognition to transcribe your notes."
+    },
+    "macosBurst": {
+      "bundleID": "com.example.fieldnotes.synthetic.burst",
+      "defaultSource": "synthetic",
+      "executableSHA256": "3a8ab49eb469d5b5c910b42e648bfc0700ed36c17ca72cd7af358770669198bc",
+      "backgroundModes": [],
+      "microphonePermission": "Use the microphone to transcribe speech into live notes.",
+      "speechPermission": "Use Apple's on-device speech recognition to transcribe your notes."
+    }
+  }
+}

@@ -1,5 +1,9 @@
 [
   {
+    "source": "recorder/native/Sources/ApplicationView.swift",
+    "destination": "native/Sources/ApplicationView.swift"
+  },
+  {
     "source": "recorder/cmd/transcript-fixture/main.go",
     "destination": "cmd/transcript-fixture/main.go"
   },

@@ -1,0 +1,12 @@
+$ pnpm run test:unit --run
+$ vitest --run
+Plugin "vitest:mocks:interceptor" defines Vite-specific hooks (configureServer) in a plugin returned from applyToEnvironment. These hooks will be ignored.
+
+ RUN  v5.0.1 /private/tmp/skgo-recorder-consumer.GthvK4/field-notes/web
+
+
+ Test Files  4 passed (4)
+      Tests  11 passed (11)
+   Start at  20:47:49
+   Duration  11.82s (tests 90%, worker 9%, import 1%)
+

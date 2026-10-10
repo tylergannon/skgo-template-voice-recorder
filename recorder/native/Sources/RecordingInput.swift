@@ -26,10 +26,16 @@ import AppleTranscription
             fixtureURL = URL(fileURLWithPath: path)
             configurationError = nil
         } else if source == "synthetic" {
-            // A missing resource remains an explicit source error, never a microphone fallback.
-            fixtureURL = bundle.url(forResource: "synthetic-transcript", withExtension: "json")
-                ?? bundle.bundleURL.appendingPathComponent("missing-synthetic-transcript.json")
-            configurationError = nil
+            let fixtureName = bundle.object(forInfoDictionaryKey: "VNTranscriptFixture") as? String ?? "synthetic-transcript"
+            if fixtureName.isEmpty || fixtureName.contains("/") || fixtureName.contains("\\") || fixtureName == "." || fixtureName == ".." || fixtureName.hasSuffix(".json") {
+                fixtureURL = nil
+                configurationError = "Invalid synthetic transcript fixture. VNTranscriptFixture must name a bundled JSON resource without a path or extension."
+            } else {
+                // A missing resource remains an explicit source error, never a microphone fallback.
+                fixtureURL = bundle.url(forResource: fixtureName, withExtension: "json")
+                    ?? bundle.bundleURL.appendingPathComponent("missing-\(fixtureName).json")
+                configurationError = nil
+            }
         } else if source == "real" {
             fixtureURL = nil
             configurationError = nil

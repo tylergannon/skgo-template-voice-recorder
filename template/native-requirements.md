@@ -18,6 +18,14 @@ settings before any fresh consumer can be considered runnable:
 
 Preserve real/synthetic and optional synthetic variant bundle IDs, VNDefaultSource
 metadata and VN_SOURCE launch selection. No developer team, device or credentials
-are packaged. Exact config edits await the shared native-app handoff; copying the
-original generic Info.plist/build pipeline is intentionally outside this source
-allowlist. Current package/controller checks do not prove those consumer settings.
+are packaged. Apply now merges these inputs into the shared native configuration,
+including Swift command selections and platform deployment targets (macOS27,
+iPhone26, simulator27). It adds real, synthetic, synthetic-faults and
+synthetic-burst presets. Burst selects its fixture through VNTranscriptFixture;
+the default fixture stem remains synthetic-transcript. ApplicationView retains
+the controller/input and hooks the shared host's lifecycle callbacks.
+
+The generic Info.plist/build pipeline remains core-owned. Package/controller and
+configuration checks do not establish actual capture, background behavior or
+fresh-consumer launch. Those require the completed native build foundation and
+identified runtime observations.

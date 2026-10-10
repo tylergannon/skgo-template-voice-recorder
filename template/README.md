@@ -13,8 +13,26 @@ application payload files as plugin packages, and is ignored by Git. The rendere
 removes that suffix and derives imports, display name and probe identity from the
 destination project. No application source is maintained under the payload tree.
 
-The SKGo peer owns the host-compatible plugin builder. Use that builder against
-the actual standalone or project-tool invocation; matching version text alone
-does not establish Go plugin compatibility. Exact invocation instructions await
-the shared helper handoff. The native application slot/config handoff must be
-integrated before this package exports a usable plugin.
+The source-build wrapper stages those assets and invokes SKGo's shared
+`skgo-plugin-build`. Build separately for the actual standalone or project-tool
+host; matching version text alone does not establish Go plugin compatibility:
+
+```sh
+scripts/build-plugin.sh --host /absolute/path/to/skgo --out /absolute/plugins/voice-notes.so
+# Or, for a consumer's Go tool:
+scripts/build-plugin.sh --project /absolute/consumer --out /absolute/tool-plugins/voice-notes.so
+```
+
+Set `SKGO_PLUGIN_DIRS` to the selected output directory when invoking that host.
+The helper reproduces host toolchain/dependencies/settings, verifies actual plugin
+loading and installs atomically. For an unreleased checkout host, its explicit
+`--skgo-source` option identifies the matching framework sources; this is a
+development override and does not become a consumer dependency.
+
+The plugin exports the real `SKGoPluginV1` factory. Apply requires an existing
+native-app foundation, replaces only its exact default ApplicationView and the
+ordinary minimal SvelteKit page, and merges recorder contributions into
+`native/skgo-native.json`. It rejects edited recorder destinations or conflicting
+configuration before writing any files; identical reapplication changes nothing.
+Unknown configuration keys are retained, though the current core native builder
+rejects unsupported keys. No commands run during Describe or Apply.

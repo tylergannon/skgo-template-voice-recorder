@@ -9,10 +9,15 @@ allowlist from that tree; generated payloads are build products, not a second
 application maintained by hand. The plugin exports the `voice-notes` add-on and
 the `voice-notes` recipe: SKGo's built-in `native-app`, then `voice-notes`.
 
-Implementation is in progress against SKGo's actual `templateapi` SDK at
-`4badfe9`. The shared native foundation and a released source-build recipe are
-still prerequisites. This repository does not yet claim that a fresh application
-has been generated, built or launched.
+Implementation uses SKGo's actual `templateapi`, `nativeapp` application slot
+and shared source-build helper at development commit `2bde811`. The recorder
+exports its plugin factory and Apply implementation; see [source packaging](template/README.md)
+for host-specific builds. A fresh FieldNotes consumer now builds and runs in
+browser mode, on macOS and in the iPhone simulator with synthetic transcription.
+Manual composition matches the template's sources and configuration. The real
+iPhone code compiles; signing/install, fresh real speech and the shared framework
+release remain pending. See [retained validation](ephemeral/validation/fresh-consumer/report.md)
+for evidence and limits.
 
 The recorder preserves microphone selection, native recording controls, timer,
 five horizontal green bars stacked upward, live transcript delivery, synthetic

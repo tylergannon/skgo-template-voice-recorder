@@ -105,7 +105,9 @@ struct TranscriptWebView: NSViewRepresentable {
     let recoveryRevision: Int
     func makeCoordinator() -> WebCoordinator { WebCoordinator(controller: controller) }
     func makeNSView(context: Context) -> WKWebView { context.coordinator.expectedOrigin = url; let view = context.coordinator.make(); view.load(URLRequest(url: url)); return view }
-    func updateNSView(_ nsView: WKWebView, context: Context) {}
+    func updateNSView(_ nsView: WKWebView, context: Context) {
+        context.coordinator.setForeground(true, recoveryRevision: recoveryRevision)
+    }
 }
 #else
 struct TranscriptWebView: UIViewRepresentable {
