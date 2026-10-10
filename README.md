@@ -35,6 +35,14 @@ To supply 1.0.0 alongside a newer global installation, follow the
 and keep the same `VP_HOME` for `skgo new`. This vendor-documented fresh-install
 procedure was not exercised here; qualification reused an existing installation.
 
+Released SKGo v0.28.3 completed one ordinary update of a fresh copy of the
+preserved edited v0.27.0 FieldNotes consumer. It accepted the actual fresh
+adapter 0.28.2 release-age exception while preserving four authored receipts.
+Production web/Go and macOS synthetic builds passed; regular browser computer use
+observed synthetic text. Native runtime was not rechecked. The initial ambient
+pnpm refusal and subsequent passing checks under pinned pnpm 12.9.1 are retained
+in the [v0.28.3 update report](ephemeral/validation/released-update-v0.28.3/report.md).
+
 The recorder preserves microphone selection, native recording controls, timer,
 five horizontal green bars stacked upward, live transcript delivery, synthetic
 playback and active iPhone background recording. Its transcription package remains

@@ -55,7 +55,11 @@ The log explicitly reports adding one release-age exception,
 the authored-config guard accepted this change and completion succeeded.
 The [actual source diff](original-source-changes.diff) and
 [workspace before](before-web-pnpm-workspace.yaml)/[after](after-web-pnpm-workspace.yaml)
-retain the exact addition. This exercised an actual fresh-package exception;
+retain the exact exception addition. The workspace also gains the compatibility
+override `vitest@*: 5.0.1`; it is not a one-entry-only workspace diff.
+The package manifest aligns pnpm from 12.10.1 with `onFail: download` to
+12.9.1 with `onFail: error`, and adds the matching packageManager pin.
+These updater changes are retained in the full diff. This exercised an actual fresh-package exception;
 success was not inferred from waiting for a publication to age out.
 The effective policy window duration was not measured.
 
