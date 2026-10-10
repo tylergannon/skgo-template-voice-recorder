@@ -4,7 +4,7 @@
 Prepare the embedded payload before building or checking the plugin:
 
 ```sh
-go run ./template/stage
+go generate ./template
 go test ./...
 ```
 
@@ -12,6 +12,14 @@ The stage copies only named sources, keeps a `.txt` suffix so Go does not compil
 application payload files as plugin packages, and is ignored by Git. The renderer
 removes that suffix and derives imports, display name and probe identity from the
 destination project. No application source is maintained under the payload tree.
+
+The module-root `skgo-plugin.json` contains only `{"package":"./template"}`.
+The planned SKGo source installer uses this package path and ordinary Go
+generation before invoking its existing host-matched builder. No custom
+preparation command is needed. Its repository fetch must preserve the nested
+`recorder/` module: a root Go module zip omits those canonical payload inputs.
+The installer command remains pending release; the following explicit helper
+procedure is the qualified v0.27.0 path.
 
 The source-build wrapper stages those assets and invokes SKGo's shared
 `skgo-plugin-build`. Build separately for the actual standalone or project-tool

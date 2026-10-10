@@ -40,6 +40,32 @@ repository's root.
 
 ## Create a consumer
 
+### Source installation — pending SKGo release
+
+SKGo's source installer is planned; released v0.27.0 and v0.28.0 do not provide
+this command. After the installer ships, the intended workflow is:
+
+```sh
+skgo plugin install github.com/tylergannon/skgo-template-voice-recorder
+skgo new --help
+CI=1 skgo new --name FieldNotes --module example.com/field-notes \
+  --template voice-notes --set bundle-id=com.example.fieldnotes field-notes
+```
+
+An optional `@version` selects a Go module query; omitting it means `latest`.
+The root `skgo-plugin.json` names `./template`. SKGo will fetch the pinned full
+repository, run `go generate ./template` to prepare its allowlisted payload, and
+use its shared builder to install for the executing host with automatic discovery.
+This runs trusted repository code. Git, Go and a working C toolchain are required.
+Installing for a consumer's `go tool skgo` is a separate invocation against that
+actual host; a changed host requires installation again.
+
+This packaging convention is prepared, but source installation and automatic
+discovery have not been demonstrated. The released v0.27.0 path below remains
+the qualified creation procedure.
+
+### Qualified v0.27.0 creation
+
 Use Go 1.27.2, Node 24+, VitePlus 1.0.0 and pnpm 12.9.1 for the qualified
 SKGo v0.27.0 creation path. Native builds need Xcode 27; macOS/simulator target
 27.0, and the real iPhone preset supports iOS 26.0+. First install the standalone

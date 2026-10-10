@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "package": "./template"
+  },
+  "allowlistEntries": 47,
+  "installer": "pending release",
+  "runtimeChanges": false
+}
