@@ -1,0 +1,138 @@
+{
+  "executable": "/private/tmp/recorder-update-v0282-iup2x7f8/host/skgo",
+  "skgoVersion": "v0.28.2",
+  "build": {
+    "GoVersion": "go1.27.2",
+    "Path": "github.com/tylergannon/skgo/cmd/skgo",
+    "Main": {
+      "Path": "github.com/tylergannon/skgo",
+      "Version": "v0.28.2",
+      "Sum": "h1:4Vro+h35TJH8A3QeFOixFwqdxueGzPwoVBy74/wMNcc="
+    },
+    "Deps": [
+      {
+        "Path": "github.com/dave/dst",
+        "Version": "v0.27.4",
+        "Sum": "h1:d+EVnOZmphH+lUEXq9rit4GjsFSKJ3AhfRWf7eobTps="
+      },
+      {
+        "Path": "github.com/dlclark/regexp2/v2",
+        "Version": "v2.8.1",
+        "Sum": "h1:I1jbaCbXeOxdVN8z3fb55Mvtgb94/6+Dh0zjmXjKV/0="
+      },
+      {
+        "Path": "github.com/dop251/goja",
+        "Version": "v0.0.0-20261008222547-e9f698900731",
+        "Sum": "h1:j4pHbSFW20XvSKGrXR/m3YbITBSt8S2SvqFc29BXaHo="
+      },
+      {
+        "Path": "github.com/dop251/goja_nodejs",
+        "Version": "v0.0.0-20260212111938-1f56ff5bcf14",
+        "Sum": "h1:3U8dTgyNBhEQ/GVw0jZW5q+93Zw2gAZPRWhJ9TwV3rM="
+      },
+      {
+        "Path": "github.com/go-sourcemap/sourcemap",
+        "Version": "v2.1.4+incompatible",
+        "Sum": "h1:a+iTbH5auLKxaNwQFg0B+TCYl6lbukKPc7b5x0n1s6Q="
+      },
+      {
+        "Path": "github.com/google/pprof",
+        "Version": "v0.0.0-20260906184651-6331bc6350fe",
+        "Sum": "h1:QAinXoAFJdGQYztXn3VpFey7KCwpedbZ/EkzbplQ0cY="
+      },
+      {
+        "Path": "github.com/tylergannon/devalue/v5",
+        "Version": "v5.0.0",
+        "Sum": "h1:UZuNeNpVXHnn79lOS/l7gEWcC4jKoILHUb0s3F2+3J8="
+      },
+      {
+        "Path": "github.com/tylergannon/polytype",
+        "Version": "v1.5.0",
+        "Sum": "h1:lcGJ0Rav1HA3Wa+qe/bl3fEcWbMgNFsRE6mfV8QrQs8="
+      },
+      {
+        "Path": "github.com/tylergannon/structtag",
+        "Version": "v0.1.0",
+        "Sum": "h1:Vn4ZEemGUtAfw9ddEtHQILKnIWqSWCSpciFTNPh1gcY="
+      },
+      {
+        "Path": "golang.org/x/mod",
+        "Version": "v0.41.0",
+        "Sum": "h1:qJmnOUb4YB+FsEuM3HcWucdZASCPGhsX6uljO6pog0c="
+      },
+      {
+        "Path": "golang.org/x/net",
+        "Version": "v0.59.0",
+        "Sum": "h1:5zfYln+w5XCxwrnMMJPufRgNoXEaGxl0wo5GqPXyues="
+      },
+      {
+        "Path": "golang.org/x/sync",
+        "Version": "v0.23.0",
+        "Sum": "h1:KameEIfc1IkluZyXWLn39Wd4tURc6GbCiISGiZm2bQk="
+      },
+      {
+        "Path": "golang.org/x/sys",
+        "Version": "v0.48.0",
+        "Sum": "h1:bbX/i/6MgT9BVLM9RT1thmxL04yeTAhbEz4SyadbXoo="
+      },
+      {
+        "Path": "golang.org/x/term",
+        "Version": "v0.46.0",
+        "Sum": "h1:3+OXuTbaKDgwk8jTi3aSLHRlmWqHEUDUtxnbFigO4YE="
+      },
+      {
+        "Path": "golang.org/x/text",
+        "Version": "v0.42.0",
+        "Sum": "h1:JbOZXgfeCPU9gacVtYliJqOhD+zhrEqK4LfdpmlUZqI="
+      },
+      {
+        "Path": "golang.org/x/tools",
+        "Version": "v0.50.0",
+        "Sum": "h1:c2ifzfcuY7L90lZ2aKd8S4K2NpASF08SZx9ZuJkHmSU="
+      },
+      {
+        "Path": "gopkg.in/yaml.v3",
+        "Version": "v3.0.1",
+        "Sum": "h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA="
+      }
+    ],
+    "Settings": [
+      {
+        "Key": "-buildmode",
+        "Value": "exe"
+      },
+      {
+        "Key": "-compiler",
+        "Value": "gc"
+      },
+      {
+        "Key": "CGO_ENABLED",
+        "Value": "1"
+      },
+      {
+        "Key": "CGO_CFLAGS"
+      },
+      {
+        "Key": "CGO_CPPFLAGS"
+      },
+      {
+        "Key": "CGO_CXXFLAGS"
+      },
+      {
+        "Key": "CGO_LDFLAGS"
+      },
+      {
+        "Key": "GOARCH",
+        "Value": "arm64"
+      },
+      {
+        "Key": "GOOS",
+        "Value": "darwin"
+      },
+      {
+        "Key": "GOARM64",
+        "Value": "v8.0"
+      }
+    ]
+  }
+}

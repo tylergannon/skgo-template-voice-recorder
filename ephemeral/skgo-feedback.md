@@ -102,3 +102,27 @@ retain the trace. The same diagnostic appears in prior released-new.log. Creatio
 exits 0 and later checks pass; this is an ordering gap, not an observed recorder
 failure. new.log also reports 24 deprecated subdependencies, a separate upstream
 dependency hygiene concern.
+
+## Released v0.28.2 updater refusal at release-age policy
+
+Version: v0.28.2/458aa5d204af8217afbed126981bf4154d52b238.
+Reference: released `skgo update --help`, issue #297, repair PR #303 included in
+v0.28.2, and normal held edited v0.27.0 input from the original c1cc76d report.
+Expected the repaired ordinary
+released updater to preserve authored inputs and complete normal stack alignment.
+Observed one fresh unpatched copy: stage alignment/install and Kit verification
+passed, pnpm added `@skgo/sveltekit-adapter@0.28.2` to minimumReleaseAgeExclude,
+then the authored pnpm-workspace.yaml guard refused that key. CLI v0.28.2 remained
+installed; application remained v0.27.0. All 120 copy and baseline input entries,
+including authored receipts, are unchanged. Exact command, manifests, output and
+preservation inventories: ephemeral/validation/released-update-v0.28.2/.
+The old package.json refusal no longer occurs; this run reaches a workspace
+release-age exception guard. Adapter 0.28.2 was published at 07:53:32 UTC and the
+invocation receipt at 08:07:39 UTC on 10 October, approximately 14 minutes later.
+Preserved publication-timing.json records npm metadata and receipt timestamps.
+Reproduction may require a fresh target inside pnpm's effective release-age
+window; that duration and an after-aging outcome were not measured. Do not infer
+that tomorrow's execution will necessarily reproduce or that it will succeed.
+No consumer patch, retry or native/browser completion test followed. Report the
+observed refusal to the framework owner; do not infer or weaken the policy to
+manufacture a passing consumer. Successful released updater proof remains open.

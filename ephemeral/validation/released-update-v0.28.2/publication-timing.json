@@ -1,0 +1,11 @@
+{
+  "registryURL": "https://registry.npmjs.org/@skgo%2fsveltekit-adapter",
+  "package": "@skgo/sveltekit-adapter",
+  "version": "0.28.2",
+  "publishedAtUTC": "2026-10-10T07:53:32.028Z",
+  "invocationReceiptWrittenAtUTC": "2026-10-10T08:07:39.395213+00:00",
+  "resultReceiptWrittenAtUTC": "2026-10-10T08:07:44.415315+00:00",
+  "invocationReceiptLocal": "2026-10-10T02:07:39.395213-06:00",
+  "receiptTimesAreBoundsNotProcessStart": true,
+  "retryAfterAgingPerformed": false
+}

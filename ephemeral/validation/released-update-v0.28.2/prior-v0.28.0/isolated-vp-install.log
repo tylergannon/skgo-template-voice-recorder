@@ -1,0 +1,41 @@
+info: installing vite-plus@1.1.0...
+info: Preparing Node.js and pnpm...
+info: Installing dependencies...
+✓ Dependencies installed.
+Setup:
+  Preparing vite-plus environment.
+
+Created Shims:
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/node
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/npm
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/npx
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/pnpm
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/pnpx
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/pn
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/pnx
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/yarn
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/yarnpkg
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/bun
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/fallback-bin/bunx
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vpx
+  /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vpr
+
+Next Steps:
+  For Zsh, run:
+  . "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/env"
+
+  If your .zshrc does not already load Vite+, add this command.
+
+  Restart an already-running IDE to load its environment. Run `vp env doctor` to verify.
+✓ Vite+ setup complete.
+info: checking for updates...
+info: found vite-plus@1.0.0 (current: 1.1.0)
+info: downloading vite-plus@1.0.0 for darwin-arm64...
+info: installing...
+info: Preparing Node.js and pnpm...
+info: Installing dependencies...
+✓ Dependencies installed.
+
+✓ Updated vite-plus from 1.1.0 → 1.0.0
+
+  Release notes: https://github.com/voidzero-dev/vite-plus/releases/tag/v1.0.0
