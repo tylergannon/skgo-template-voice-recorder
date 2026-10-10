@@ -24,6 +24,12 @@ procedure is the qualified v0.27.0 path.
 The plugin module's minimum Go version is 1.27.1; this is separate from the
 Go 1.27.2 used by the retained native consumer qualification.
 
+Author preparation must use tracked regular source files. The planned builder
+stage excludes `.git`, `node_modules`, `ephemeral`, `.local`, `.cache`, `build`,
+`.build` and `*.so`, and rejects symlinks. Generation cannot rely on `git describe`
+or those omitted materials. This recorder's allowlist and generator use the
+tracked canonical sources that remain in that stage.
+
 ## Historical manual helper — before managed installation
 
 Released v0.27.0 was qualified with the procedure below; v0.28.0 also predates the
