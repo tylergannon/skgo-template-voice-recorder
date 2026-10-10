@@ -57,7 +57,8 @@ The root `skgo-plugin.json` names `./template`. SKGo will fetch the pinned full
 repository and use its shared builder to run `go generate ./template` in a
 writable stage with the actual host's shared dependency pins, compile the plugin,
 and install it for that host with automatic discovery.
-This runs trusted repository code. Git, Go and a working C toolchain are required.
+This runs trusted repository code. Git, the host's exact Go toolchain (at least
+Go 1.27.1), and a working C toolchain are required.
 Installing for a consumer's `go tool skgo` is a separate invocation against that
 actual host; a changed host requires installation again.
 
@@ -67,8 +68,8 @@ copy instead, the planned `skgo plugin remove
 github.com/tylergannon/skgo-template-voice-recorder` will remove only that host's
 managed selection. Changing `SKGO_PLUGIN_DIRS` will not hide managed copies.
 
-This packaging convention is prepared, but source installation and automatic
-discovery have not been demonstrated. The manual path below retains the historical
+This packaging convention is prepared, but released source installation and
+automatic discovery remain unqualified. The manual path below retains the historical
 v0.27.0 qualification; v0.28.0 also predates the managed installer.
 
 ### Historical manual qualification — v0.27.0
