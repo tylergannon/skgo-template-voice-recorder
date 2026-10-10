@@ -1,0 +1,4 @@
+template/payload/
+build/
+.DS_Store
+*.so

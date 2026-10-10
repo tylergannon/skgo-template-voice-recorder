@@ -1,0 +1,4 @@
+github.com/tylergannon/skgo v0.26.2-0.20261010021105-4badfe99df9d h1:sppXu+jjfJ0zRw89Is94d2XFYl38owm0lyHoDcDNPP8=
+github.com/tylergannon/skgo v0.26.2-0.20261010021105-4badfe99df9d/go.mod h1:HTDFFIy9eZ9AYBZfH9HSvdqKdzw993/gjYGvufRCvSw=
+golang.org/x/mod v0.41.0 h1:qJmnOUb4YB+FsEuM3HcWucdZASCPGhsX6uljO6pog0c=
+golang.org/x/mod v0.41.0/go.mod h1:Ek9pY8RKWXwsWvd3rQiHYtMqkjSUV+s1Rj7j4H5Ur6o=

@@ -1,0 +1,189 @@
+ok  	github.com/tylergannon/skgo-template-voice-recorder/recorder/internal/transcript	(cached)
+ok  	github.com/tylergannon/skgo-template-voice-recorder/recorder/internal/transcript	(cached)
+Building for debugging...
+[1 / 5]
+[2 / 6] TranscriptSource
+[3 / 7] TranscriptSource
+[7 / 11] AppleTranscription
+[8 / 12] AppleTranscription
+[12 / 16] TranscriptSource
+[16 / 20] AppleTranscription
+/Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/recorder/native/Transcription/Sources/AppleTranscription/InputDevices.swift:58:43: warning: 'audioUnit' was deprecated in macOS 27.0: Deprecated in favor of withAudioUnit [#DeprecatedDeclaration]
+56 |         guard case let .device(uid) = selection else { return }
+57 |         guard let id = try deviceIDs().first(where: { hasInput($0) && string($0, kAudioDevicePropertyDeviceUID) == uid }) else { throw RecorderError.message("The selected microphone is unavailable. Choose another microphone before recording.") }
+58 |         guard let unit = engine.inputNode.audioUnit else { throw RecorderError.message("The microphone audio unit is unavailable.") }
+   |                                           `- warning: 'audioUnit' was deprecated in macOS 27.0: Deprecated in favor of withAudioUnit [#DeprecatedDeclaration]
+59 |         var selected = id
+60 |         guard AudioUnitSetProperty(unit, kAudioOutputUnitProperty_CurrentDevice, kAudioUnitScope_Global, 0, &selected, UInt32(MemoryLayout<AudioDeviceID>.size)) == noErr else { throw RecorderError.message("The selected microphone could not be opened.") }
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+/Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/recorder/native/Transcription/Sources/AppleTranscription/MicrophoneSource.swift:275:26: warning: 'installTap(onBus:bufferSize:format:block:)' was deprecated in macOS 27.0 [#DeprecatedDeclaration]
+273 |         NSLog("Transcription readiness: analyzer started")
+274 |         try checkStart(epoch)
+275 |         engine.inputNode.installTap(onBus: 0, bufferSize: 1024, format: input) { @Sendable buffer, _ in intake.receive(buffer) }
+    |                          `- warning: 'installTap(onBus:bufferSize:format:block:)' was deprecated in macOS 27.0 [#DeprecatedDeclaration]
+276 |         tapInstalled = true
+277 |         engine.prepare()
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[19 / 23] AudioTests-product
+[21 / 25] AudioTests-product
+[26 / 28] AudioTests-product
+[30 / 34] ScriptedTranscription
+[34 / 38] ScriptedTranscription
+[36 / 40] SyntheticTests-product
+[38 / 42] SyntheticTests-product
+[45 / 49] transcription-probe-product
+[48 / 51] transcription-probe-product
+[50 / 51] transcription-probe-product
+Build complete! (3.03 sec)
+Test Suite 'All tests' started at 2026-10-09 20:19:31.682.
+Test Suite 'SyntheticTests.xctest' started at 2026-10-09 20:19:31.682.
+Test Suite 'SyntheticTests' started at 2026-10-09 20:19:31.682.
+Test Case '-[SyntheticTests.SyntheticTests testDrainFinalizesEveryRevisedRangeInOrder]' started.
+Test Case '-[SyntheticTests.SyntheticTests testDrainFinalizesEveryRevisedRangeInOrder]' passed (0.000 seconds).
+Test Case '-[SyntheticTests.SyntheticTests testExplicitFixtureURL]' started.
+Test Case '-[SyntheticTests.SyntheticTests testExplicitFixtureURL]' passed (0.001 seconds).
+Test Case '-[SyntheticTests.SyntheticTests testOrdinaryFinalDoesNotHideInvalidLaterRevision]' started.
+Test Case '-[SyntheticTests.SyntheticTests testOrdinaryFinalDoesNotHideInvalidLaterRevision]' passed (0.000 seconds).
+Test Case '-[SyntheticTests.SyntheticTests testSimulatedLevelsFollowPlaybackAndClearOnPause]' started.
+Test Case '-[SyntheticTests.SyntheticTests testSimulatedLevelsFollowPlaybackAndClearOnPause]' passed (0.053 seconds).
+Test Case '-[SyntheticTests.SyntheticTests testSourceContract]' started.
+Test Case '-[SyntheticTests.SyntheticTests testSourceContract]' passed (0.000 seconds).
+Test Suite 'SyntheticTests' passed at 2026-10-09 20:19:31.737.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.055 (0.055) seconds
+Test Suite 'SyntheticTests.xctest' passed at 2026-10-09 20:19:31.737.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.055 (0.055) seconds
+Test Suite 'All tests' passed at 2026-10-09 20:19:31.737.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.055 (0.056) seconds
+PASS synchronous admission seal freezes synthetic clock before drain and across100s pause, partial finalized on drain, resume retains timeline, late revision cannot rewrite final
+Test Suite 'All tests' started at 2026-10-09 20:19:31.816.
+Test Suite 'AudioTests.xctest' started at 2026-10-09 20:19:31.816.
+Test Suite 'AudioTests' started at 2026-10-09 20:19:31.816.
+Test Case '-[AudioTests.AudioTests testIntakeLevelsAreThrottledAndClosedAdmissionIsSilent]' started.
+Test Case '-[AudioTests.AudioTests testIntakeLevelsAreThrottledAndClosedAdmissionIsSilent]' passed (0.001 seconds).
+Test Case '-[AudioTests.AudioTests testLevelUsesAllChannelsAndPCMFormats]' started.
+Test Case '-[AudioTests.AudioTests testLevelUsesAllChannelsAndPCMFormats]' passed (0.000 seconds).
+Test Case '-[AudioTests.AudioTests testMissingPinnedMicrophoneDoesNotFallBack]' started.
+Test Case '-[AudioTests.AudioTests testMissingPinnedMicrophoneDoesNotFallBack]' passed (0.059 seconds).
+Test Case '-[AudioTests.AudioTests testSourceContract]' started.
+Test Case '-[AudioTests.AudioTests testSourceContract]' passed (0.025 seconds).
+Test Suite 'AudioTests' passed at 2026-10-09 20:19:31.902.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.085 (0.085) seconds
+Test Suite 'AudioTests.xctest' passed at 2026-10-09 20:19:31.902.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.085 (0.086) seconds
+Test Suite 'All tests' passed at 2026-10-09 20:19:31.902.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.085 (0.086) seconds
+PASS background audio configuration notification/stale callback/expected teardown, input format replacement preserves200ms without padding, resume offsets exclude pause, bounded audio queue overflow fails, stereo8k→mono16k conversion, ordered audio-relative timestamps, closed intake rejects buffers; duration 200ms
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
+PASS resumed speech spacing/revisions preserves whitespace/punctuation, background permission callbacks allowed/denied, bounded failure deadline, ordered final splitting, normalizer replacement/finality, frozen lost-response retry, 1000-partial coalescing, final preservation, pending memory bound
+2026-10-09 20:19:44.734 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:44.734 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:44.735 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:44.742 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:44.742 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:44.742 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:44.783 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:44.783 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:44.783 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:44.820 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:44.820 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:44.820 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:44.904 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:44.904 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:44.905 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:44.911 controller-tests[88747:4820072] Transcription readiness: recording setup failed: The operation couldn’t be completed. (Swift.CancellationError error 1.)
+2026-10-09 20:19:44.911 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:44.911 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:44.911 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.187 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.187 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.187 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.193 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.193 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.194 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.268 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.268 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.269 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.345 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.345 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.345 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.458 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.458 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.458 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.489 controller-tests[88747:4820072] Transcription readiness: recording setup failed: The operation couldn’t be completed. (Swift.CancellationError error 1.)
+2026-10-09 20:19:45.620 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.672 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.672 controller-tests[88747:4820072] Transcription readiness: recording setup failed: The operation couldn’t be completed. (Swift.CancellationError error 1.)
+2026-10-09 20:19:45.673 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.694 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.694 controller-tests[88747:4820072] Transcription readiness: recording setup failed: The operation couldn’t be completed. (Swift.CancellationError error 1.)
+2026-10-09 20:19:45.730 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.763 controller-tests[88747:4820072] Transcription readiness: recording setup failed: Open unreachable
+2026-10-09 20:19:45.799 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.799 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.811 controller-tests[88747:4820072] Transcription readiness: recording setup failed: Input could not start
+2026-10-09 20:19:45.851 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.852 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.852 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.890 controller-tests[88747:4820072] Transcription readiness: recording setup failed: Activation unavailable
+2026-10-09 20:19:45.892 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.893 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.893 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:45.931 controller-tests[88747:4820072] Transcription readiness: recording setup failed: Lost activation response
+2026-10-09 20:19:45.933 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.933 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:45.984 controller-tests[88747:4820072] Transcription readiness: recording setup failed: The operation couldn’t be completed. (Swift.CancellationError error 1.)
+2026-10-09 20:19:45.987 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:45.987 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.038 controller-tests[88747:4820072] Transcription readiness: recording setup failed: The operation couldn’t be completed. (Swift.CancellationError error 1.)
+2026-10-09 20:19:46.104 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.104 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.104 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.232 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.232 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.232 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.238 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.269 controller-tests[88747:4820072] Transcription readiness: recording setup failed: Open unreachable
+2026-10-09 20:19:46.271 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.271 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.271 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.275 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.306 controller-tests[88747:4820072] Transcription readiness: recording setup failed: Lost open response
+2026-10-09 20:19:46.308 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.308 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.309 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.312 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.312 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.313 controller-tests[88747:4820072] Transcription readiness: recording setup failed: Input could not start
+2026-10-09 20:19:46.314 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.315 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.315 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.342 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.342 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.342 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.393 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.393 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.394 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.430 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.430 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.431 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+2026-10-09 20:19:46.441 controller-tests[88747:4820072] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:46.441 controller-tests[88747:4820072] Transcription readiness: session opened; starting source
+2026-10-09 20:19:46.441 controller-tests[88747:4820072] Transcription readiness: source started; activating session
+PASS Resume background reentry/actor-completion race retains consistent source and session, background retains source/session and delivers hidden words, hidden Pause defers display confirmation, delayed/queued Record and Resume cannot admit after Stop even ignoring cancellation, background Stop during delayed preparation prevents capture/preserves prior display, Stop during startup preserves operation ownership/no concurrent drains, never-arrived/lost-response open recovery, controller staged setup rollback, early sequence0 receipt, pending-final display gate, Stop joins Pause, stale receipt/callback rejection, failure cleanup retry preserves incomplete error, bounded drain cancellation
+PASS invalid sources never inventory microphones, synthetic and explicit fixtures avoid inventory, real selection retains pinned UID
+2026-10-09 20:19:48.151 scripted-controller-tests[88798:4820354] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:48.151 scripted-controller-tests[88798:4820354] Transcription readiness: session opened; starting source
+2026-10-09 20:19:48.151 scripted-controller-tests[88798:4820354] Transcription readiness: source started; activating session
+2026-10-09 20:19:48.489 scripted-controller-tests[88798:4820354] Transcription readiness: source preparation completed; opening session
+2026-10-09 20:19:48.489 scripted-controller-tests[88798:4820354] Transcription readiness: session opened; starting source
+2026-10-09 20:19:48.490 scripted-controller-tests[88798:4820354] Transcription readiness: source started; activating session
+PASS scripted source through controller/normalizer/sender preserves multiple provisional revisions and selective finals, Pause drains/resumes without rewriting finals, ordinary late revision fails visibly without transport mutation

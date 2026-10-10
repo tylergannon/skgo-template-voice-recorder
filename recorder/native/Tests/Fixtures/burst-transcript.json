@@ -1,0 +1,7009 @@
+[
+ {
+  "atMs": 5,
+  "startMs": 0,
+  "endMs": 5,
+  "text": "Burst revision 0001. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 10,
+  "startMs": 0,
+  "endMs": 10,
+  "text": "Burst revision 0002. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 15,
+  "startMs": 0,
+  "endMs": 15,
+  "text": "Burst revision 0003. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 20,
+  "startMs": 0,
+  "endMs": 20,
+  "text": "Burst revision 0004. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 25,
+  "startMs": 0,
+  "endMs": 25,
+  "text": "Burst revision 0005. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 30,
+  "startMs": 0,
+  "endMs": 30,
+  "text": "Burst revision 0006. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 35,
+  "startMs": 0,
+  "endMs": 35,
+  "text": "Burst revision 0007. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 40,
+  "startMs": 0,
+  "endMs": 40,
+  "text": "Burst revision 0008. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 45,
+  "startMs": 0,
+  "endMs": 45,
+  "text": "Burst revision 0009. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 50,
+  "startMs": 0,
+  "endMs": 50,
+  "text": "Burst revision 0010. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 55,
+  "startMs": 0,
+  "endMs": 55,
+  "text": "Burst revision 0011. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 60,
+  "startMs": 0,
+  "endMs": 60,
+  "text": "Burst revision 0012. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 65,
+  "startMs": 0,
+  "endMs": 65,
+  "text": "Burst revision 0013. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 70,
+  "startMs": 0,
+  "endMs": 70,
+  "text": "Burst revision 0014. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 75,
+  "startMs": 0,
+  "endMs": 75,
+  "text": "Burst revision 0015. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 80,
+  "startMs": 0,
+  "endMs": 80,
+  "text": "Burst revision 0016. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 85,
+  "startMs": 0,
+  "endMs": 85,
+  "text": "Burst revision 0017. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 90,
+  "startMs": 0,
+  "endMs": 90,
+  "text": "Burst revision 0018. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 95,
+  "startMs": 0,
+  "endMs": 95,
+  "text": "Burst revision 0019. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 100,
+  "startMs": 0,
+  "endMs": 100,
+  "text": "Burst revision 0020. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 105,
+  "startMs": 0,
+  "endMs": 105,
+  "text": "Burst revision 0021. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 110,
+  "startMs": 0,
+  "endMs": 110,
+  "text": "Burst revision 0022. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 115,
+  "startMs": 0,
+  "endMs": 115,
+  "text": "Burst revision 0023. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 120,
+  "startMs": 0,
+  "endMs": 120,
+  "text": "Burst revision 0024. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 125,
+  "startMs": 0,
+  "endMs": 125,
+  "text": "Burst revision 0025. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 130,
+  "startMs": 0,
+  "endMs": 130,
+  "text": "Burst revision 0026. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 135,
+  "startMs": 0,
+  "endMs": 135,
+  "text": "Burst revision 0027. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 140,
+  "startMs": 0,
+  "endMs": 140,
+  "text": "Burst revision 0028. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 145,
+  "startMs": 0,
+  "endMs": 145,
+  "text": "Burst revision 0029. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 150,
+  "startMs": 0,
+  "endMs": 150,
+  "text": "Burst revision 0030. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 155,
+  "startMs": 0,
+  "endMs": 155,
+  "text": "Burst revision 0031. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 160,
+  "startMs": 0,
+  "endMs": 160,
+  "text": "Burst revision 0032. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 165,
+  "startMs": 0,
+  "endMs": 165,
+  "text": "Burst revision 0033. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 170,
+  "startMs": 0,
+  "endMs": 170,
+  "text": "Burst revision 0034. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 175,
+  "startMs": 0,
+  "endMs": 175,
+  "text": "Burst revision 0035. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 180,
+  "startMs": 0,
+  "endMs": 180,
+  "text": "Burst revision 0036. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 185,
+  "startMs": 0,
+  "endMs": 185,
+  "text": "Burst revision 0037. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 190,
+  "startMs": 0,
+  "endMs": 190,
+  "text": "Burst revision 0038. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 195,
+  "startMs": 0,
+  "endMs": 195,
+  "text": "Burst revision 0039. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 200,
+  "startMs": 0,
+  "endMs": 200,
+  "text": "Burst revision 0040. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 205,
+  "startMs": 0,
+  "endMs": 205,
+  "text": "Burst revision 0041. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 210,
+  "startMs": 0,
+  "endMs": 210,
+  "text": "Burst revision 0042. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 215,
+  "startMs": 0,
+  "endMs": 215,
+  "text": "Burst revision 0043. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 220,
+  "startMs": 0,
+  "endMs": 220,
+  "text": "Burst revision 0044. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 225,
+  "startMs": 0,
+  "endMs": 225,
+  "text": "Burst revision 0045. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 230,
+  "startMs": 0,
+  "endMs": 230,
+  "text": "Burst revision 0046. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 235,
+  "startMs": 0,
+  "endMs": 235,
+  "text": "Burst revision 0047. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 240,
+  "startMs": 0,
+  "endMs": 240,
+  "text": "Burst revision 0048. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 245,
+  "startMs": 0,
+  "endMs": 245,
+  "text": "Burst revision 0049. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 250,
+  "startMs": 0,
+  "endMs": 250,
+  "text": "Burst revision 0050. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 255,
+  "startMs": 0,
+  "endMs": 255,
+  "text": "Burst revision 0051. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 260,
+  "startMs": 0,
+  "endMs": 260,
+  "text": "Burst revision 0052. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 265,
+  "startMs": 0,
+  "endMs": 265,
+  "text": "Burst revision 0053. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 270,
+  "startMs": 0,
+  "endMs": 270,
+  "text": "Burst revision 0054. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 275,
+  "startMs": 0,
+  "endMs": 275,
+  "text": "Burst revision 0055. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 280,
+  "startMs": 0,
+  "endMs": 280,
+  "text": "Burst revision 0056. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 285,
+  "startMs": 0,
+  "endMs": 285,
+  "text": "Burst revision 0057. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 290,
+  "startMs": 0,
+  "endMs": 290,
+  "text": "Burst revision 0058. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 295,
+  "startMs": 0,
+  "endMs": 295,
+  "text": "Burst revision 0059. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 300,
+  "startMs": 0,
+  "endMs": 300,
+  "text": "Burst revision 0060. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 305,
+  "startMs": 0,
+  "endMs": 305,
+  "text": "Burst revision 0061. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 310,
+  "startMs": 0,
+  "endMs": 310,
+  "text": "Burst revision 0062. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 315,
+  "startMs": 0,
+  "endMs": 315,
+  "text": "Burst revision 0063. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 320,
+  "startMs": 0,
+  "endMs": 320,
+  "text": "Burst revision 0064. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 325,
+  "startMs": 0,
+  "endMs": 325,
+  "text": "Burst revision 0065. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 330,
+  "startMs": 0,
+  "endMs": 330,
+  "text": "Burst revision 0066. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 335,
+  "startMs": 0,
+  "endMs": 335,
+  "text": "Burst revision 0067. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 340,
+  "startMs": 0,
+  "endMs": 340,
+  "text": "Burst revision 0068. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 345,
+  "startMs": 0,
+  "endMs": 345,
+  "text": "Burst revision 0069. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 350,
+  "startMs": 0,
+  "endMs": 350,
+  "text": "Burst revision 0070. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 355,
+  "startMs": 0,
+  "endMs": 355,
+  "text": "Burst revision 0071. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 360,
+  "startMs": 0,
+  "endMs": 360,
+  "text": "Burst revision 0072. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 365,
+  "startMs": 0,
+  "endMs": 365,
+  "text": "Burst revision 0073. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 370,
+  "startMs": 0,
+  "endMs": 370,
+  "text": "Burst revision 0074. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 375,
+  "startMs": 0,
+  "endMs": 375,
+  "text": "Burst revision 0075. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 380,
+  "startMs": 0,
+  "endMs": 380,
+  "text": "Burst revision 0076. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 385,
+  "startMs": 0,
+  "endMs": 385,
+  "text": "Burst revision 0077. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 390,
+  "startMs": 0,
+  "endMs": 390,
+  "text": "Burst revision 0078. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 395,
+  "startMs": 0,
+  "endMs": 395,
+  "text": "Burst revision 0079. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 400,
+  "startMs": 0,
+  "endMs": 400,
+  "text": "Burst revision 0080. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 405,
+  "startMs": 0,
+  "endMs": 405,
+  "text": "Burst revision 0081. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 410,
+  "startMs": 0,
+  "endMs": 410,
+  "text": "Burst revision 0082. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 415,
+  "startMs": 0,
+  "endMs": 415,
+  "text": "Burst revision 0083. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 420,
+  "startMs": 0,
+  "endMs": 420,
+  "text": "Burst revision 0084. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 425,
+  "startMs": 0,
+  "endMs": 425,
+  "text": "Burst revision 0085. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 430,
+  "startMs": 0,
+  "endMs": 430,
+  "text": "Burst revision 0086. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 435,
+  "startMs": 0,
+  "endMs": 435,
+  "text": "Burst revision 0087. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 440,
+  "startMs": 0,
+  "endMs": 440,
+  "text": "Burst revision 0088. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 445,
+  "startMs": 0,
+  "endMs": 445,
+  "text": "Burst revision 0089. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 450,
+  "startMs": 0,
+  "endMs": 450,
+  "text": "Burst revision 0090. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 455,
+  "startMs": 0,
+  "endMs": 455,
+  "text": "Burst revision 0091. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 460,
+  "startMs": 0,
+  "endMs": 460,
+  "text": "Burst revision 0092. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 465,
+  "startMs": 0,
+  "endMs": 465,
+  "text": "Burst revision 0093. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 470,
+  "startMs": 0,
+  "endMs": 470,
+  "text": "Burst revision 0094. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 475,
+  "startMs": 0,
+  "endMs": 475,
+  "text": "Burst revision 0095. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 480,
+  "startMs": 0,
+  "endMs": 480,
+  "text": "Burst revision 0096. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 485,
+  "startMs": 0,
+  "endMs": 485,
+  "text": "Burst revision 0097. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 490,
+  "startMs": 0,
+  "endMs": 490,
+  "text": "Burst revision 0098. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 495,
+  "startMs": 0,
+  "endMs": 495,
+  "text": "Burst revision 0099. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 500,
+  "startMs": 0,
+  "endMs": 500,
+  "text": "Burst revision 0100. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 505,
+  "startMs": 0,
+  "endMs": 505,
+  "text": "Burst revision 0101. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 510,
+  "startMs": 0,
+  "endMs": 510,
+  "text": "Burst revision 0102. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 515,
+  "startMs": 0,
+  "endMs": 515,
+  "text": "Burst revision 0103. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 520,
+  "startMs": 0,
+  "endMs": 520,
+  "text": "Burst revision 0104. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 525,
+  "startMs": 0,
+  "endMs": 525,
+  "text": "Burst revision 0105. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 530,
+  "startMs": 0,
+  "endMs": 530,
+  "text": "Burst revision 0106. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 535,
+  "startMs": 0,
+  "endMs": 535,
+  "text": "Burst revision 0107. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 540,
+  "startMs": 0,
+  "endMs": 540,
+  "text": "Burst revision 0108. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 545,
+  "startMs": 0,
+  "endMs": 545,
+  "text": "Burst revision 0109. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 550,
+  "startMs": 0,
+  "endMs": 550,
+  "text": "Burst revision 0110. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 555,
+  "startMs": 0,
+  "endMs": 555,
+  "text": "Burst revision 0111. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 560,
+  "startMs": 0,
+  "endMs": 560,
+  "text": "Burst revision 0112. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 565,
+  "startMs": 0,
+  "endMs": 565,
+  "text": "Burst revision 0113. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 570,
+  "startMs": 0,
+  "endMs": 570,
+  "text": "Burst revision 0114. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 575,
+  "startMs": 0,
+  "endMs": 575,
+  "text": "Burst revision 0115. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 580,
+  "startMs": 0,
+  "endMs": 580,
+  "text": "Burst revision 0116. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 585,
+  "startMs": 0,
+  "endMs": 585,
+  "text": "Burst revision 0117. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 590,
+  "startMs": 0,
+  "endMs": 590,
+  "text": "Burst revision 0118. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 595,
+  "startMs": 0,
+  "endMs": 595,
+  "text": "Burst revision 0119. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 600,
+  "startMs": 0,
+  "endMs": 600,
+  "text": "Burst revision 0120. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 605,
+  "startMs": 0,
+  "endMs": 605,
+  "text": "Burst revision 0121. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 610,
+  "startMs": 0,
+  "endMs": 610,
+  "text": "Burst revision 0122. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 615,
+  "startMs": 0,
+  "endMs": 615,
+  "text": "Burst revision 0123. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 620,
+  "startMs": 0,
+  "endMs": 620,
+  "text": "Burst revision 0124. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 625,
+  "startMs": 0,
+  "endMs": 625,
+  "text": "Burst revision 0125. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 630,
+  "startMs": 0,
+  "endMs": 630,
+  "text": "Burst revision 0126. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 635,
+  "startMs": 0,
+  "endMs": 635,
+  "text": "Burst revision 0127. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 640,
+  "startMs": 0,
+  "endMs": 640,
+  "text": "Burst revision 0128. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 645,
+  "startMs": 0,
+  "endMs": 645,
+  "text": "Burst revision 0129. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 650,
+  "startMs": 0,
+  "endMs": 650,
+  "text": "Burst revision 0130. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 655,
+  "startMs": 0,
+  "endMs": 655,
+  "text": "Burst revision 0131. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 660,
+  "startMs": 0,
+  "endMs": 660,
+  "text": "Burst revision 0132. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 665,
+  "startMs": 0,
+  "endMs": 665,
+  "text": "Burst revision 0133. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 670,
+  "startMs": 0,
+  "endMs": 670,
+  "text": "Burst revision 0134. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 675,
+  "startMs": 0,
+  "endMs": 675,
+  "text": "Burst revision 0135. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 680,
+  "startMs": 0,
+  "endMs": 680,
+  "text": "Burst revision 0136. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 685,
+  "startMs": 0,
+  "endMs": 685,
+  "text": "Burst revision 0137. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 690,
+  "startMs": 0,
+  "endMs": 690,
+  "text": "Burst revision 0138. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 695,
+  "startMs": 0,
+  "endMs": 695,
+  "text": "Burst revision 0139. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 700,
+  "startMs": 0,
+  "endMs": 700,
+  "text": "Burst revision 0140. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 705,
+  "startMs": 0,
+  "endMs": 705,
+  "text": "Burst revision 0141. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 710,
+  "startMs": 0,
+  "endMs": 710,
+  "text": "Burst revision 0142. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 715,
+  "startMs": 0,
+  "endMs": 715,
+  "text": "Burst revision 0143. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 720,
+  "startMs": 0,
+  "endMs": 720,
+  "text": "Burst revision 0144. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 725,
+  "startMs": 0,
+  "endMs": 725,
+  "text": "Burst revision 0145. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 730,
+  "startMs": 0,
+  "endMs": 730,
+  "text": "Burst revision 0146. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 735,
+  "startMs": 0,
+  "endMs": 735,
+  "text": "Burst revision 0147. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 740,
+  "startMs": 0,
+  "endMs": 740,
+  "text": "Burst revision 0148. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 745,
+  "startMs": 0,
+  "endMs": 745,
+  "text": "Burst revision 0149. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 750,
+  "startMs": 0,
+  "endMs": 750,
+  "text": "Burst revision 0150. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 755,
+  "startMs": 0,
+  "endMs": 755,
+  "text": "Burst revision 0151. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 760,
+  "startMs": 0,
+  "endMs": 760,
+  "text": "Burst revision 0152. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 765,
+  "startMs": 0,
+  "endMs": 765,
+  "text": "Burst revision 0153. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 770,
+  "startMs": 0,
+  "endMs": 770,
+  "text": "Burst revision 0154. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 775,
+  "startMs": 0,
+  "endMs": 775,
+  "text": "Burst revision 0155. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 780,
+  "startMs": 0,
+  "endMs": 780,
+  "text": "Burst revision 0156. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 785,
+  "startMs": 0,
+  "endMs": 785,
+  "text": "Burst revision 0157. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 790,
+  "startMs": 0,
+  "endMs": 790,
+  "text": "Burst revision 0158. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 795,
+  "startMs": 0,
+  "endMs": 795,
+  "text": "Burst revision 0159. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 800,
+  "startMs": 0,
+  "endMs": 800,
+  "text": "Burst revision 0160. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 805,
+  "startMs": 0,
+  "endMs": 805,
+  "text": "Burst revision 0161. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 810,
+  "startMs": 0,
+  "endMs": 810,
+  "text": "Burst revision 0162. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 815,
+  "startMs": 0,
+  "endMs": 815,
+  "text": "Burst revision 0163. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 820,
+  "startMs": 0,
+  "endMs": 820,
+  "text": "Burst revision 0164. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 825,
+  "startMs": 0,
+  "endMs": 825,
+  "text": "Burst revision 0165. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 830,
+  "startMs": 0,
+  "endMs": 830,
+  "text": "Burst revision 0166. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 835,
+  "startMs": 0,
+  "endMs": 835,
+  "text": "Burst revision 0167. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 840,
+  "startMs": 0,
+  "endMs": 840,
+  "text": "Burst revision 0168. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 845,
+  "startMs": 0,
+  "endMs": 845,
+  "text": "Burst revision 0169. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 850,
+  "startMs": 0,
+  "endMs": 850,
+  "text": "Burst revision 0170. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 855,
+  "startMs": 0,
+  "endMs": 855,
+  "text": "Burst revision 0171. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 860,
+  "startMs": 0,
+  "endMs": 860,
+  "text": "Burst revision 0172. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 865,
+  "startMs": 0,
+  "endMs": 865,
+  "text": "Burst revision 0173. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 870,
+  "startMs": 0,
+  "endMs": 870,
+  "text": "Burst revision 0174. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 875,
+  "startMs": 0,
+  "endMs": 875,
+  "text": "Burst revision 0175. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 880,
+  "startMs": 0,
+  "endMs": 880,
+  "text": "Burst revision 0176. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 885,
+  "startMs": 0,
+  "endMs": 885,
+  "text": "Burst revision 0177. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 890,
+  "startMs": 0,
+  "endMs": 890,
+  "text": "Burst revision 0178. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 895,
+  "startMs": 0,
+  "endMs": 895,
+  "text": "Burst revision 0179. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 900,
+  "startMs": 0,
+  "endMs": 900,
+  "text": "Burst revision 0180. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 905,
+  "startMs": 0,
+  "endMs": 905,
+  "text": "Burst revision 0181. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 910,
+  "startMs": 0,
+  "endMs": 910,
+  "text": "Burst revision 0182. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 915,
+  "startMs": 0,
+  "endMs": 915,
+  "text": "Burst revision 0183. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 920,
+  "startMs": 0,
+  "endMs": 920,
+  "text": "Burst revision 0184. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 925,
+  "startMs": 0,
+  "endMs": 925,
+  "text": "Burst revision 0185. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 930,
+  "startMs": 0,
+  "endMs": 930,
+  "text": "Burst revision 0186. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 935,
+  "startMs": 0,
+  "endMs": 935,
+  "text": "Burst revision 0187. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 940,
+  "startMs": 0,
+  "endMs": 940,
+  "text": "Burst revision 0188. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 945,
+  "startMs": 0,
+  "endMs": 945,
+  "text": "Burst revision 0189. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 950,
+  "startMs": 0,
+  "endMs": 950,
+  "text": "Burst revision 0190. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 955,
+  "startMs": 0,
+  "endMs": 955,
+  "text": "Burst revision 0191. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 960,
+  "startMs": 0,
+  "endMs": 960,
+  "text": "Burst revision 0192. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 965,
+  "startMs": 0,
+  "endMs": 965,
+  "text": "Burst revision 0193. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 970,
+  "startMs": 0,
+  "endMs": 970,
+  "text": "Burst revision 0194. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 975,
+  "startMs": 0,
+  "endMs": 975,
+  "text": "Burst revision 0195. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 980,
+  "startMs": 0,
+  "endMs": 980,
+  "text": "Burst revision 0196. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 985,
+  "startMs": 0,
+  "endMs": 985,
+  "text": "Burst revision 0197. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 990,
+  "startMs": 0,
+  "endMs": 990,
+  "text": "Burst revision 0198. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 995,
+  "startMs": 0,
+  "endMs": 995,
+  "text": "Burst revision 0199. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1000,
+  "startMs": 0,
+  "endMs": 1000,
+  "text": "Burst revision 0200. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1005,
+  "startMs": 0,
+  "endMs": 1005,
+  "text": "Burst revision 0201. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1010,
+  "startMs": 0,
+  "endMs": 1010,
+  "text": "Burst revision 0202. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1015,
+  "startMs": 0,
+  "endMs": 1015,
+  "text": "Burst revision 0203. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1020,
+  "startMs": 0,
+  "endMs": 1020,
+  "text": "Burst revision 0204. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1025,
+  "startMs": 0,
+  "endMs": 1025,
+  "text": "Burst revision 0205. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1030,
+  "startMs": 0,
+  "endMs": 1030,
+  "text": "Burst revision 0206. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1035,
+  "startMs": 0,
+  "endMs": 1035,
+  "text": "Burst revision 0207. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1040,
+  "startMs": 0,
+  "endMs": 1040,
+  "text": "Burst revision 0208. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1045,
+  "startMs": 0,
+  "endMs": 1045,
+  "text": "Burst revision 0209. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1050,
+  "startMs": 0,
+  "endMs": 1050,
+  "text": "Burst revision 0210. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1055,
+  "startMs": 0,
+  "endMs": 1055,
+  "text": "Burst revision 0211. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1060,
+  "startMs": 0,
+  "endMs": 1060,
+  "text": "Burst revision 0212. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1065,
+  "startMs": 0,
+  "endMs": 1065,
+  "text": "Burst revision 0213. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1070,
+  "startMs": 0,
+  "endMs": 1070,
+  "text": "Burst revision 0214. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1075,
+  "startMs": 0,
+  "endMs": 1075,
+  "text": "Burst revision 0215. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1080,
+  "startMs": 0,
+  "endMs": 1080,
+  "text": "Burst revision 0216. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1085,
+  "startMs": 0,
+  "endMs": 1085,
+  "text": "Burst revision 0217. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1090,
+  "startMs": 0,
+  "endMs": 1090,
+  "text": "Burst revision 0218. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1095,
+  "startMs": 0,
+  "endMs": 1095,
+  "text": "Burst revision 0219. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1100,
+  "startMs": 0,
+  "endMs": 1100,
+  "text": "Burst revision 0220. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1105,
+  "startMs": 0,
+  "endMs": 1105,
+  "text": "Burst revision 0221. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1110,
+  "startMs": 0,
+  "endMs": 1110,
+  "text": "Burst revision 0222. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1115,
+  "startMs": 0,
+  "endMs": 1115,
+  "text": "Burst revision 0223. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1120,
+  "startMs": 0,
+  "endMs": 1120,
+  "text": "Burst revision 0224. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1125,
+  "startMs": 0,
+  "endMs": 1125,
+  "text": "Burst revision 0225. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1130,
+  "startMs": 0,
+  "endMs": 1130,
+  "text": "Burst revision 0226. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1135,
+  "startMs": 0,
+  "endMs": 1135,
+  "text": "Burst revision 0227. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1140,
+  "startMs": 0,
+  "endMs": 1140,
+  "text": "Burst revision 0228. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1145,
+  "startMs": 0,
+  "endMs": 1145,
+  "text": "Burst revision 0229. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1150,
+  "startMs": 0,
+  "endMs": 1150,
+  "text": "Burst revision 0230. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1155,
+  "startMs": 0,
+  "endMs": 1155,
+  "text": "Burst revision 0231. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1160,
+  "startMs": 0,
+  "endMs": 1160,
+  "text": "Burst revision 0232. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1165,
+  "startMs": 0,
+  "endMs": 1165,
+  "text": "Burst revision 0233. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1170,
+  "startMs": 0,
+  "endMs": 1170,
+  "text": "Burst revision 0234. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1175,
+  "startMs": 0,
+  "endMs": 1175,
+  "text": "Burst revision 0235. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1180,
+  "startMs": 0,
+  "endMs": 1180,
+  "text": "Burst revision 0236. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1185,
+  "startMs": 0,
+  "endMs": 1185,
+  "text": "Burst revision 0237. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1190,
+  "startMs": 0,
+  "endMs": 1190,
+  "text": "Burst revision 0238. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1195,
+  "startMs": 0,
+  "endMs": 1195,
+  "text": "Burst revision 0239. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1200,
+  "startMs": 0,
+  "endMs": 1200,
+  "text": "Burst revision 0240. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1205,
+  "startMs": 0,
+  "endMs": 1205,
+  "text": "Burst revision 0241. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1210,
+  "startMs": 0,
+  "endMs": 1210,
+  "text": "Burst revision 0242. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1215,
+  "startMs": 0,
+  "endMs": 1215,
+  "text": "Burst revision 0243. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1220,
+  "startMs": 0,
+  "endMs": 1220,
+  "text": "Burst revision 0244. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1225,
+  "startMs": 0,
+  "endMs": 1225,
+  "text": "Burst revision 0245. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1230,
+  "startMs": 0,
+  "endMs": 1230,
+  "text": "Burst revision 0246. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1235,
+  "startMs": 0,
+  "endMs": 1235,
+  "text": "Burst revision 0247. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1240,
+  "startMs": 0,
+  "endMs": 1240,
+  "text": "Burst revision 0248. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1245,
+  "startMs": 0,
+  "endMs": 1245,
+  "text": "Burst revision 0249. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1250,
+  "startMs": 0,
+  "endMs": 1250,
+  "text": "Burst revision 0250. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1255,
+  "startMs": 0,
+  "endMs": 1255,
+  "text": "Burst revision 0251. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1260,
+  "startMs": 0,
+  "endMs": 1260,
+  "text": "Burst revision 0252. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1265,
+  "startMs": 0,
+  "endMs": 1265,
+  "text": "Burst revision 0253. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1270,
+  "startMs": 0,
+  "endMs": 1270,
+  "text": "Burst revision 0254. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1275,
+  "startMs": 0,
+  "endMs": 1275,
+  "text": "Burst revision 0255. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1280,
+  "startMs": 0,
+  "endMs": 1280,
+  "text": "Burst revision 0256. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1285,
+  "startMs": 0,
+  "endMs": 1285,
+  "text": "Burst revision 0257. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1290,
+  "startMs": 0,
+  "endMs": 1290,
+  "text": "Burst revision 0258. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1295,
+  "startMs": 0,
+  "endMs": 1295,
+  "text": "Burst revision 0259. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1300,
+  "startMs": 0,
+  "endMs": 1300,
+  "text": "Burst revision 0260. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1305,
+  "startMs": 0,
+  "endMs": 1305,
+  "text": "Burst revision 0261. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1310,
+  "startMs": 0,
+  "endMs": 1310,
+  "text": "Burst revision 0262. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1315,
+  "startMs": 0,
+  "endMs": 1315,
+  "text": "Burst revision 0263. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1320,
+  "startMs": 0,
+  "endMs": 1320,
+  "text": "Burst revision 0264. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1325,
+  "startMs": 0,
+  "endMs": 1325,
+  "text": "Burst revision 0265. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1330,
+  "startMs": 0,
+  "endMs": 1330,
+  "text": "Burst revision 0266. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1335,
+  "startMs": 0,
+  "endMs": 1335,
+  "text": "Burst revision 0267. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1340,
+  "startMs": 0,
+  "endMs": 1340,
+  "text": "Burst revision 0268. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1345,
+  "startMs": 0,
+  "endMs": 1345,
+  "text": "Burst revision 0269. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1350,
+  "startMs": 0,
+  "endMs": 1350,
+  "text": "Burst revision 0270. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1355,
+  "startMs": 0,
+  "endMs": 1355,
+  "text": "Burst revision 0271. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1360,
+  "startMs": 0,
+  "endMs": 1360,
+  "text": "Burst revision 0272. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1365,
+  "startMs": 0,
+  "endMs": 1365,
+  "text": "Burst revision 0273. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1370,
+  "startMs": 0,
+  "endMs": 1370,
+  "text": "Burst revision 0274. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1375,
+  "startMs": 0,
+  "endMs": 1375,
+  "text": "Burst revision 0275. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1380,
+  "startMs": 0,
+  "endMs": 1380,
+  "text": "Burst revision 0276. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1385,
+  "startMs": 0,
+  "endMs": 1385,
+  "text": "Burst revision 0277. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1390,
+  "startMs": 0,
+  "endMs": 1390,
+  "text": "Burst revision 0278. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1395,
+  "startMs": 0,
+  "endMs": 1395,
+  "text": "Burst revision 0279. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1400,
+  "startMs": 0,
+  "endMs": 1400,
+  "text": "Burst revision 0280. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1405,
+  "startMs": 0,
+  "endMs": 1405,
+  "text": "Burst revision 0281. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1410,
+  "startMs": 0,
+  "endMs": 1410,
+  "text": "Burst revision 0282. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1415,
+  "startMs": 0,
+  "endMs": 1415,
+  "text": "Burst revision 0283. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1420,
+  "startMs": 0,
+  "endMs": 1420,
+  "text": "Burst revision 0284. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1425,
+  "startMs": 0,
+  "endMs": 1425,
+  "text": "Burst revision 0285. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1430,
+  "startMs": 0,
+  "endMs": 1430,
+  "text": "Burst revision 0286. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1435,
+  "startMs": 0,
+  "endMs": 1435,
+  "text": "Burst revision 0287. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1440,
+  "startMs": 0,
+  "endMs": 1440,
+  "text": "Burst revision 0288. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1445,
+  "startMs": 0,
+  "endMs": 1445,
+  "text": "Burst revision 0289. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1450,
+  "startMs": 0,
+  "endMs": 1450,
+  "text": "Burst revision 0290. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1455,
+  "startMs": 0,
+  "endMs": 1455,
+  "text": "Burst revision 0291. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1460,
+  "startMs": 0,
+  "endMs": 1460,
+  "text": "Burst revision 0292. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1465,
+  "startMs": 0,
+  "endMs": 1465,
+  "text": "Burst revision 0293. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1470,
+  "startMs": 0,
+  "endMs": 1470,
+  "text": "Burst revision 0294. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1475,
+  "startMs": 0,
+  "endMs": 1475,
+  "text": "Burst revision 0295. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1480,
+  "startMs": 0,
+  "endMs": 1480,
+  "text": "Burst revision 0296. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1485,
+  "startMs": 0,
+  "endMs": 1485,
+  "text": "Burst revision 0297. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1490,
+  "startMs": 0,
+  "endMs": 1490,
+  "text": "Burst revision 0298. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1495,
+  "startMs": 0,
+  "endMs": 1495,
+  "text": "Burst revision 0299. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1500,
+  "startMs": 0,
+  "endMs": 1500,
+  "text": "Burst revision 0300. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1505,
+  "startMs": 0,
+  "endMs": 1505,
+  "text": "Burst revision 0301. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1510,
+  "startMs": 0,
+  "endMs": 1510,
+  "text": "Burst revision 0302. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1515,
+  "startMs": 0,
+  "endMs": 1515,
+  "text": "Burst revision 0303. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1520,
+  "startMs": 0,
+  "endMs": 1520,
+  "text": "Burst revision 0304. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1525,
+  "startMs": 0,
+  "endMs": 1525,
+  "text": "Burst revision 0305. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1530,
+  "startMs": 0,
+  "endMs": 1530,
+  "text": "Burst revision 0306. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1535,
+  "startMs": 0,
+  "endMs": 1535,
+  "text": "Burst revision 0307. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1540,
+  "startMs": 0,
+  "endMs": 1540,
+  "text": "Burst revision 0308. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1545,
+  "startMs": 0,
+  "endMs": 1545,
+  "text": "Burst revision 0309. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1550,
+  "startMs": 0,
+  "endMs": 1550,
+  "text": "Burst revision 0310. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1555,
+  "startMs": 0,
+  "endMs": 1555,
+  "text": "Burst revision 0311. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1560,
+  "startMs": 0,
+  "endMs": 1560,
+  "text": "Burst revision 0312. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1565,
+  "startMs": 0,
+  "endMs": 1565,
+  "text": "Burst revision 0313. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1570,
+  "startMs": 0,
+  "endMs": 1570,
+  "text": "Burst revision 0314. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1575,
+  "startMs": 0,
+  "endMs": 1575,
+  "text": "Burst revision 0315. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1580,
+  "startMs": 0,
+  "endMs": 1580,
+  "text": "Burst revision 0316. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1585,
+  "startMs": 0,
+  "endMs": 1585,
+  "text": "Burst revision 0317. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1590,
+  "startMs": 0,
+  "endMs": 1590,
+  "text": "Burst revision 0318. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1595,
+  "startMs": 0,
+  "endMs": 1595,
+  "text": "Burst revision 0319. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1600,
+  "startMs": 0,
+  "endMs": 1600,
+  "text": "Burst revision 0320. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1605,
+  "startMs": 0,
+  "endMs": 1605,
+  "text": "Burst revision 0321. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1610,
+  "startMs": 0,
+  "endMs": 1610,
+  "text": "Burst revision 0322. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1615,
+  "startMs": 0,
+  "endMs": 1615,
+  "text": "Burst revision 0323. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1620,
+  "startMs": 0,
+  "endMs": 1620,
+  "text": "Burst revision 0324. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1625,
+  "startMs": 0,
+  "endMs": 1625,
+  "text": "Burst revision 0325. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1630,
+  "startMs": 0,
+  "endMs": 1630,
+  "text": "Burst revision 0326. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1635,
+  "startMs": 0,
+  "endMs": 1635,
+  "text": "Burst revision 0327. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1640,
+  "startMs": 0,
+  "endMs": 1640,
+  "text": "Burst revision 0328. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1645,
+  "startMs": 0,
+  "endMs": 1645,
+  "text": "Burst revision 0329. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1650,
+  "startMs": 0,
+  "endMs": 1650,
+  "text": "Burst revision 0330. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1655,
+  "startMs": 0,
+  "endMs": 1655,
+  "text": "Burst revision 0331. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1660,
+  "startMs": 0,
+  "endMs": 1660,
+  "text": "Burst revision 0332. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1665,
+  "startMs": 0,
+  "endMs": 1665,
+  "text": "Burst revision 0333. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1670,
+  "startMs": 0,
+  "endMs": 1670,
+  "text": "Burst revision 0334. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1675,
+  "startMs": 0,
+  "endMs": 1675,
+  "text": "Burst revision 0335. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1680,
+  "startMs": 0,
+  "endMs": 1680,
+  "text": "Burst revision 0336. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1685,
+  "startMs": 0,
+  "endMs": 1685,
+  "text": "Burst revision 0337. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1690,
+  "startMs": 0,
+  "endMs": 1690,
+  "text": "Burst revision 0338. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1695,
+  "startMs": 0,
+  "endMs": 1695,
+  "text": "Burst revision 0339. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1700,
+  "startMs": 0,
+  "endMs": 1700,
+  "text": "Burst revision 0340. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1705,
+  "startMs": 0,
+  "endMs": 1705,
+  "text": "Burst revision 0341. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1710,
+  "startMs": 0,
+  "endMs": 1710,
+  "text": "Burst revision 0342. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1715,
+  "startMs": 0,
+  "endMs": 1715,
+  "text": "Burst revision 0343. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1720,
+  "startMs": 0,
+  "endMs": 1720,
+  "text": "Burst revision 0344. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1725,
+  "startMs": 0,
+  "endMs": 1725,
+  "text": "Burst revision 0345. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1730,
+  "startMs": 0,
+  "endMs": 1730,
+  "text": "Burst revision 0346. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1735,
+  "startMs": 0,
+  "endMs": 1735,
+  "text": "Burst revision 0347. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1740,
+  "startMs": 0,
+  "endMs": 1740,
+  "text": "Burst revision 0348. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1745,
+  "startMs": 0,
+  "endMs": 1745,
+  "text": "Burst revision 0349. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1750,
+  "startMs": 0,
+  "endMs": 1750,
+  "text": "Burst revision 0350. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1755,
+  "startMs": 0,
+  "endMs": 1755,
+  "text": "Burst revision 0351. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1760,
+  "startMs": 0,
+  "endMs": 1760,
+  "text": "Burst revision 0352. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1765,
+  "startMs": 0,
+  "endMs": 1765,
+  "text": "Burst revision 0353. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1770,
+  "startMs": 0,
+  "endMs": 1770,
+  "text": "Burst revision 0354. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1775,
+  "startMs": 0,
+  "endMs": 1775,
+  "text": "Burst revision 0355. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1780,
+  "startMs": 0,
+  "endMs": 1780,
+  "text": "Burst revision 0356. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1785,
+  "startMs": 0,
+  "endMs": 1785,
+  "text": "Burst revision 0357. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1790,
+  "startMs": 0,
+  "endMs": 1790,
+  "text": "Burst revision 0358. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1795,
+  "startMs": 0,
+  "endMs": 1795,
+  "text": "Burst revision 0359. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1800,
+  "startMs": 0,
+  "endMs": 1800,
+  "text": "Burst revision 0360. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1805,
+  "startMs": 0,
+  "endMs": 1805,
+  "text": "Burst revision 0361. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1810,
+  "startMs": 0,
+  "endMs": 1810,
+  "text": "Burst revision 0362. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1815,
+  "startMs": 0,
+  "endMs": 1815,
+  "text": "Burst revision 0363. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1820,
+  "startMs": 0,
+  "endMs": 1820,
+  "text": "Burst revision 0364. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1825,
+  "startMs": 0,
+  "endMs": 1825,
+  "text": "Burst revision 0365. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1830,
+  "startMs": 0,
+  "endMs": 1830,
+  "text": "Burst revision 0366. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1835,
+  "startMs": 0,
+  "endMs": 1835,
+  "text": "Burst revision 0367. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1840,
+  "startMs": 0,
+  "endMs": 1840,
+  "text": "Burst revision 0368. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1845,
+  "startMs": 0,
+  "endMs": 1845,
+  "text": "Burst revision 0369. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1850,
+  "startMs": 0,
+  "endMs": 1850,
+  "text": "Burst revision 0370. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1855,
+  "startMs": 0,
+  "endMs": 1855,
+  "text": "Burst revision 0371. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1860,
+  "startMs": 0,
+  "endMs": 1860,
+  "text": "Burst revision 0372. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1865,
+  "startMs": 0,
+  "endMs": 1865,
+  "text": "Burst revision 0373. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1870,
+  "startMs": 0,
+  "endMs": 1870,
+  "text": "Burst revision 0374. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1875,
+  "startMs": 0,
+  "endMs": 1875,
+  "text": "Burst revision 0375. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1880,
+  "startMs": 0,
+  "endMs": 1880,
+  "text": "Burst revision 0376. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1885,
+  "startMs": 0,
+  "endMs": 1885,
+  "text": "Burst revision 0377. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1890,
+  "startMs": 0,
+  "endMs": 1890,
+  "text": "Burst revision 0378. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1895,
+  "startMs": 0,
+  "endMs": 1895,
+  "text": "Burst revision 0379. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1900,
+  "startMs": 0,
+  "endMs": 1900,
+  "text": "Burst revision 0380. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1905,
+  "startMs": 0,
+  "endMs": 1905,
+  "text": "Burst revision 0381. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1910,
+  "startMs": 0,
+  "endMs": 1910,
+  "text": "Burst revision 0382. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1915,
+  "startMs": 0,
+  "endMs": 1915,
+  "text": "Burst revision 0383. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1920,
+  "startMs": 0,
+  "endMs": 1920,
+  "text": "Burst revision 0384. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1925,
+  "startMs": 0,
+  "endMs": 1925,
+  "text": "Burst revision 0385. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1930,
+  "startMs": 0,
+  "endMs": 1930,
+  "text": "Burst revision 0386. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1935,
+  "startMs": 0,
+  "endMs": 1935,
+  "text": "Burst revision 0387. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1940,
+  "startMs": 0,
+  "endMs": 1940,
+  "text": "Burst revision 0388. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1945,
+  "startMs": 0,
+  "endMs": 1945,
+  "text": "Burst revision 0389. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1950,
+  "startMs": 0,
+  "endMs": 1950,
+  "text": "Burst revision 0390. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1955,
+  "startMs": 0,
+  "endMs": 1955,
+  "text": "Burst revision 0391. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1960,
+  "startMs": 0,
+  "endMs": 1960,
+  "text": "Burst revision 0392. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1965,
+  "startMs": 0,
+  "endMs": 1965,
+  "text": "Burst revision 0393. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1970,
+  "startMs": 0,
+  "endMs": 1970,
+  "text": "Burst revision 0394. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1975,
+  "startMs": 0,
+  "endMs": 1975,
+  "text": "Burst revision 0395. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1980,
+  "startMs": 0,
+  "endMs": 1980,
+  "text": "Burst revision 0396. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1985,
+  "startMs": 0,
+  "endMs": 1985,
+  "text": "Burst revision 0397. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1990,
+  "startMs": 0,
+  "endMs": 1990,
+  "text": "Burst revision 0398. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 1995,
+  "startMs": 0,
+  "endMs": 1995,
+  "text": "Burst revision 0399. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2000,
+  "startMs": 0,
+  "endMs": 2000,
+  "text": "Burst revision 0400. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2005,
+  "startMs": 0,
+  "endMs": 2005,
+  "text": "Burst revision 0401. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2010,
+  "startMs": 0,
+  "endMs": 2010,
+  "text": "Burst revision 0402. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2015,
+  "startMs": 0,
+  "endMs": 2015,
+  "text": "Burst revision 0403. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2020,
+  "startMs": 0,
+  "endMs": 2020,
+  "text": "Burst revision 0404. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2025,
+  "startMs": 0,
+  "endMs": 2025,
+  "text": "Burst revision 0405. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2030,
+  "startMs": 0,
+  "endMs": 2030,
+  "text": "Burst revision 0406. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2035,
+  "startMs": 0,
+  "endMs": 2035,
+  "text": "Burst revision 0407. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2040,
+  "startMs": 0,
+  "endMs": 2040,
+  "text": "Burst revision 0408. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2045,
+  "startMs": 0,
+  "endMs": 2045,
+  "text": "Burst revision 0409. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2050,
+  "startMs": 0,
+  "endMs": 2050,
+  "text": "Burst revision 0410. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2055,
+  "startMs": 0,
+  "endMs": 2055,
+  "text": "Burst revision 0411. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2060,
+  "startMs": 0,
+  "endMs": 2060,
+  "text": "Burst revision 0412. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2065,
+  "startMs": 0,
+  "endMs": 2065,
+  "text": "Burst revision 0413. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2070,
+  "startMs": 0,
+  "endMs": 2070,
+  "text": "Burst revision 0414. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2075,
+  "startMs": 0,
+  "endMs": 2075,
+  "text": "Burst revision 0415. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2080,
+  "startMs": 0,
+  "endMs": 2080,
+  "text": "Burst revision 0416. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2085,
+  "startMs": 0,
+  "endMs": 2085,
+  "text": "Burst revision 0417. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2090,
+  "startMs": 0,
+  "endMs": 2090,
+  "text": "Burst revision 0418. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2095,
+  "startMs": 0,
+  "endMs": 2095,
+  "text": "Burst revision 0419. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2100,
+  "startMs": 0,
+  "endMs": 2100,
+  "text": "Burst revision 0420. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2105,
+  "startMs": 0,
+  "endMs": 2105,
+  "text": "Burst revision 0421. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2110,
+  "startMs": 0,
+  "endMs": 2110,
+  "text": "Burst revision 0422. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2115,
+  "startMs": 0,
+  "endMs": 2115,
+  "text": "Burst revision 0423. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2120,
+  "startMs": 0,
+  "endMs": 2120,
+  "text": "Burst revision 0424. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2125,
+  "startMs": 0,
+  "endMs": 2125,
+  "text": "Burst revision 0425. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2130,
+  "startMs": 0,
+  "endMs": 2130,
+  "text": "Burst revision 0426. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2135,
+  "startMs": 0,
+  "endMs": 2135,
+  "text": "Burst revision 0427. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2140,
+  "startMs": 0,
+  "endMs": 2140,
+  "text": "Burst revision 0428. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2145,
+  "startMs": 0,
+  "endMs": 2145,
+  "text": "Burst revision 0429. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2150,
+  "startMs": 0,
+  "endMs": 2150,
+  "text": "Burst revision 0430. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2155,
+  "startMs": 0,
+  "endMs": 2155,
+  "text": "Burst revision 0431. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2160,
+  "startMs": 0,
+  "endMs": 2160,
+  "text": "Burst revision 0432. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2165,
+  "startMs": 0,
+  "endMs": 2165,
+  "text": "Burst revision 0433. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2170,
+  "startMs": 0,
+  "endMs": 2170,
+  "text": "Burst revision 0434. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2175,
+  "startMs": 0,
+  "endMs": 2175,
+  "text": "Burst revision 0435. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2180,
+  "startMs": 0,
+  "endMs": 2180,
+  "text": "Burst revision 0436. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2185,
+  "startMs": 0,
+  "endMs": 2185,
+  "text": "Burst revision 0437. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2190,
+  "startMs": 0,
+  "endMs": 2190,
+  "text": "Burst revision 0438. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2195,
+  "startMs": 0,
+  "endMs": 2195,
+  "text": "Burst revision 0439. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2200,
+  "startMs": 0,
+  "endMs": 2200,
+  "text": "Burst revision 0440. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2205,
+  "startMs": 0,
+  "endMs": 2205,
+  "text": "Burst revision 0441. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2210,
+  "startMs": 0,
+  "endMs": 2210,
+  "text": "Burst revision 0442. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2215,
+  "startMs": 0,
+  "endMs": 2215,
+  "text": "Burst revision 0443. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2220,
+  "startMs": 0,
+  "endMs": 2220,
+  "text": "Burst revision 0444. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2225,
+  "startMs": 0,
+  "endMs": 2225,
+  "text": "Burst revision 0445. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2230,
+  "startMs": 0,
+  "endMs": 2230,
+  "text": "Burst revision 0446. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2235,
+  "startMs": 0,
+  "endMs": 2235,
+  "text": "Burst revision 0447. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2240,
+  "startMs": 0,
+  "endMs": 2240,
+  "text": "Burst revision 0448. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2245,
+  "startMs": 0,
+  "endMs": 2245,
+  "text": "Burst revision 0449. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2250,
+  "startMs": 0,
+  "endMs": 2250,
+  "text": "Burst revision 0450. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2255,
+  "startMs": 0,
+  "endMs": 2255,
+  "text": "Burst revision 0451. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2260,
+  "startMs": 0,
+  "endMs": 2260,
+  "text": "Burst revision 0452. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2265,
+  "startMs": 0,
+  "endMs": 2265,
+  "text": "Burst revision 0453. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2270,
+  "startMs": 0,
+  "endMs": 2270,
+  "text": "Burst revision 0454. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2275,
+  "startMs": 0,
+  "endMs": 2275,
+  "text": "Burst revision 0455. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2280,
+  "startMs": 0,
+  "endMs": 2280,
+  "text": "Burst revision 0456. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2285,
+  "startMs": 0,
+  "endMs": 2285,
+  "text": "Burst revision 0457. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2290,
+  "startMs": 0,
+  "endMs": 2290,
+  "text": "Burst revision 0458. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2295,
+  "startMs": 0,
+  "endMs": 2295,
+  "text": "Burst revision 0459. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2300,
+  "startMs": 0,
+  "endMs": 2300,
+  "text": "Burst revision 0460. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2305,
+  "startMs": 0,
+  "endMs": 2305,
+  "text": "Burst revision 0461. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2310,
+  "startMs": 0,
+  "endMs": 2310,
+  "text": "Burst revision 0462. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2315,
+  "startMs": 0,
+  "endMs": 2315,
+  "text": "Burst revision 0463. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2320,
+  "startMs": 0,
+  "endMs": 2320,
+  "text": "Burst revision 0464. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2325,
+  "startMs": 0,
+  "endMs": 2325,
+  "text": "Burst revision 0465. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2330,
+  "startMs": 0,
+  "endMs": 2330,
+  "text": "Burst revision 0466. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2335,
+  "startMs": 0,
+  "endMs": 2335,
+  "text": "Burst revision 0467. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2340,
+  "startMs": 0,
+  "endMs": 2340,
+  "text": "Burst revision 0468. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2345,
+  "startMs": 0,
+  "endMs": 2345,
+  "text": "Burst revision 0469. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2350,
+  "startMs": 0,
+  "endMs": 2350,
+  "text": "Burst revision 0470. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2355,
+  "startMs": 0,
+  "endMs": 2355,
+  "text": "Burst revision 0471. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2360,
+  "startMs": 0,
+  "endMs": 2360,
+  "text": "Burst revision 0472. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2365,
+  "startMs": 0,
+  "endMs": 2365,
+  "text": "Burst revision 0473. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2370,
+  "startMs": 0,
+  "endMs": 2370,
+  "text": "Burst revision 0474. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2375,
+  "startMs": 0,
+  "endMs": 2375,
+  "text": "Burst revision 0475. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2380,
+  "startMs": 0,
+  "endMs": 2380,
+  "text": "Burst revision 0476. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2385,
+  "startMs": 0,
+  "endMs": 2385,
+  "text": "Burst revision 0477. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2390,
+  "startMs": 0,
+  "endMs": 2390,
+  "text": "Burst revision 0478. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2395,
+  "startMs": 0,
+  "endMs": 2395,
+  "text": "Burst revision 0479. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2400,
+  "startMs": 0,
+  "endMs": 2400,
+  "text": "Burst revision 0480. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2405,
+  "startMs": 0,
+  "endMs": 2405,
+  "text": "Burst revision 0481. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2410,
+  "startMs": 0,
+  "endMs": 2410,
+  "text": "Burst revision 0482. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2415,
+  "startMs": 0,
+  "endMs": 2415,
+  "text": "Burst revision 0483. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2420,
+  "startMs": 0,
+  "endMs": 2420,
+  "text": "Burst revision 0484. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2425,
+  "startMs": 0,
+  "endMs": 2425,
+  "text": "Burst revision 0485. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2430,
+  "startMs": 0,
+  "endMs": 2430,
+  "text": "Burst revision 0486. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2435,
+  "startMs": 0,
+  "endMs": 2435,
+  "text": "Burst revision 0487. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2440,
+  "startMs": 0,
+  "endMs": 2440,
+  "text": "Burst revision 0488. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2445,
+  "startMs": 0,
+  "endMs": 2445,
+  "text": "Burst revision 0489. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2450,
+  "startMs": 0,
+  "endMs": 2450,
+  "text": "Burst revision 0490. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2455,
+  "startMs": 0,
+  "endMs": 2455,
+  "text": "Burst revision 0491. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2460,
+  "startMs": 0,
+  "endMs": 2460,
+  "text": "Burst revision 0492. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2465,
+  "startMs": 0,
+  "endMs": 2465,
+  "text": "Burst revision 0493. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2470,
+  "startMs": 0,
+  "endMs": 2470,
+  "text": "Burst revision 0494. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2475,
+  "startMs": 0,
+  "endMs": 2475,
+  "text": "Burst revision 0495. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2480,
+  "startMs": 0,
+  "endMs": 2480,
+  "text": "Burst revision 0496. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2485,
+  "startMs": 0,
+  "endMs": 2485,
+  "text": "Burst revision 0497. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2490,
+  "startMs": 0,
+  "endMs": 2490,
+  "text": "Burst revision 0498. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2495,
+  "startMs": 0,
+  "endMs": 2495,
+  "text": "Burst revision 0499. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2500,
+  "startMs": 0,
+  "endMs": 2500,
+  "text": "Burst revision 0500. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2505,
+  "startMs": 0,
+  "endMs": 2505,
+  "text": "Burst revision 0501. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2510,
+  "startMs": 0,
+  "endMs": 2510,
+  "text": "Burst revision 0502. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2515,
+  "startMs": 0,
+  "endMs": 2515,
+  "text": "Burst revision 0503. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2520,
+  "startMs": 0,
+  "endMs": 2520,
+  "text": "Burst revision 0504. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2525,
+  "startMs": 0,
+  "endMs": 2525,
+  "text": "Burst revision 0505. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2530,
+  "startMs": 0,
+  "endMs": 2530,
+  "text": "Burst revision 0506. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2535,
+  "startMs": 0,
+  "endMs": 2535,
+  "text": "Burst revision 0507. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2540,
+  "startMs": 0,
+  "endMs": 2540,
+  "text": "Burst revision 0508. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2545,
+  "startMs": 0,
+  "endMs": 2545,
+  "text": "Burst revision 0509. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2550,
+  "startMs": 0,
+  "endMs": 2550,
+  "text": "Burst revision 0510. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2555,
+  "startMs": 0,
+  "endMs": 2555,
+  "text": "Burst revision 0511. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2560,
+  "startMs": 0,
+  "endMs": 2560,
+  "text": "Burst revision 0512. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2565,
+  "startMs": 0,
+  "endMs": 2565,
+  "text": "Burst revision 0513. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2570,
+  "startMs": 0,
+  "endMs": 2570,
+  "text": "Burst revision 0514. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2575,
+  "startMs": 0,
+  "endMs": 2575,
+  "text": "Burst revision 0515. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2580,
+  "startMs": 0,
+  "endMs": 2580,
+  "text": "Burst revision 0516. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2585,
+  "startMs": 0,
+  "endMs": 2585,
+  "text": "Burst revision 0517. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2590,
+  "startMs": 0,
+  "endMs": 2590,
+  "text": "Burst revision 0518. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2595,
+  "startMs": 0,
+  "endMs": 2595,
+  "text": "Burst revision 0519. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2600,
+  "startMs": 0,
+  "endMs": 2600,
+  "text": "Burst revision 0520. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2605,
+  "startMs": 0,
+  "endMs": 2605,
+  "text": "Burst revision 0521. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2610,
+  "startMs": 0,
+  "endMs": 2610,
+  "text": "Burst revision 0522. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2615,
+  "startMs": 0,
+  "endMs": 2615,
+  "text": "Burst revision 0523. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2620,
+  "startMs": 0,
+  "endMs": 2620,
+  "text": "Burst revision 0524. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2625,
+  "startMs": 0,
+  "endMs": 2625,
+  "text": "Burst revision 0525. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2630,
+  "startMs": 0,
+  "endMs": 2630,
+  "text": "Burst revision 0526. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2635,
+  "startMs": 0,
+  "endMs": 2635,
+  "text": "Burst revision 0527. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2640,
+  "startMs": 0,
+  "endMs": 2640,
+  "text": "Burst revision 0528. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2645,
+  "startMs": 0,
+  "endMs": 2645,
+  "text": "Burst revision 0529. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2650,
+  "startMs": 0,
+  "endMs": 2650,
+  "text": "Burst revision 0530. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2655,
+  "startMs": 0,
+  "endMs": 2655,
+  "text": "Burst revision 0531. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2660,
+  "startMs": 0,
+  "endMs": 2660,
+  "text": "Burst revision 0532. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2665,
+  "startMs": 0,
+  "endMs": 2665,
+  "text": "Burst revision 0533. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2670,
+  "startMs": 0,
+  "endMs": 2670,
+  "text": "Burst revision 0534. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2675,
+  "startMs": 0,
+  "endMs": 2675,
+  "text": "Burst revision 0535. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2680,
+  "startMs": 0,
+  "endMs": 2680,
+  "text": "Burst revision 0536. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2685,
+  "startMs": 0,
+  "endMs": 2685,
+  "text": "Burst revision 0537. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2690,
+  "startMs": 0,
+  "endMs": 2690,
+  "text": "Burst revision 0538. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2695,
+  "startMs": 0,
+  "endMs": 2695,
+  "text": "Burst revision 0539. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2700,
+  "startMs": 0,
+  "endMs": 2700,
+  "text": "Burst revision 0540. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2705,
+  "startMs": 0,
+  "endMs": 2705,
+  "text": "Burst revision 0541. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2710,
+  "startMs": 0,
+  "endMs": 2710,
+  "text": "Burst revision 0542. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2715,
+  "startMs": 0,
+  "endMs": 2715,
+  "text": "Burst revision 0543. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2720,
+  "startMs": 0,
+  "endMs": 2720,
+  "text": "Burst revision 0544. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2725,
+  "startMs": 0,
+  "endMs": 2725,
+  "text": "Burst revision 0545. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2730,
+  "startMs": 0,
+  "endMs": 2730,
+  "text": "Burst revision 0546. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2735,
+  "startMs": 0,
+  "endMs": 2735,
+  "text": "Burst revision 0547. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2740,
+  "startMs": 0,
+  "endMs": 2740,
+  "text": "Burst revision 0548. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2745,
+  "startMs": 0,
+  "endMs": 2745,
+  "text": "Burst revision 0549. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2750,
+  "startMs": 0,
+  "endMs": 2750,
+  "text": "Burst revision 0550. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2755,
+  "startMs": 0,
+  "endMs": 2755,
+  "text": "Burst revision 0551. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2760,
+  "startMs": 0,
+  "endMs": 2760,
+  "text": "Burst revision 0552. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2765,
+  "startMs": 0,
+  "endMs": 2765,
+  "text": "Burst revision 0553. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2770,
+  "startMs": 0,
+  "endMs": 2770,
+  "text": "Burst revision 0554. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2775,
+  "startMs": 0,
+  "endMs": 2775,
+  "text": "Burst revision 0555. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2780,
+  "startMs": 0,
+  "endMs": 2780,
+  "text": "Burst revision 0556. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2785,
+  "startMs": 0,
+  "endMs": 2785,
+  "text": "Burst revision 0557. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2790,
+  "startMs": 0,
+  "endMs": 2790,
+  "text": "Burst revision 0558. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2795,
+  "startMs": 0,
+  "endMs": 2795,
+  "text": "Burst revision 0559. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2800,
+  "startMs": 0,
+  "endMs": 2800,
+  "text": "Burst revision 0560. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2805,
+  "startMs": 0,
+  "endMs": 2805,
+  "text": "Burst revision 0561. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2810,
+  "startMs": 0,
+  "endMs": 2810,
+  "text": "Burst revision 0562. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2815,
+  "startMs": 0,
+  "endMs": 2815,
+  "text": "Burst revision 0563. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2820,
+  "startMs": 0,
+  "endMs": 2820,
+  "text": "Burst revision 0564. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2825,
+  "startMs": 0,
+  "endMs": 2825,
+  "text": "Burst revision 0565. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2830,
+  "startMs": 0,
+  "endMs": 2830,
+  "text": "Burst revision 0566. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2835,
+  "startMs": 0,
+  "endMs": 2835,
+  "text": "Burst revision 0567. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2840,
+  "startMs": 0,
+  "endMs": 2840,
+  "text": "Burst revision 0568. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2845,
+  "startMs": 0,
+  "endMs": 2845,
+  "text": "Burst revision 0569. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2850,
+  "startMs": 0,
+  "endMs": 2850,
+  "text": "Burst revision 0570. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2855,
+  "startMs": 0,
+  "endMs": 2855,
+  "text": "Burst revision 0571. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2860,
+  "startMs": 0,
+  "endMs": 2860,
+  "text": "Burst revision 0572. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2865,
+  "startMs": 0,
+  "endMs": 2865,
+  "text": "Burst revision 0573. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2870,
+  "startMs": 0,
+  "endMs": 2870,
+  "text": "Burst revision 0574. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2875,
+  "startMs": 0,
+  "endMs": 2875,
+  "text": "Burst revision 0575. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2880,
+  "startMs": 0,
+  "endMs": 2880,
+  "text": "Burst revision 0576. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2885,
+  "startMs": 0,
+  "endMs": 2885,
+  "text": "Burst revision 0577. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2890,
+  "startMs": 0,
+  "endMs": 2890,
+  "text": "Burst revision 0578. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2895,
+  "startMs": 0,
+  "endMs": 2895,
+  "text": "Burst revision 0579. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2900,
+  "startMs": 0,
+  "endMs": 2900,
+  "text": "Burst revision 0580. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2905,
+  "startMs": 0,
+  "endMs": 2905,
+  "text": "Burst revision 0581. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2910,
+  "startMs": 0,
+  "endMs": 2910,
+  "text": "Burst revision 0582. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2915,
+  "startMs": 0,
+  "endMs": 2915,
+  "text": "Burst revision 0583. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2920,
+  "startMs": 0,
+  "endMs": 2920,
+  "text": "Burst revision 0584. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2925,
+  "startMs": 0,
+  "endMs": 2925,
+  "text": "Burst revision 0585. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2930,
+  "startMs": 0,
+  "endMs": 2930,
+  "text": "Burst revision 0586. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2935,
+  "startMs": 0,
+  "endMs": 2935,
+  "text": "Burst revision 0587. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2940,
+  "startMs": 0,
+  "endMs": 2940,
+  "text": "Burst revision 0588. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2945,
+  "startMs": 0,
+  "endMs": 2945,
+  "text": "Burst revision 0589. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2950,
+  "startMs": 0,
+  "endMs": 2950,
+  "text": "Burst revision 0590. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2955,
+  "startMs": 0,
+  "endMs": 2955,
+  "text": "Burst revision 0591. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2960,
+  "startMs": 0,
+  "endMs": 2960,
+  "text": "Burst revision 0592. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2965,
+  "startMs": 0,
+  "endMs": 2965,
+  "text": "Burst revision 0593. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2970,
+  "startMs": 0,
+  "endMs": 2970,
+  "text": "Burst revision 0594. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2975,
+  "startMs": 0,
+  "endMs": 2975,
+  "text": "Burst revision 0595. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2980,
+  "startMs": 0,
+  "endMs": 2980,
+  "text": "Burst revision 0596. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2985,
+  "startMs": 0,
+  "endMs": 2985,
+  "text": "Burst revision 0597. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2990,
+  "startMs": 0,
+  "endMs": 2990,
+  "text": "Burst revision 0598. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 2995,
+  "startMs": 0,
+  "endMs": 2995,
+  "text": "Burst revision 0599. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3000,
+  "startMs": 0,
+  "endMs": 3000,
+  "text": "Burst revision 0600. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3005,
+  "startMs": 0,
+  "endMs": 3005,
+  "text": "Burst revision 0601. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3010,
+  "startMs": 0,
+  "endMs": 3010,
+  "text": "Burst revision 0602. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3015,
+  "startMs": 0,
+  "endMs": 3015,
+  "text": "Burst revision 0603. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3020,
+  "startMs": 0,
+  "endMs": 3020,
+  "text": "Burst revision 0604. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3025,
+  "startMs": 0,
+  "endMs": 3025,
+  "text": "Burst revision 0605. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3030,
+  "startMs": 0,
+  "endMs": 3030,
+  "text": "Burst revision 0606. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3035,
+  "startMs": 0,
+  "endMs": 3035,
+  "text": "Burst revision 0607. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3040,
+  "startMs": 0,
+  "endMs": 3040,
+  "text": "Burst revision 0608. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3045,
+  "startMs": 0,
+  "endMs": 3045,
+  "text": "Burst revision 0609. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3050,
+  "startMs": 0,
+  "endMs": 3050,
+  "text": "Burst revision 0610. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3055,
+  "startMs": 0,
+  "endMs": 3055,
+  "text": "Burst revision 0611. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3060,
+  "startMs": 0,
+  "endMs": 3060,
+  "text": "Burst revision 0612. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3065,
+  "startMs": 0,
+  "endMs": 3065,
+  "text": "Burst revision 0613. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3070,
+  "startMs": 0,
+  "endMs": 3070,
+  "text": "Burst revision 0614. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3075,
+  "startMs": 0,
+  "endMs": 3075,
+  "text": "Burst revision 0615. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3080,
+  "startMs": 0,
+  "endMs": 3080,
+  "text": "Burst revision 0616. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3085,
+  "startMs": 0,
+  "endMs": 3085,
+  "text": "Burst revision 0617. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3090,
+  "startMs": 0,
+  "endMs": 3090,
+  "text": "Burst revision 0618. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3095,
+  "startMs": 0,
+  "endMs": 3095,
+  "text": "Burst revision 0619. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3100,
+  "startMs": 0,
+  "endMs": 3100,
+  "text": "Burst revision 0620. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3105,
+  "startMs": 0,
+  "endMs": 3105,
+  "text": "Burst revision 0621. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3110,
+  "startMs": 0,
+  "endMs": 3110,
+  "text": "Burst revision 0622. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3115,
+  "startMs": 0,
+  "endMs": 3115,
+  "text": "Burst revision 0623. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3120,
+  "startMs": 0,
+  "endMs": 3120,
+  "text": "Burst revision 0624. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3125,
+  "startMs": 0,
+  "endMs": 3125,
+  "text": "Burst revision 0625. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3130,
+  "startMs": 0,
+  "endMs": 3130,
+  "text": "Burst revision 0626. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3135,
+  "startMs": 0,
+  "endMs": 3135,
+  "text": "Burst revision 0627. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3140,
+  "startMs": 0,
+  "endMs": 3140,
+  "text": "Burst revision 0628. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3145,
+  "startMs": 0,
+  "endMs": 3145,
+  "text": "Burst revision 0629. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3150,
+  "startMs": 0,
+  "endMs": 3150,
+  "text": "Burst revision 0630. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3155,
+  "startMs": 0,
+  "endMs": 3155,
+  "text": "Burst revision 0631. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3160,
+  "startMs": 0,
+  "endMs": 3160,
+  "text": "Burst revision 0632. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3165,
+  "startMs": 0,
+  "endMs": 3165,
+  "text": "Burst revision 0633. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3170,
+  "startMs": 0,
+  "endMs": 3170,
+  "text": "Burst revision 0634. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3175,
+  "startMs": 0,
+  "endMs": 3175,
+  "text": "Burst revision 0635. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3180,
+  "startMs": 0,
+  "endMs": 3180,
+  "text": "Burst revision 0636. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3185,
+  "startMs": 0,
+  "endMs": 3185,
+  "text": "Burst revision 0637. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3190,
+  "startMs": 0,
+  "endMs": 3190,
+  "text": "Burst revision 0638. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3195,
+  "startMs": 0,
+  "endMs": 3195,
+  "text": "Burst revision 0639. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3200,
+  "startMs": 0,
+  "endMs": 3200,
+  "text": "Burst revision 0640. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3205,
+  "startMs": 0,
+  "endMs": 3205,
+  "text": "Burst revision 0641. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3210,
+  "startMs": 0,
+  "endMs": 3210,
+  "text": "Burst revision 0642. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3215,
+  "startMs": 0,
+  "endMs": 3215,
+  "text": "Burst revision 0643. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3220,
+  "startMs": 0,
+  "endMs": 3220,
+  "text": "Burst revision 0644. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3225,
+  "startMs": 0,
+  "endMs": 3225,
+  "text": "Burst revision 0645. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3230,
+  "startMs": 0,
+  "endMs": 3230,
+  "text": "Burst revision 0646. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3235,
+  "startMs": 0,
+  "endMs": 3235,
+  "text": "Burst revision 0647. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3240,
+  "startMs": 0,
+  "endMs": 3240,
+  "text": "Burst revision 0648. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3245,
+  "startMs": 0,
+  "endMs": 3245,
+  "text": "Burst revision 0649. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3250,
+  "startMs": 0,
+  "endMs": 3250,
+  "text": "Burst revision 0650. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3255,
+  "startMs": 0,
+  "endMs": 3255,
+  "text": "Burst revision 0651. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3260,
+  "startMs": 0,
+  "endMs": 3260,
+  "text": "Burst revision 0652. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3265,
+  "startMs": 0,
+  "endMs": 3265,
+  "text": "Burst revision 0653. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3270,
+  "startMs": 0,
+  "endMs": 3270,
+  "text": "Burst revision 0654. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3275,
+  "startMs": 0,
+  "endMs": 3275,
+  "text": "Burst revision 0655. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3280,
+  "startMs": 0,
+  "endMs": 3280,
+  "text": "Burst revision 0656. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3285,
+  "startMs": 0,
+  "endMs": 3285,
+  "text": "Burst revision 0657. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3290,
+  "startMs": 0,
+  "endMs": 3290,
+  "text": "Burst revision 0658. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3295,
+  "startMs": 0,
+  "endMs": 3295,
+  "text": "Burst revision 0659. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3300,
+  "startMs": 0,
+  "endMs": 3300,
+  "text": "Burst revision 0660. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3305,
+  "startMs": 0,
+  "endMs": 3305,
+  "text": "Burst revision 0661. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3310,
+  "startMs": 0,
+  "endMs": 3310,
+  "text": "Burst revision 0662. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3315,
+  "startMs": 0,
+  "endMs": 3315,
+  "text": "Burst revision 0663. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3320,
+  "startMs": 0,
+  "endMs": 3320,
+  "text": "Burst revision 0664. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3325,
+  "startMs": 0,
+  "endMs": 3325,
+  "text": "Burst revision 0665. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3330,
+  "startMs": 0,
+  "endMs": 3330,
+  "text": "Burst revision 0666. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3335,
+  "startMs": 0,
+  "endMs": 3335,
+  "text": "Burst revision 0667. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3340,
+  "startMs": 0,
+  "endMs": 3340,
+  "text": "Burst revision 0668. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3345,
+  "startMs": 0,
+  "endMs": 3345,
+  "text": "Burst revision 0669. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3350,
+  "startMs": 0,
+  "endMs": 3350,
+  "text": "Burst revision 0670. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3355,
+  "startMs": 0,
+  "endMs": 3355,
+  "text": "Burst revision 0671. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3360,
+  "startMs": 0,
+  "endMs": 3360,
+  "text": "Burst revision 0672. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3365,
+  "startMs": 0,
+  "endMs": 3365,
+  "text": "Burst revision 0673. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3370,
+  "startMs": 0,
+  "endMs": 3370,
+  "text": "Burst revision 0674. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3375,
+  "startMs": 0,
+  "endMs": 3375,
+  "text": "Burst revision 0675. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3380,
+  "startMs": 0,
+  "endMs": 3380,
+  "text": "Burst revision 0676. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3385,
+  "startMs": 0,
+  "endMs": 3385,
+  "text": "Burst revision 0677. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3390,
+  "startMs": 0,
+  "endMs": 3390,
+  "text": "Burst revision 0678. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3395,
+  "startMs": 0,
+  "endMs": 3395,
+  "text": "Burst revision 0679. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3400,
+  "startMs": 0,
+  "endMs": 3400,
+  "text": "Burst revision 0680. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3405,
+  "startMs": 0,
+  "endMs": 3405,
+  "text": "Burst revision 0681. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3410,
+  "startMs": 0,
+  "endMs": 3410,
+  "text": "Burst revision 0682. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3415,
+  "startMs": 0,
+  "endMs": 3415,
+  "text": "Burst revision 0683. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3420,
+  "startMs": 0,
+  "endMs": 3420,
+  "text": "Burst revision 0684. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3425,
+  "startMs": 0,
+  "endMs": 3425,
+  "text": "Burst revision 0685. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3430,
+  "startMs": 0,
+  "endMs": 3430,
+  "text": "Burst revision 0686. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3435,
+  "startMs": 0,
+  "endMs": 3435,
+  "text": "Burst revision 0687. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3440,
+  "startMs": 0,
+  "endMs": 3440,
+  "text": "Burst revision 0688. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3445,
+  "startMs": 0,
+  "endMs": 3445,
+  "text": "Burst revision 0689. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3450,
+  "startMs": 0,
+  "endMs": 3450,
+  "text": "Burst revision 0690. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3455,
+  "startMs": 0,
+  "endMs": 3455,
+  "text": "Burst revision 0691. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3460,
+  "startMs": 0,
+  "endMs": 3460,
+  "text": "Burst revision 0692. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3465,
+  "startMs": 0,
+  "endMs": 3465,
+  "text": "Burst revision 0693. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3470,
+  "startMs": 0,
+  "endMs": 3470,
+  "text": "Burst revision 0694. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3475,
+  "startMs": 0,
+  "endMs": 3475,
+  "text": "Burst revision 0695. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3480,
+  "startMs": 0,
+  "endMs": 3480,
+  "text": "Burst revision 0696. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3485,
+  "startMs": 0,
+  "endMs": 3485,
+  "text": "Burst revision 0697. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3490,
+  "startMs": 0,
+  "endMs": 3490,
+  "text": "Burst revision 0698. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3495,
+  "startMs": 0,
+  "endMs": 3495,
+  "text": "Burst revision 0699. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3500,
+  "startMs": 0,
+  "endMs": 3500,
+  "text": "Burst revision 0700. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3505,
+  "startMs": 0,
+  "endMs": 3505,
+  "text": "Burst revision 0701. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3510,
+  "startMs": 0,
+  "endMs": 3510,
+  "text": "Burst revision 0702. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3515,
+  "startMs": 0,
+  "endMs": 3515,
+  "text": "Burst revision 0703. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3520,
+  "startMs": 0,
+  "endMs": 3520,
+  "text": "Burst revision 0704. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3525,
+  "startMs": 0,
+  "endMs": 3525,
+  "text": "Burst revision 0705. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3530,
+  "startMs": 0,
+  "endMs": 3530,
+  "text": "Burst revision 0706. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3535,
+  "startMs": 0,
+  "endMs": 3535,
+  "text": "Burst revision 0707. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3540,
+  "startMs": 0,
+  "endMs": 3540,
+  "text": "Burst revision 0708. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3545,
+  "startMs": 0,
+  "endMs": 3545,
+  "text": "Burst revision 0709. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3550,
+  "startMs": 0,
+  "endMs": 3550,
+  "text": "Burst revision 0710. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3555,
+  "startMs": 0,
+  "endMs": 3555,
+  "text": "Burst revision 0711. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3560,
+  "startMs": 0,
+  "endMs": 3560,
+  "text": "Burst revision 0712. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3565,
+  "startMs": 0,
+  "endMs": 3565,
+  "text": "Burst revision 0713. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3570,
+  "startMs": 0,
+  "endMs": 3570,
+  "text": "Burst revision 0714. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3575,
+  "startMs": 0,
+  "endMs": 3575,
+  "text": "Burst revision 0715. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3580,
+  "startMs": 0,
+  "endMs": 3580,
+  "text": "Burst revision 0716. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3585,
+  "startMs": 0,
+  "endMs": 3585,
+  "text": "Burst revision 0717. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3590,
+  "startMs": 0,
+  "endMs": 3590,
+  "text": "Burst revision 0718. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3595,
+  "startMs": 0,
+  "endMs": 3595,
+  "text": "Burst revision 0719. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3600,
+  "startMs": 0,
+  "endMs": 3600,
+  "text": "Burst revision 0720. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3605,
+  "startMs": 0,
+  "endMs": 3605,
+  "text": "Burst revision 0721. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3610,
+  "startMs": 0,
+  "endMs": 3610,
+  "text": "Burst revision 0722. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3615,
+  "startMs": 0,
+  "endMs": 3615,
+  "text": "Burst revision 0723. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3620,
+  "startMs": 0,
+  "endMs": 3620,
+  "text": "Burst revision 0724. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3625,
+  "startMs": 0,
+  "endMs": 3625,
+  "text": "Burst revision 0725. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3630,
+  "startMs": 0,
+  "endMs": 3630,
+  "text": "Burst revision 0726. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3635,
+  "startMs": 0,
+  "endMs": 3635,
+  "text": "Burst revision 0727. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3640,
+  "startMs": 0,
+  "endMs": 3640,
+  "text": "Burst revision 0728. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3645,
+  "startMs": 0,
+  "endMs": 3645,
+  "text": "Burst revision 0729. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3650,
+  "startMs": 0,
+  "endMs": 3650,
+  "text": "Burst revision 0730. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3655,
+  "startMs": 0,
+  "endMs": 3655,
+  "text": "Burst revision 0731. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3660,
+  "startMs": 0,
+  "endMs": 3660,
+  "text": "Burst revision 0732. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3665,
+  "startMs": 0,
+  "endMs": 3665,
+  "text": "Burst revision 0733. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3670,
+  "startMs": 0,
+  "endMs": 3670,
+  "text": "Burst revision 0734. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3675,
+  "startMs": 0,
+  "endMs": 3675,
+  "text": "Burst revision 0735. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3680,
+  "startMs": 0,
+  "endMs": 3680,
+  "text": "Burst revision 0736. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3685,
+  "startMs": 0,
+  "endMs": 3685,
+  "text": "Burst revision 0737. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3690,
+  "startMs": 0,
+  "endMs": 3690,
+  "text": "Burst revision 0738. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3695,
+  "startMs": 0,
+  "endMs": 3695,
+  "text": "Burst revision 0739. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3700,
+  "startMs": 0,
+  "endMs": 3700,
+  "text": "Burst revision 0740. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3705,
+  "startMs": 0,
+  "endMs": 3705,
+  "text": "Burst revision 0741. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3710,
+  "startMs": 0,
+  "endMs": 3710,
+  "text": "Burst revision 0742. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3715,
+  "startMs": 0,
+  "endMs": 3715,
+  "text": "Burst revision 0743. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3720,
+  "startMs": 0,
+  "endMs": 3720,
+  "text": "Burst revision 0744. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3725,
+  "startMs": 0,
+  "endMs": 3725,
+  "text": "Burst revision 0745. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3730,
+  "startMs": 0,
+  "endMs": 3730,
+  "text": "Burst revision 0746. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3735,
+  "startMs": 0,
+  "endMs": 3735,
+  "text": "Burst revision 0747. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3740,
+  "startMs": 0,
+  "endMs": 3740,
+  "text": "Burst revision 0748. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3745,
+  "startMs": 0,
+  "endMs": 3745,
+  "text": "Burst revision 0749. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3750,
+  "startMs": 0,
+  "endMs": 3750,
+  "text": "Burst revision 0750. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3755,
+  "startMs": 0,
+  "endMs": 3755,
+  "text": "Burst revision 0751. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3760,
+  "startMs": 0,
+  "endMs": 3760,
+  "text": "Burst revision 0752. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3765,
+  "startMs": 0,
+  "endMs": 3765,
+  "text": "Burst revision 0753. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3770,
+  "startMs": 0,
+  "endMs": 3770,
+  "text": "Burst revision 0754. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3775,
+  "startMs": 0,
+  "endMs": 3775,
+  "text": "Burst revision 0755. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3780,
+  "startMs": 0,
+  "endMs": 3780,
+  "text": "Burst revision 0756. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3785,
+  "startMs": 0,
+  "endMs": 3785,
+  "text": "Burst revision 0757. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3790,
+  "startMs": 0,
+  "endMs": 3790,
+  "text": "Burst revision 0758. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3795,
+  "startMs": 0,
+  "endMs": 3795,
+  "text": "Burst revision 0759. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3800,
+  "startMs": 0,
+  "endMs": 3800,
+  "text": "Burst revision 0760. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3805,
+  "startMs": 0,
+  "endMs": 3805,
+  "text": "Burst revision 0761. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3810,
+  "startMs": 0,
+  "endMs": 3810,
+  "text": "Burst revision 0762. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3815,
+  "startMs": 0,
+  "endMs": 3815,
+  "text": "Burst revision 0763. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3820,
+  "startMs": 0,
+  "endMs": 3820,
+  "text": "Burst revision 0764. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3825,
+  "startMs": 0,
+  "endMs": 3825,
+  "text": "Burst revision 0765. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3830,
+  "startMs": 0,
+  "endMs": 3830,
+  "text": "Burst revision 0766. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3835,
+  "startMs": 0,
+  "endMs": 3835,
+  "text": "Burst revision 0767. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3840,
+  "startMs": 0,
+  "endMs": 3840,
+  "text": "Burst revision 0768. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3845,
+  "startMs": 0,
+  "endMs": 3845,
+  "text": "Burst revision 0769. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3850,
+  "startMs": 0,
+  "endMs": 3850,
+  "text": "Burst revision 0770. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3855,
+  "startMs": 0,
+  "endMs": 3855,
+  "text": "Burst revision 0771. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3860,
+  "startMs": 0,
+  "endMs": 3860,
+  "text": "Burst revision 0772. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3865,
+  "startMs": 0,
+  "endMs": 3865,
+  "text": "Burst revision 0773. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3870,
+  "startMs": 0,
+  "endMs": 3870,
+  "text": "Burst revision 0774. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3875,
+  "startMs": 0,
+  "endMs": 3875,
+  "text": "Burst revision 0775. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3880,
+  "startMs": 0,
+  "endMs": 3880,
+  "text": "Burst revision 0776. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3885,
+  "startMs": 0,
+  "endMs": 3885,
+  "text": "Burst revision 0777. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3890,
+  "startMs": 0,
+  "endMs": 3890,
+  "text": "Burst revision 0778. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3895,
+  "startMs": 0,
+  "endMs": 3895,
+  "text": "Burst revision 0779. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3900,
+  "startMs": 0,
+  "endMs": 3900,
+  "text": "Burst revision 0780. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3905,
+  "startMs": 0,
+  "endMs": 3905,
+  "text": "Burst revision 0781. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3910,
+  "startMs": 0,
+  "endMs": 3910,
+  "text": "Burst revision 0782. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3915,
+  "startMs": 0,
+  "endMs": 3915,
+  "text": "Burst revision 0783. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3920,
+  "startMs": 0,
+  "endMs": 3920,
+  "text": "Burst revision 0784. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3925,
+  "startMs": 0,
+  "endMs": 3925,
+  "text": "Burst revision 0785. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3930,
+  "startMs": 0,
+  "endMs": 3930,
+  "text": "Burst revision 0786. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3935,
+  "startMs": 0,
+  "endMs": 3935,
+  "text": "Burst revision 0787. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3940,
+  "startMs": 0,
+  "endMs": 3940,
+  "text": "Burst revision 0788. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3945,
+  "startMs": 0,
+  "endMs": 3945,
+  "text": "Burst revision 0789. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3950,
+  "startMs": 0,
+  "endMs": 3950,
+  "text": "Burst revision 0790. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3955,
+  "startMs": 0,
+  "endMs": 3955,
+  "text": "Burst revision 0791. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3960,
+  "startMs": 0,
+  "endMs": 3960,
+  "text": "Burst revision 0792. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3965,
+  "startMs": 0,
+  "endMs": 3965,
+  "text": "Burst revision 0793. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3970,
+  "startMs": 0,
+  "endMs": 3970,
+  "text": "Burst revision 0794. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3975,
+  "startMs": 0,
+  "endMs": 3975,
+  "text": "Burst revision 0795. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3980,
+  "startMs": 0,
+  "endMs": 3980,
+  "text": "Burst revision 0796. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3985,
+  "startMs": 0,
+  "endMs": 3985,
+  "text": "Burst revision 0797. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3990,
+  "startMs": 0,
+  "endMs": 3990,
+  "text": "Burst revision 0798. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 3995,
+  "startMs": 0,
+  "endMs": 3995,
+  "text": "Burst revision 0799. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4000,
+  "startMs": 0,
+  "endMs": 4000,
+  "text": "Burst revision 0800. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4005,
+  "startMs": 0,
+  "endMs": 4005,
+  "text": "Burst revision 0801. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4010,
+  "startMs": 0,
+  "endMs": 4010,
+  "text": "Burst revision 0802. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4015,
+  "startMs": 0,
+  "endMs": 4015,
+  "text": "Burst revision 0803. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4020,
+  "startMs": 0,
+  "endMs": 4020,
+  "text": "Burst revision 0804. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4025,
+  "startMs": 0,
+  "endMs": 4025,
+  "text": "Burst revision 0805. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4030,
+  "startMs": 0,
+  "endMs": 4030,
+  "text": "Burst revision 0806. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4035,
+  "startMs": 0,
+  "endMs": 4035,
+  "text": "Burst revision 0807. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4040,
+  "startMs": 0,
+  "endMs": 4040,
+  "text": "Burst revision 0808. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4045,
+  "startMs": 0,
+  "endMs": 4045,
+  "text": "Burst revision 0809. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4050,
+  "startMs": 0,
+  "endMs": 4050,
+  "text": "Burst revision 0810. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4055,
+  "startMs": 0,
+  "endMs": 4055,
+  "text": "Burst revision 0811. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4060,
+  "startMs": 0,
+  "endMs": 4060,
+  "text": "Burst revision 0812. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4065,
+  "startMs": 0,
+  "endMs": 4065,
+  "text": "Burst revision 0813. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4070,
+  "startMs": 0,
+  "endMs": 4070,
+  "text": "Burst revision 0814. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4075,
+  "startMs": 0,
+  "endMs": 4075,
+  "text": "Burst revision 0815. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4080,
+  "startMs": 0,
+  "endMs": 4080,
+  "text": "Burst revision 0816. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4085,
+  "startMs": 0,
+  "endMs": 4085,
+  "text": "Burst revision 0817. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4090,
+  "startMs": 0,
+  "endMs": 4090,
+  "text": "Burst revision 0818. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4095,
+  "startMs": 0,
+  "endMs": 4095,
+  "text": "Burst revision 0819. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4100,
+  "startMs": 0,
+  "endMs": 4100,
+  "text": "Burst revision 0820. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4105,
+  "startMs": 0,
+  "endMs": 4105,
+  "text": "Burst revision 0821. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4110,
+  "startMs": 0,
+  "endMs": 4110,
+  "text": "Burst revision 0822. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4115,
+  "startMs": 0,
+  "endMs": 4115,
+  "text": "Burst revision 0823. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4120,
+  "startMs": 0,
+  "endMs": 4120,
+  "text": "Burst revision 0824. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4125,
+  "startMs": 0,
+  "endMs": 4125,
+  "text": "Burst revision 0825. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4130,
+  "startMs": 0,
+  "endMs": 4130,
+  "text": "Burst revision 0826. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4135,
+  "startMs": 0,
+  "endMs": 4135,
+  "text": "Burst revision 0827. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4140,
+  "startMs": 0,
+  "endMs": 4140,
+  "text": "Burst revision 0828. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4145,
+  "startMs": 0,
+  "endMs": 4145,
+  "text": "Burst revision 0829. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4150,
+  "startMs": 0,
+  "endMs": 4150,
+  "text": "Burst revision 0830. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4155,
+  "startMs": 0,
+  "endMs": 4155,
+  "text": "Burst revision 0831. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4160,
+  "startMs": 0,
+  "endMs": 4160,
+  "text": "Burst revision 0832. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4165,
+  "startMs": 0,
+  "endMs": 4165,
+  "text": "Burst revision 0833. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4170,
+  "startMs": 0,
+  "endMs": 4170,
+  "text": "Burst revision 0834. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4175,
+  "startMs": 0,
+  "endMs": 4175,
+  "text": "Burst revision 0835. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4180,
+  "startMs": 0,
+  "endMs": 4180,
+  "text": "Burst revision 0836. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4185,
+  "startMs": 0,
+  "endMs": 4185,
+  "text": "Burst revision 0837. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4190,
+  "startMs": 0,
+  "endMs": 4190,
+  "text": "Burst revision 0838. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4195,
+  "startMs": 0,
+  "endMs": 4195,
+  "text": "Burst revision 0839. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4200,
+  "startMs": 0,
+  "endMs": 4200,
+  "text": "Burst revision 0840. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4205,
+  "startMs": 0,
+  "endMs": 4205,
+  "text": "Burst revision 0841. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4210,
+  "startMs": 0,
+  "endMs": 4210,
+  "text": "Burst revision 0842. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4215,
+  "startMs": 0,
+  "endMs": 4215,
+  "text": "Burst revision 0843. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4220,
+  "startMs": 0,
+  "endMs": 4220,
+  "text": "Burst revision 0844. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4225,
+  "startMs": 0,
+  "endMs": 4225,
+  "text": "Burst revision 0845. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4230,
+  "startMs": 0,
+  "endMs": 4230,
+  "text": "Burst revision 0846. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4235,
+  "startMs": 0,
+  "endMs": 4235,
+  "text": "Burst revision 0847. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4240,
+  "startMs": 0,
+  "endMs": 4240,
+  "text": "Burst revision 0848. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4245,
+  "startMs": 0,
+  "endMs": 4245,
+  "text": "Burst revision 0849. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4250,
+  "startMs": 0,
+  "endMs": 4250,
+  "text": "Burst revision 0850. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4255,
+  "startMs": 0,
+  "endMs": 4255,
+  "text": "Burst revision 0851. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4260,
+  "startMs": 0,
+  "endMs": 4260,
+  "text": "Burst revision 0852. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4265,
+  "startMs": 0,
+  "endMs": 4265,
+  "text": "Burst revision 0853. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4270,
+  "startMs": 0,
+  "endMs": 4270,
+  "text": "Burst revision 0854. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4275,
+  "startMs": 0,
+  "endMs": 4275,
+  "text": "Burst revision 0855. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4280,
+  "startMs": 0,
+  "endMs": 4280,
+  "text": "Burst revision 0856. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4285,
+  "startMs": 0,
+  "endMs": 4285,
+  "text": "Burst revision 0857. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4290,
+  "startMs": 0,
+  "endMs": 4290,
+  "text": "Burst revision 0858. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4295,
+  "startMs": 0,
+  "endMs": 4295,
+  "text": "Burst revision 0859. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4300,
+  "startMs": 0,
+  "endMs": 4300,
+  "text": "Burst revision 0860. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4305,
+  "startMs": 0,
+  "endMs": 4305,
+  "text": "Burst revision 0861. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4310,
+  "startMs": 0,
+  "endMs": 4310,
+  "text": "Burst revision 0862. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4315,
+  "startMs": 0,
+  "endMs": 4315,
+  "text": "Burst revision 0863. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4320,
+  "startMs": 0,
+  "endMs": 4320,
+  "text": "Burst revision 0864. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4325,
+  "startMs": 0,
+  "endMs": 4325,
+  "text": "Burst revision 0865. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4330,
+  "startMs": 0,
+  "endMs": 4330,
+  "text": "Burst revision 0866. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4335,
+  "startMs": 0,
+  "endMs": 4335,
+  "text": "Burst revision 0867. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4340,
+  "startMs": 0,
+  "endMs": 4340,
+  "text": "Burst revision 0868. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4345,
+  "startMs": 0,
+  "endMs": 4345,
+  "text": "Burst revision 0869. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4350,
+  "startMs": 0,
+  "endMs": 4350,
+  "text": "Burst revision 0870. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4355,
+  "startMs": 0,
+  "endMs": 4355,
+  "text": "Burst revision 0871. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4360,
+  "startMs": 0,
+  "endMs": 4360,
+  "text": "Burst revision 0872. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4365,
+  "startMs": 0,
+  "endMs": 4365,
+  "text": "Burst revision 0873. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4370,
+  "startMs": 0,
+  "endMs": 4370,
+  "text": "Burst revision 0874. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4375,
+  "startMs": 0,
+  "endMs": 4375,
+  "text": "Burst revision 0875. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4380,
+  "startMs": 0,
+  "endMs": 4380,
+  "text": "Burst revision 0876. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4385,
+  "startMs": 0,
+  "endMs": 4385,
+  "text": "Burst revision 0877. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4390,
+  "startMs": 0,
+  "endMs": 4390,
+  "text": "Burst revision 0878. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4395,
+  "startMs": 0,
+  "endMs": 4395,
+  "text": "Burst revision 0879. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4400,
+  "startMs": 0,
+  "endMs": 4400,
+  "text": "Burst revision 0880. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4405,
+  "startMs": 0,
+  "endMs": 4405,
+  "text": "Burst revision 0881. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4410,
+  "startMs": 0,
+  "endMs": 4410,
+  "text": "Burst revision 0882. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4415,
+  "startMs": 0,
+  "endMs": 4415,
+  "text": "Burst revision 0883. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4420,
+  "startMs": 0,
+  "endMs": 4420,
+  "text": "Burst revision 0884. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4425,
+  "startMs": 0,
+  "endMs": 4425,
+  "text": "Burst revision 0885. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4430,
+  "startMs": 0,
+  "endMs": 4430,
+  "text": "Burst revision 0886. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4435,
+  "startMs": 0,
+  "endMs": 4435,
+  "text": "Burst revision 0887. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4440,
+  "startMs": 0,
+  "endMs": 4440,
+  "text": "Burst revision 0888. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4445,
+  "startMs": 0,
+  "endMs": 4445,
+  "text": "Burst revision 0889. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4450,
+  "startMs": 0,
+  "endMs": 4450,
+  "text": "Burst revision 0890. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4455,
+  "startMs": 0,
+  "endMs": 4455,
+  "text": "Burst revision 0891. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4460,
+  "startMs": 0,
+  "endMs": 4460,
+  "text": "Burst revision 0892. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4465,
+  "startMs": 0,
+  "endMs": 4465,
+  "text": "Burst revision 0893. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4470,
+  "startMs": 0,
+  "endMs": 4470,
+  "text": "Burst revision 0894. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4475,
+  "startMs": 0,
+  "endMs": 4475,
+  "text": "Burst revision 0895. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4480,
+  "startMs": 0,
+  "endMs": 4480,
+  "text": "Burst revision 0896. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4485,
+  "startMs": 0,
+  "endMs": 4485,
+  "text": "Burst revision 0897. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4490,
+  "startMs": 0,
+  "endMs": 4490,
+  "text": "Burst revision 0898. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4495,
+  "startMs": 0,
+  "endMs": 4495,
+  "text": "Burst revision 0899. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4500,
+  "startMs": 0,
+  "endMs": 4500,
+  "text": "Burst revision 0900. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4505,
+  "startMs": 0,
+  "endMs": 4505,
+  "text": "Burst revision 0901. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4510,
+  "startMs": 0,
+  "endMs": 4510,
+  "text": "Burst revision 0902. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4515,
+  "startMs": 0,
+  "endMs": 4515,
+  "text": "Burst revision 0903. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4520,
+  "startMs": 0,
+  "endMs": 4520,
+  "text": "Burst revision 0904. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4525,
+  "startMs": 0,
+  "endMs": 4525,
+  "text": "Burst revision 0905. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4530,
+  "startMs": 0,
+  "endMs": 4530,
+  "text": "Burst revision 0906. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4535,
+  "startMs": 0,
+  "endMs": 4535,
+  "text": "Burst revision 0907. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4540,
+  "startMs": 0,
+  "endMs": 4540,
+  "text": "Burst revision 0908. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4545,
+  "startMs": 0,
+  "endMs": 4545,
+  "text": "Burst revision 0909. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4550,
+  "startMs": 0,
+  "endMs": 4550,
+  "text": "Burst revision 0910. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4555,
+  "startMs": 0,
+  "endMs": 4555,
+  "text": "Burst revision 0911. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4560,
+  "startMs": 0,
+  "endMs": 4560,
+  "text": "Burst revision 0912. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4565,
+  "startMs": 0,
+  "endMs": 4565,
+  "text": "Burst revision 0913. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4570,
+  "startMs": 0,
+  "endMs": 4570,
+  "text": "Burst revision 0914. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4575,
+  "startMs": 0,
+  "endMs": 4575,
+  "text": "Burst revision 0915. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4580,
+  "startMs": 0,
+  "endMs": 4580,
+  "text": "Burst revision 0916. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4585,
+  "startMs": 0,
+  "endMs": 4585,
+  "text": "Burst revision 0917. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4590,
+  "startMs": 0,
+  "endMs": 4590,
+  "text": "Burst revision 0918. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4595,
+  "startMs": 0,
+  "endMs": 4595,
+  "text": "Burst revision 0919. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4600,
+  "startMs": 0,
+  "endMs": 4600,
+  "text": "Burst revision 0920. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4605,
+  "startMs": 0,
+  "endMs": 4605,
+  "text": "Burst revision 0921. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4610,
+  "startMs": 0,
+  "endMs": 4610,
+  "text": "Burst revision 0922. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4615,
+  "startMs": 0,
+  "endMs": 4615,
+  "text": "Burst revision 0923. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4620,
+  "startMs": 0,
+  "endMs": 4620,
+  "text": "Burst revision 0924. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4625,
+  "startMs": 0,
+  "endMs": 4625,
+  "text": "Burst revision 0925. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4630,
+  "startMs": 0,
+  "endMs": 4630,
+  "text": "Burst revision 0926. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4635,
+  "startMs": 0,
+  "endMs": 4635,
+  "text": "Burst revision 0927. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4640,
+  "startMs": 0,
+  "endMs": 4640,
+  "text": "Burst revision 0928. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4645,
+  "startMs": 0,
+  "endMs": 4645,
+  "text": "Burst revision 0929. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4650,
+  "startMs": 0,
+  "endMs": 4650,
+  "text": "Burst revision 0930. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4655,
+  "startMs": 0,
+  "endMs": 4655,
+  "text": "Burst revision 0931. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4660,
+  "startMs": 0,
+  "endMs": 4660,
+  "text": "Burst revision 0932. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4665,
+  "startMs": 0,
+  "endMs": 4665,
+  "text": "Burst revision 0933. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4670,
+  "startMs": 0,
+  "endMs": 4670,
+  "text": "Burst revision 0934. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4675,
+  "startMs": 0,
+  "endMs": 4675,
+  "text": "Burst revision 0935. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4680,
+  "startMs": 0,
+  "endMs": 4680,
+  "text": "Burst revision 0936. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4685,
+  "startMs": 0,
+  "endMs": 4685,
+  "text": "Burst revision 0937. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4690,
+  "startMs": 0,
+  "endMs": 4690,
+  "text": "Burst revision 0938. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4695,
+  "startMs": 0,
+  "endMs": 4695,
+  "text": "Burst revision 0939. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4700,
+  "startMs": 0,
+  "endMs": 4700,
+  "text": "Burst revision 0940. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4705,
+  "startMs": 0,
+  "endMs": 4705,
+  "text": "Burst revision 0941. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4710,
+  "startMs": 0,
+  "endMs": 4710,
+  "text": "Burst revision 0942. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4715,
+  "startMs": 0,
+  "endMs": 4715,
+  "text": "Burst revision 0943. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4720,
+  "startMs": 0,
+  "endMs": 4720,
+  "text": "Burst revision 0944. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4725,
+  "startMs": 0,
+  "endMs": 4725,
+  "text": "Burst revision 0945. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4730,
+  "startMs": 0,
+  "endMs": 4730,
+  "text": "Burst revision 0946. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4735,
+  "startMs": 0,
+  "endMs": 4735,
+  "text": "Burst revision 0947. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4740,
+  "startMs": 0,
+  "endMs": 4740,
+  "text": "Burst revision 0948. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4745,
+  "startMs": 0,
+  "endMs": 4745,
+  "text": "Burst revision 0949. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4750,
+  "startMs": 0,
+  "endMs": 4750,
+  "text": "Burst revision 0950. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4755,
+  "startMs": 0,
+  "endMs": 4755,
+  "text": "Burst revision 0951. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4760,
+  "startMs": 0,
+  "endMs": 4760,
+  "text": "Burst revision 0952. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4765,
+  "startMs": 0,
+  "endMs": 4765,
+  "text": "Burst revision 0953. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4770,
+  "startMs": 0,
+  "endMs": 4770,
+  "text": "Burst revision 0954. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4775,
+  "startMs": 0,
+  "endMs": 4775,
+  "text": "Burst revision 0955. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4780,
+  "startMs": 0,
+  "endMs": 4780,
+  "text": "Burst revision 0956. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4785,
+  "startMs": 0,
+  "endMs": 4785,
+  "text": "Burst revision 0957. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4790,
+  "startMs": 0,
+  "endMs": 4790,
+  "text": "Burst revision 0958. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4795,
+  "startMs": 0,
+  "endMs": 4795,
+  "text": "Burst revision 0959. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4800,
+  "startMs": 0,
+  "endMs": 4800,
+  "text": "Burst revision 0960. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4805,
+  "startMs": 0,
+  "endMs": 4805,
+  "text": "Burst revision 0961. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4810,
+  "startMs": 0,
+  "endMs": 4810,
+  "text": "Burst revision 0962. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4815,
+  "startMs": 0,
+  "endMs": 4815,
+  "text": "Burst revision 0963. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4820,
+  "startMs": 0,
+  "endMs": 4820,
+  "text": "Burst revision 0964. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4825,
+  "startMs": 0,
+  "endMs": 4825,
+  "text": "Burst revision 0965. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4830,
+  "startMs": 0,
+  "endMs": 4830,
+  "text": "Burst revision 0966. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4835,
+  "startMs": 0,
+  "endMs": 4835,
+  "text": "Burst revision 0967. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4840,
+  "startMs": 0,
+  "endMs": 4840,
+  "text": "Burst revision 0968. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4845,
+  "startMs": 0,
+  "endMs": 4845,
+  "text": "Burst revision 0969. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4850,
+  "startMs": 0,
+  "endMs": 4850,
+  "text": "Burst revision 0970. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4855,
+  "startMs": 0,
+  "endMs": 4855,
+  "text": "Burst revision 0971. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4860,
+  "startMs": 0,
+  "endMs": 4860,
+  "text": "Burst revision 0972. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4865,
+  "startMs": 0,
+  "endMs": 4865,
+  "text": "Burst revision 0973. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4870,
+  "startMs": 0,
+  "endMs": 4870,
+  "text": "Burst revision 0974. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4875,
+  "startMs": 0,
+  "endMs": 4875,
+  "text": "Burst revision 0975. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4880,
+  "startMs": 0,
+  "endMs": 4880,
+  "text": "Burst revision 0976. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4885,
+  "startMs": 0,
+  "endMs": 4885,
+  "text": "Burst revision 0977. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4890,
+  "startMs": 0,
+  "endMs": 4890,
+  "text": "Burst revision 0978. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4895,
+  "startMs": 0,
+  "endMs": 4895,
+  "text": "Burst revision 0979. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4900,
+  "startMs": 0,
+  "endMs": 4900,
+  "text": "Burst revision 0980. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4905,
+  "startMs": 0,
+  "endMs": 4905,
+  "text": "Burst revision 0981. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4910,
+  "startMs": 0,
+  "endMs": 4910,
+  "text": "Burst revision 0982. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4915,
+  "startMs": 0,
+  "endMs": 4915,
+  "text": "Burst revision 0983. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4920,
+  "startMs": 0,
+  "endMs": 4920,
+  "text": "Burst revision 0984. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4925,
+  "startMs": 0,
+  "endMs": 4925,
+  "text": "Burst revision 0985. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4930,
+  "startMs": 0,
+  "endMs": 4930,
+  "text": "Burst revision 0986. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4935,
+  "startMs": 0,
+  "endMs": 4935,
+  "text": "Burst revision 0987. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4940,
+  "startMs": 0,
+  "endMs": 4940,
+  "text": "Burst revision 0988. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4945,
+  "startMs": 0,
+  "endMs": 4945,
+  "text": "Burst revision 0989. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4950,
+  "startMs": 0,
+  "endMs": 4950,
+  "text": "Burst revision 0990. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4955,
+  "startMs": 0,
+  "endMs": 4955,
+  "text": "Burst revision 0991. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4960,
+  "startMs": 0,
+  "endMs": 4960,
+  "text": "Burst revision 0992. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4965,
+  "startMs": 0,
+  "endMs": 4965,
+  "text": "Burst revision 0993. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4970,
+  "startMs": 0,
+  "endMs": 4970,
+  "text": "Burst revision 0994. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4975,
+  "startMs": 0,
+  "endMs": 4975,
+  "text": "Burst revision 0995. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4980,
+  "startMs": 0,
+  "endMs": 4980,
+  "text": "Burst revision 0996. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4985,
+  "startMs": 0,
+  "endMs": 4985,
+  "text": "Burst revision 0997. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4990,
+  "startMs": 0,
+  "endMs": 4990,
+  "text": "Burst revision 0998. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 4995,
+  "startMs": 0,
+  "endMs": 4995,
+  "text": "Burst revision 0999. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 5000,
+  "startMs": 0,
+  "endMs": 5000,
+  "text": "Burst revision 1000. ",
+  "isFinal": false
+ },
+ {
+  "atMs": 5600,
+  "startMs": 0,
+  "endMs": 5500,
+  "text": "All one thousand revisions reached the final transcript. ",
+  "isFinal": true
+ }
+]

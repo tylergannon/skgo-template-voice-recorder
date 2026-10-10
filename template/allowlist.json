@@ -1,0 +1,190 @@
+[
+  {
+    "source": "recorder/cmd/transcript-fixture/main.go",
+    "destination": "cmd/transcript-fixture/main.go"
+  },
+  {
+    "source": "recorder/cmd/transcript-fixture/main_test.go",
+    "destination": "cmd/transcript-fixture/main_test.go"
+  },
+  {
+    "source": "recorder/internal/transcript/store.go",
+    "destination": "internal/transcript/store.go"
+  },
+  {
+    "source": "recorder/internal/transcript/store_test.go",
+    "destination": "internal/transcript/store_test.go"
+  },
+  {
+    "source": "recorder/internal/transcript/stream_real.go",
+    "destination": "internal/transcript/stream_real.go"
+  },
+  {
+    "source": "recorder/internal/transcript/stream_synthetic.go",
+    "destination": "internal/transcript/stream_synthetic.go"
+  },
+  {
+    "source": "recorder/internal/transcript/stream_synthetic_test.go",
+    "destination": "internal/transcript/stream_synthetic_test.go"
+  },
+  {
+    "source": "recorder/native/Resources/Licenses/AppleSample-LICENSE.txt",
+    "destination": "native/Resources/Licenses/AppleSample-LICENSE.txt"
+  },
+  {
+    "source": "recorder/native/Resources/Licenses/AuralKit-LICENSE.txt",
+    "destination": "native/Resources/Licenses/AuralKit-LICENSE.txt"
+  },
+  {
+    "source": "recorder/native/Resources/synthetic-transcript.json",
+    "destination": "native/Resources/synthetic-transcript.json"
+  },
+  {
+    "source": "recorder/native/Sources/MicrophoneSource.swift",
+    "destination": "native/Sources/MicrophoneSource.swift"
+  },
+  {
+    "source": "recorder/native/Sources/NativeCommands.swift",
+    "destination": "native/Sources/NativeCommands.swift"
+  },
+  {
+    "source": "recorder/native/Sources/RecorderController.swift",
+    "destination": "native/Sources/RecorderController.swift"
+  },
+  {
+    "source": "recorder/native/Sources/RecorderControls.swift",
+    "destination": "native/Sources/RecorderControls.swift"
+  },
+  {
+    "source": "recorder/native/Sources/RecorderScreen.swift",
+    "destination": "native/Sources/RecorderScreen.swift"
+  },
+  {
+    "source": "recorder/native/Sources/RecordingInput.swift",
+    "destination": "native/Sources/RecordingInput.swift"
+  },
+  {
+    "source": "recorder/native/Sources/RecordingSettings.swift",
+    "destination": "native/Sources/RecordingSettings.swift"
+  },
+  {
+    "source": "recorder/native/Sources/SyntheticSource.swift",
+    "destination": "native/Sources/SyntheticSource.swift"
+  },
+  {
+    "source": "recorder/native/Sources/TranscriptCore.swift",
+    "destination": "native/Sources/TranscriptCore.swift"
+  },
+  {
+    "source": "recorder/native/Tests/ControllerTests.swift",
+    "destination": "native/Tests/ControllerTests.swift"
+  },
+  {
+    "source": "recorder/native/Tests/CoreTests.swift",
+    "destination": "native/Tests/CoreTests.swift"
+  },
+  {
+    "source": "recorder/native/Tests/Fixtures/burst-transcript.json",
+    "destination": "native/Tests/Fixtures/burst-transcript.json"
+  },
+  {
+    "source": "recorder/native/Tests/RecordingInputTests.swift",
+    "destination": "native/Tests/RecordingInputTests.swift"
+  },
+  {
+    "source": "recorder/native/Tests/ScriptedControllerTests.swift",
+    "destination": "native/Tests/ScriptedControllerTests.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/.gitignore",
+    "destination": "native/Transcription/.gitignore"
+  },
+  {
+    "source": "recorder/native/Transcription/Package.swift",
+    "destination": "native/Transcription/Package.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/ProbeInfo.plist",
+    "destination": "native/Transcription/ProbeInfo.plist"
+  },
+  {
+    "source": "recorder/native/Transcription/README.md",
+    "destination": "native/Transcription/README.md"
+  },
+  {
+    "source": "recorder/native/Transcription/Sources/AppleTranscription/AudioInputLevel.swift",
+    "destination": "native/Transcription/Sources/AppleTranscription/AudioInputLevel.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/Sources/AppleTranscription/InputDevices.swift",
+    "destination": "native/Transcription/Sources/AppleTranscription/InputDevices.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/Sources/AppleTranscription/MicrophoneSource.swift",
+    "destination": "native/Transcription/Sources/AppleTranscription/MicrophoneSource.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/Sources/ScriptedTranscription/SyntheticSource.swift",
+    "destination": "native/Transcription/Sources/ScriptedTranscription/SyntheticSource.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/Sources/TranscriptSource/TranscriptSource.swift",
+    "destination": "native/Transcription/Sources/TranscriptSource/TranscriptSource.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/Sources/TranscriptionProbe/main.swift",
+    "destination": "native/Transcription/Sources/TranscriptionProbe/main.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/Tests/AudioTests/AudioTests.swift",
+    "destination": "native/Transcription/Tests/AudioTests/AudioTests.swift"
+  },
+  {
+    "source": "recorder/native/Transcription/Tests/SyntheticTests/SyntheticTests.swift",
+    "destination": "native/Transcription/Tests/SyntheticTests/SyntheticTests.swift"
+  },
+  {
+    "source": "recorder/scripts/check-transcription.sh",
+    "destination": "scripts/check-transcription.sh",
+    "executable": true
+  },
+  {
+    "source": "recorder/scripts/feed-transcript.sh",
+    "destination": "scripts/feed-transcript.sh",
+    "executable": true
+  },
+  {
+    "source": "recorder/scripts/probe-transcription.sh",
+    "destination": "scripts/probe-transcription.sh",
+    "executable": true
+  },
+  {
+    "source": "recorder/web/src/lib/TranscriptScreen.svelte",
+    "destination": "web/src/lib/TranscriptScreen.svelte"
+  },
+  {
+    "source": "recorder/web/src/lib/TranscriptScreen.svelte.spec.ts",
+    "destination": "web/src/lib/TranscriptScreen.svelte.spec.ts"
+  },
+  {
+    "source": "recorder/web/src/lib/native-status.spec.ts",
+    "destination": "web/src/lib/native-status.spec.ts"
+  },
+  {
+    "source": "recorder/web/src/lib/native-status.ts",
+    "destination": "web/src/lib/native-status.ts"
+  },
+  {
+    "source": "recorder/web/src/lib/transcript.remote.go",
+    "destination": "web/src/lib/transcript.remote.go"
+  },
+  {
+    "source": "recorder/web/src/routes/+page.svelte",
+    "destination": "web/src/routes/+page.svelte"
+  },
+  {
+    "source": "scripts/check-recorder.sh",
+    "destination": "scripts/check-recorder.sh",
+    "executable": true
+  }
+]

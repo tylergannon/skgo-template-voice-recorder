@@ -1,0 +1,10 @@
+# Recorder template extraction
+
+correction: The active assignment is implementation of the new reusable recorder repository and fresh-consumer validation, not a replay of the completed meter task. A stale-context reply repeated historical iPhone installation; verified source and retained evidence already contained that geometry change.
+decision: Framework peer confirmed new repository as canonical recorder source; original Voice Notes remains an intact application baseline. Canonical recorder/ files will be packaged from one reviewed allowlist.
+decision: Use actual SDK commit 4badfe9; generic NativeHost/App/build belongs to SKGo, application-specific view/coordinator/controller belongs here. Native slot/config handoff and released foundation remain prerequisites for consumer validation.
+
+friction: Raw Go payload filenames were initially included in Go module scanning, which tried to compile consumer remotes before generation. Stage files with .txt suffix and strip it only on installation; root packaging checks now pass without consumer bindings.
+decision: Core provides skgo-plugin-build; consume its actual host graph/settings recipe rather than duplicate it in this repository. Feeder now resolves named generated codecs/remote registrations rather than numbered roots.
+
+review: Opus5.5 preparation review confirmed extraction preservation and no generic bootstrap duplication. It flagged native permission/background settings tracking, missing ordinary main compile entry and mode/identity validation; fixed these in the preparation checkpoint. Payload generation remains an explicit mandatory source-build step, as required by the selected contract; final source-build wrapper awaits core helper.
