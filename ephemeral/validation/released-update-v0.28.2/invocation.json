@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/private/tmp/recorder-update-v0282-iup2x7f8/host/skgo",
+    "update",
+    "--root",
+    "/private/tmp/recorder-update-v0282-iup2x7f8/UpdatedFieldNotes",
+    "--vp",
+    "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vp",
+    "--native-platform",
+    "macos",
+    "--native-preset",
+    "synthetic"
+  ],
+  "environmentOverrides": {
+    "VP_HOME": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp",
+    "GOWORK": "off",
+    "CI": "1",
+    "GOBIN": "/private/tmp/recorder-update-v0282-iup2x7f8/host"
+  },
+  "hostSHA256Before": "300a6ee364df20734104424727dfbae8494926e79dd28b19db0e041e6148a0c3",
+  "vpResolvedExecutable": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/1.0.0/bin/vp",
+  "vpSHA256": "d787c0a83bd0d9ed715d23234473fd8363b8e5dd08937a2cea85e3eb17cd9e34",
+  "developmentOverrides": false,
+  "prerequisitePatches": false
+}

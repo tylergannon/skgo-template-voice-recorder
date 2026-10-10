@@ -1,0 +1,19 @@
+{
+  "baselineUnchanged": true,
+  "consumerUnchanged": true,
+  "baselineEntries": 120,
+  "consumerEntries": 120,
+  "consumerChangedPaths": [],
+  "hostSHA256After": "300a6ee364df20734104424727dfbae8494926e79dd28b19db0e041e6148a0c3",
+  "appSKGoRequirement": "v0.27.0",
+  "authoredReceiptsUnchanged": {
+    "README.md": true,
+    "native/Sources/ApplicationView.swift": true,
+    "native/skgo-native.json": true,
+    "web/src/lib/TranscriptScreen.svelte": true
+  },
+  "updateExitCode": 1,
+  "nativeBuildReached": false,
+  "webBuildReached": false,
+  "runtimeObserved": false
+}

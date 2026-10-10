@@ -1,0 +1,43 @@
+Installing skgo v0.28.2 with Go.
+CLI installed: /private/tmp/recorder-update-v0282-iup2x7f8/host/skgo (v0.28.2) -> /private/tmp/recorder-update-v0282-iup2x7f8/host/skgo (v0.28.2).
+PATH still resolves skgo to "/Users/tyler/go/bin/skgo"; use /private/tmp/recorder-update-v0282-iup2x7f8/host/skgo or adjust PATH.
+VitePlus aligned: 1.0.0 at /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vp.
+Selected adapter 0.28.2 and sv add-on 0.17.1 for skgo v0.28.2.
+Existing VitePlus project: aligning dependencies without source migration.
+Configured the Kit 3.0.0 prerender queue correction in /private/var/folders/lt/09rsy64x65s_0fp2b8zq3n7m0000gn/T/skgo-update-project-3516152710.
+Files authored: /private/var/folders/lt/09rsy64x65s_0fp2b8zq3n7m0000gn/T/skgo-update-project-3516152710/package.json, /private/var/folders/lt/09rsy64x65s_0fp2b8zq3n7m0000gn/T/skgo-update-project-3516152710/patches/skgo-kit-3.0.0-queue.patch, and /private/var/folders/lt/09rsy64x65s_0fp2b8zq3n7m0000gn/T/skgo-update-project-3516152710/pnpm-workspace.yaml.
+Installation is still required: run `node_modules/.bin/vp install --no-frozen-lockfile` from /private/var/folders/lt/09rsy64x65s_0fp2b8zq3n7m0000gn/T/skgo-update-project-3516152710, then run `go tool skgo kit-patch --web /private/var/folders/lt/09rsy64x65s_0fp2b8zq3n7m0000gn/T/skgo-update-project-3516152710 --check` from the Go app root.
+✓ Lockfile passes supply-chain policies (verified 1h ago)
+Added 1 entry to minimumReleaseAgeExclude in pnpm-workspace.yaml (set minimumReleaseAgeStrict to true to gate these updates with a prompt):
+  @skgo/sveltekit-adapter@0.28.2
+[WARN] 24 deprecated subdependencies found: @yuku-codegen/binding-android-arm64@0.9.5, @yuku-codegen/binding-darwin-arm64@0.9.5, @yuku-codegen/binding-darwin-x64@0.9.5, @yuku-codegen/binding-freebsd-x64@0.9.5, @yuku-codegen/binding-linux-arm-gnu@0.9.5, @yuku-codegen/binding-linux-arm-musl@0.9.5, @yuku-codegen/binding-linux-arm64-gnu@0.9.5, @yuku-codegen/binding-linux-arm64-musl@0.9.5, @yuku-codegen/binding-linux-x64-gnu@0.9.5, @yuku-codegen/binding-linux-x64-musl@0.9.5, @yuku-codegen/binding-win32-arm64@0.9.5, @yuku-codegen/binding-win32-x64@0.9.5, @yuku-parser/binding-android-arm64@0.9.5, @yuku-parser/binding-darwin-arm64@0.9.5, @yuku-parser/binding-darwin-x64@0.9.5, @yuku-parser/binding-freebsd-x64@0.9.5, @yuku-parser/binding-linux-arm-gnu@0.9.5, @yuku-parser/binding-linux-arm-musl@0.9.5, @yuku-parser/binding-linux-arm64-gnu@0.9.5, @yuku-parser/binding-linux-arm64-musl@0.9.5, @yuku-parser/binding-linux-x64-gnu@0.9.5, @yuku-parser/binding-linux-x64-musl@0.9.5, @yuku-parser/binding-win32-arm64@0.9.5, @yuku-parser/binding-win32-x64@0.9.5
+Packages are cloned from the content-addressable store to the virtual store.
+  Content-addressable store is at: /Users/tyler/Library/pnpm/store/v11
+  Virtual store is at:             node_modules/.pnpm
+Packages: +190
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 190, reused 197, downloaded 1, added 190, done
+. prepare$ svelte-kit sync || echo ''
+. prepare: Done
+
+devDependencies:
++ @skgo/sveltekit-adapter 0.28.2
++ @storybook/addon-svelte-csf 5.1.5
++ @storybook/sveltekit 10.6.1
++ @sveltejs/kit 3.0.0
++ @sveltejs/vite-plugin-svelte 7.3.1
++ @vitest/browser-playwright 5.0.1
++ playwright 1.64.0
++ storybook 10.6.1
++ svelte 5.57.2
++ svelte-check 4.7.6
++ typescript 6.0.3
++ vite <- @voidzero-dev/vite-plus-core 1.0.0
++ vite-plus 1.0.0
++ vitest 5.0.1
++ vitest-browser-svelte 3.1.0
+
+Done in 2.2s using pnpm v12.9.1
+Verified @sveltejs/kit 3.0.0 and its installed prerender queue patch in /private/var/folders/lt/09rsy64x65s_0fp2b8zq3n7m0000gn/T/skgo-update-project-3516152710.
+skgo update incomplete: VitePlus update would change authored configuration in pnpm-workspace.yaml at ["minimumReleaseAgeExclude"]; application configuration is untouched
+skgo update incomplete: CLI v0.28.2 is installed, but toolchain/project update is incomplete: /private/tmp/recorder-update-v0282-iup2x7f8/host/skgo update --complete-version v0.28.2 --root /private/tmp/recorder-update-v0282-iup2x7f8/UpdatedFieldNotes --vp /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vp --native-platform macos --native-preset synthetic: exit status 1
