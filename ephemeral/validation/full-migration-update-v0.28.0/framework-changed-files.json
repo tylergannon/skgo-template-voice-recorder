@@ -1,0 +1,22 @@
+[
+  {
+    "path": "package.json",
+    "beforeSHA256": "f0e37f514640901cead51340a60abe2b5279d4af0c237200bc0d995dc7dc4a94",
+    "afterSHA256": "9a36ceb7f0334f71ad8845a316455beffac74875be9fe7cd4cb743ee39a1b4d1"
+  },
+  {
+    "path": "pnpm-lock.yaml",
+    "beforeSHA256": "643bff6f3e004c3e3059b2cd97ae3136c8ef97249cc0d4f99c90be4fc602665b",
+    "afterSHA256": "c50643fd000e64fa32e0c261f5c2aca916d1fcdb83fe6a3758c1835715977e5f"
+  },
+  {
+    "path": "pnpm-workspace.yaml",
+    "beforeSHA256": "f032a087092741831526a74b67b7f5de6b55360502d3fbb730e4de28bba66843",
+    "afterSHA256": "f80666cf6408ab3d741ee383d95dd78edbac40350b3cf98f9c67673966539e7b"
+  },
+  {
+    "path": "src/lib/vitest-examples/Welcome.svelte.spec.ts",
+    "beforeSHA256": "c587770018ced45303bf570319bd270d97afbabdd328198d706570c4f5d91da6",
+    "afterSHA256": "d800d8b2963d9c0f3ece92f3cd3f9f5551d268d0e1121dcf771d3d9e74f7e503"
+  }
+]

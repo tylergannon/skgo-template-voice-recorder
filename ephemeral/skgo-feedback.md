@@ -70,3 +70,7 @@ The framework peer also removed VitePlus installer shell-init entries pointing
 into its archived qualification worktree; those entries emitted login-shell
 missing-file errors after cleanup. Preserve normal VitePlus configuration and
 avoid installer side effects referencing disposable worktrees.
+
+## v0.28.0 full explicit vp baseline is still unstable under updater
+
+Confirmed result: NEW disposable27 consumer adopts all four files of exact reviewed full vp1.0 migration, including widened Vitest peer rules; every supplied before/post SHA matches. One released28 update then refuses another Welcome example source change. Stage/dependency/Kit patch pass, app remains27 and native build not reached. Full source inventory/authored/native config preserved; no guard relaxed or retry. Precise next rewrite unknown because stage removed; do not guess codemod/formatter cause. Reproduction/diff/log/hash evidence: validation/full-migration-update-v0.28.0/report.md. Both earlier guarded refusals retained; normal-original-input and conditional successful update remain gaps.

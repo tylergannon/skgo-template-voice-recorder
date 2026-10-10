@@ -1,0 +1,9 @@
+# Complete explicit vp migration qualification
+
+request: Coordinator explicitly authorized the complete retained/reviewed pinned-vp migration as one prerequisite baseline in a NEW disposable27 consumer, followed by at most one released update. The widened Vitest peer policy is authorized only in this experiment; canonical recorder and installed apps stay unchanged. Both prior refusals and original-input usability gap remain visible. Stop if diff diverges; never relax guards.
+
+review: Independently compared every frontend file against retained framework post-migration stage: no added/missing files and exactly package.json, pnpm-lock.yaml, pnpm-workspace.yaml and Welcome example test differ. Read complete manifests, policy/source and lockfile diff. Test runner/await rewrite, Vitest catalog/override, pinned pnpm12.9.1 and explicit Vitest allowAny/allowedVersions widening match reviewed probe. Copied exact four post files, not iterative patches. Authored README/native ApplicationView/transcript screen/native config hashes and existing Storybook peer rule remain unchanged. Full before/pre-update inventories and complete diff retained.
+
+execution: Released stable28 verified source3f0a9c8 before one actual update invocation on full-migration-update-consumer, forwarding macos/synthetic. Outcome pending; no additional update runs authorized in this experiment.
+
+result: Exact full reviewed baseline passed source-file/hash equivalence, but one released28 updater refused another Welcome test rewrite. No subsequent source patch/migrate/update. Full new source inventory and authored/native configuration/shell hashes remain unchanged. App/native build not reached. Preserve both earlier refusals and original-input usability gap; no conditional success claim. Framework/coordinator sent exact result for diagnosis.

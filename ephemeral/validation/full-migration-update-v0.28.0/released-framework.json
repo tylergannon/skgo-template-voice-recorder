@@ -1,0 +1,16 @@
+{
+  "Path": "github.com/tylergannon/skgo",
+  "Version": "v0.28.0",
+  "Query": "latest",
+  "Time": "2026-10-10T03:01:59Z",
+  "Dir": "/Users/tyler/go/pkg/mod/github.com/tylergannon/skgo@v0.28.0",
+  "GoMod": "/Users/tyler/go/pkg/mod/cache/download/github.com/tylergannon/skgo/@v/v0.28.0.mod",
+  "GoVersion": "1.27.1",
+  "Origin": {
+    "VCS": "git",
+    "URL": "https://github.com/tylergannon/skgo",
+    "Hash": "3f0a9c8018d7b375cf84ccc2d0efa0340d69d8ca",
+    "TagSum": "t1:03JElL9HoCgVXdhU9VByTU4l5RANph2v1kYHZd1etFM=",
+    "Ref": "refs/tags/v0.28.0"
+  }
+}
