@@ -1,0 +1,46 @@
+{
+  "name": "FieldNotes",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#lib": "./src/lib/index.js",
+    "#lib/*": "./src/lib/*"
+  },
+  "scripts": {
+    "build": "vp build",
+    "build-storybook": "storybook build",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "dev": "vp dev",
+    "prepare": "svelte-kit sync || echo ''",
+    "preview": "cd .. && just serve",
+    "storybook": "storybook dev -p 6006",
+    "test": "pnpm run test:unit --run",
+    "test:unit": "vitest"
+  },
+  "devDependencies": {
+    "@skgo/sveltekit-adapter": "0.22.1",
+    "@storybook/addon-svelte-csf": "latest",
+    "@storybook/sveltekit": "^10.6.1",
+    "@sveltejs/kit": "3.0.0",
+    "@sveltejs/vite-plugin-svelte": "^7.2.0",
+    "@vitest/browser-playwright": "5.0.1",
+    "playwright": "^1.60.0",
+    "storybook": "^10.6.1",
+    "svelte": "^5.57.1",
+    "svelte-check": "^4.6.0",
+    "typescript": "^6.0.3",
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
+    "vitest": "5.0.1",
+    "vitest-browser-svelte": "3.1.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.10.1",
+      "onFail": "download"
+    }
+  }
+}

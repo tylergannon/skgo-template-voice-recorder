@@ -1,0 +1,6 @@
+{
+  "pid": 52632,
+  "command": "/private/tmp/recorder-update-v0283-5s0_m457/UpdatedFieldNotes/bin/FieldNotes --listen 127.0.0.1:8198 --origin http://127.0.0.1:8198",
+  "action": "SIGTERM",
+  "timeUTC": "2026-10-10T09:01:14.442066+00:00"
+}

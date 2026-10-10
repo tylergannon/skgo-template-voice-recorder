@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/private/tmp/recorder-update-v0283-5s0_m457/host/skgo",
+    "update",
+    "--root",
+    "/private/tmp/recorder-update-v0283-5s0_m457/UpdatedFieldNotes",
+    "--vp",
+    "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vp",
+    "--native-platform",
+    "macos",
+    "--native-preset",
+    "synthetic"
+  ],
+  "environmentOverrides": {
+    "VP_HOME": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp",
+    "GOWORK": "off",
+    "CI": "1",
+    "GOBIN": "/private/tmp/recorder-update-v0283-5s0_m457/host"
+  },
+  "hostSHA256Before": "9bff943f3f20d6d7b7a457c23b28d7133bb76abe9aa5b9e624984453641b898f",
+  "vpResolvedExecutable": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/1.0.0/bin/vp",
+  "vpSHA256": "d787c0a83bd0d9ed715d23234473fd8363b8e5dd08937a2cea85e3eb17cd9e34",
+  "developmentOverrides": false,
+  "prerequisitePatches": false
+}

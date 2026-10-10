@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vp",
+    "env",
+    "exec",
+    "--package-manager",
+    "pnpm@12.9.1",
+    "just",
+    "test"
+  ],
+  "environmentOverrides": {
+    "VP_HOME": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp",
+    "GOWORK": "off"
+  },
+  "manifestChanged": false,
+  "privateWrapper": false
+}

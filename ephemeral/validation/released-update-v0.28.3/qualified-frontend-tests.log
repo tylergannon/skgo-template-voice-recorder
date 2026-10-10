@@ -1,0 +1,14 @@
+$ /private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vp env exec --package-manager pnpm@12.9.1 just test
+cd web && pnpm test
+$ pnpm run test:unit --run
+$ vitest --run
+Plugin "vitest:mocks:interceptor" defines Vite-specific hooks (configureServer) in a plugin returned from applyToEnvironment. These hooks will be ignored.
+
+ RUN  v5.0.1 /private/tmp/recorder-update-v0283-5s0_m457/UpdatedFieldNotes/web
+
+
+ Test Files  4 passed (4)
+      Tests  11 passed (11)
+   Start at  02:58:05
+   Duration  12.08s (tests 90%, worker 9%, import 1%)
+

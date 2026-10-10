@@ -1,0 +1,12 @@
+$ just test
+cd web && pnpm test
+Error: ERR_PNPM_BAD_PM_VERSION
+
+  × This project is configured to use 12.9.1 of pnpm. Your current pnpm is
+  │ v12.10.1
+  help: If you want to bypass this version check, you can set the "pmOnFail"
+        configuration to "warn" or "ignore" (e.g. via --pm-on-fail=ignore). If
+        using "devEngines.packageManager", you can set its "onFail" to "warn"
+        or "ignore"
+
+error: recipe `test` failed on line 36 with exit code 1

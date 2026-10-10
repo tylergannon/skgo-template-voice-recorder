@@ -1,0 +1,11 @@
+{
+  "registryURL": "https://registry.npmjs.org/@skgo%2fsveltekit-adapter",
+  "distTagsBefore": {
+    "latest": "0.28.2"
+  },
+  "publicationTimesBefore": {
+    "0.28.2": "2026-10-10T07:53:32.028Z"
+  },
+  "attemptStartUTC": "2026-10-10T08:53:38.775275+00:00",
+  "selectedVersionMustBeConfirmedByUpdaterLog": true
+}

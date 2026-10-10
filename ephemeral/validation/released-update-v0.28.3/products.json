@@ -1,0 +1,10 @@
+{
+  "server": {
+    "path": "/private/tmp/recorder-update-v0283-5s0_m457/UpdatedFieldNotes/bin/FieldNotes",
+    "sha256": "768327334f62f2f213f297135f4bca85bc94d5b5fa0b5c02144ea5477fdb6d1d"
+  },
+  "nativeMacSynthetic": {
+    "path": "/private/tmp/recorder-update-v0283-5s0_m457/UpdatedFieldNotes/native/build/macos-synthetic/DerivedData/Build/Products/Debug/FieldNotes.app/Contents/MacOS/FieldNotes",
+    "sha256": "77be5408853ab65abf1fcc7ccdbcd2754170784c3452e2b815fdc524dcf50cf6"
+  }
+}
