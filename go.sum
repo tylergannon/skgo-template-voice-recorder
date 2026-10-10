@@ -18,6 +18,8 @@ github.com/tylergannon/skgo v0.26.2-0.20261010022911-322fca3b02c6 h1:ob/4cNTrJnP
 github.com/tylergannon/skgo v0.26.2-0.20261010022911-322fca3b02c6/go.mod h1:HTDFFIy9eZ9AYBZfH9HSvdqKdzw993/gjYGvufRCvSw=
 github.com/tylergannon/skgo v0.26.2-0.20261010023807-2bde8115d4e0 h1:m8thAkTRVSsKaftl0ju8zyVs6Yuhk6fhiSCrYPxYiGA=
 github.com/tylergannon/skgo v0.26.2-0.20261010023807-2bde8115d4e0/go.mod h1:HTDFFIy9eZ9AYBZfH9HSvdqKdzw993/gjYGvufRCvSw=
+github.com/tylergannon/skgo v0.27.0 h1:J//xPJ8hsvDXGnDtFrj/DWgnhzNf1QPA/HQmjKWjRiU=
+github.com/tylergannon/skgo v0.27.0/go.mod h1:HTDFFIy9eZ9AYBZfH9HSvdqKdzw993/gjYGvufRCvSw=
 golang.org/x/mod v0.41.0 h1:qJmnOUb4YB+FsEuM3HcWucdZASCPGhsX6uljO6pog0c=
 golang.org/x/mod v0.41.0/go.mod h1:Ek9pY8RKWXwsWvd3rQiHYtMqkjSUV+s1Rj7j4H5Ur6o=
 golang.org/x/net v0.59.0 h1:5zfYln+w5XCxwrnMMJPufRgNoXEaGxl0wo5GqPXyues=

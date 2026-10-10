@@ -52,5 +52,21 @@ Version: Xcode27, nativebuild2bde811, fresh com.example.fieldnotes.real bundle.
 Signed build failed once with No Accounts and no provisioning profile. Computer
 use showed the current Apple account and Personal Team in Xcode Settings, so
 account presence alone does not demonstrate usable command-line provisioning.
-Unsigned iphone real build passed. User authentication refresh requested; no
-fresh physical-device install or capture is claimed from unsigned compilation.
+Unsigned iphone real build passed. The account-refresh request was premature. Selecting the existing Personal Team
+in the generated project's Signing & Capabilities created the required profile
+without a password, and signed retry/installation passed. The user subsequently
+confirmed the fresh FieldNotes speech/background session. Diagnose team/profile
+selection before asking for sign-in again; the CLI error was not a visible popup.
+
+
+## Released adoption and subsequent framework fixes
+
+Version: released v0.27.0/e64e350. Standalone and project-tool helpers, fresh new,
+manual add-on composition, native Mac/simulator/phone builds and detached
+source/plugin-unavailable builds/runs passed. Native discovery still scans sdk
+staging as noted above; PR296's .sdk/update changes are separately merged and
+await next-release qualification. No branch replacement entered these consumers.
+The framework peer also removed VitePlus installer shell-init entries pointing
+into its archived qualification worktree; those entries emitted login-shell
+missing-file errors after cleanup. Preserve normal VitePlus configuration and
+avoid installer side effects referencing disposable worktrees.

@@ -1,0 +1,37 @@
+{
+  "info" : {
+    "arguments" : [
+      "devicectl",
+      "device",
+      "install",
+      "app",
+      "--device",
+      "00008140-001150381AEB001C",
+      "/private/tmp/skgo-recorder-consumer.GthvK4/released/native/build/iphone-real/DerivedData/Build/Products/Debug-iphoneos/FieldNotes.app",
+      "--json-output",
+      "ephemeral/validation/fresh-consumer/released-iphone-install.json"
+    ],
+    "commandType" : "devicectl.device.install.app",
+    "environment" : {
+      "TERM" : "dumb"
+    },
+    "jsonVersion" : 5,
+    "outcome" : "success",
+    "version" : "642.16"
+  },
+  "result" : {
+    "deviceIdentifier" : "F206464C-6368-578E-BEA0-6BA0FA423D88",
+    "installedApplications" : [
+      {
+        "bundleID" : "com.example.fieldnotes.real",
+        "databaseSequenceNumber" : 3108,
+        "databaseUUID" : "FDF57BF5-96B6-4DD1-AC8C-6F753CB4AD12",
+        "installationURL" : "file:///private/var/containers/Bundle/Application/0629A5B0-4AB7-45E8-BE60-357F5854529B/FieldNotes.app/",
+        "launchServicesIdentifier" : "unknown",
+        "options" : {
+
+        }
+      }
+    ]
+  }
+}

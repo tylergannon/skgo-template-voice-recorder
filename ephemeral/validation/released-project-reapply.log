@@ -1,0 +1,4 @@
+voice-notes: Build the native recorder with go tool skgo native build --platform macos --preset real (or iphone / simulator).
+voice-notes: For microphone-free playback, select --preset synthetic; synthetic does not establish microphone capture or Apple recognition.
+voice-notes: Browser mode serves transcripts without capture. Start the web server and use scripts/feed-transcript.sh --help for external synthetic delivery.
+applied voice-notes

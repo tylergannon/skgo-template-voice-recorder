@@ -1,0 +1,68 @@
+{
+  "error" : {
+    "code" : 10002,
+    "domain" : "com.apple.dt.CoreDeviceError",
+    "userInfo" : {
+      "BundleIdentifier" : {
+        "string" : "com.example.fieldnotes.real"
+      },
+      "NSLocalizedDescription" : {
+        "string" : "The application failed to launch."
+      },
+      "NSUnderlyingError" : {
+        "error" : {
+          "code" : 1,
+          "domain" : "FBSOpenApplicationServiceErrorDomain",
+          "userInfo" : {
+            "BSErrorCodeDescription" : {
+              "string" : "RequestDenied"
+            },
+            "FBSOpenApplicationRequestID" : {
+              "string" : "0xf242"
+            },
+            "NSLocalizedDescription" : {
+              "string" : "The request to open \"com.example.fieldnotes.real\" failed."
+            },
+            "NSLocalizedFailureReason" : {
+              "string" : "The request was denied by service delegate (SBMainWorkspace) for reason: Locked (\"Unable to launch com.example.fieldnotes.real because the device was not, or could not be, unlocked\")."
+            },
+            "NSUnderlyingError" : {
+              "error" : {
+                "code" : 7,
+                "domain" : "FBSOpenApplicationErrorDomain",
+                "userInfo" : {
+                  "BSErrorCodeDescription" : {
+                    "string" : "Locked"
+                  },
+                  "NSLocalizedFailureReason" : {
+                    "string" : "Unable to launch com.example.fieldnotes.real because the device was not, or could not be, unlocked."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "info" : {
+    "arguments" : [
+      "devicectl",
+      "device",
+      "process",
+      "launch",
+      "--device",
+      "00008140-001150381AEB001C",
+      "com.example.fieldnotes.real",
+      "--json-output",
+      "ephemeral/validation/fresh-consumer/released-iphone-launch.json"
+    ],
+    "commandType" : "devicectl.device.process.launch",
+    "environment" : {
+      "TERM" : "dumb"
+    },
+    "jsonVersion" : 5,
+    "outcome" : "failed",
+    "version" : "642.16"
+  }
+}

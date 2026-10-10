@@ -55,16 +55,14 @@ capture. Opus5.5 independent static integration review found no material defect;
 it explicitly did not witness new hardware behavior. Logs and review are retained
 under the sibling validation/reviews directories.
 
-## Remaining evidence and delivery limits
+## Subsequent qualification
 
-Initial signed iPhone build failed with No Accounts/no provisioning profile.
-Xcode UI then accepted the existing Personal Team and generated a profile without
-reauthentication; signed retry is in progress. No fresh physical install or speech
-is claimed here yet. Existing original-app user speech/background observations
-cannot fill that gap.
-
-Plugin/source-unavailable detached launch proof, burst runtime and fresh native
-background/recovery observations remain pending. The shared framework release is
-also pending; the latest released tag is stillv0.26.1, so these commit-based
-observations do not establish released-command adoption. Mission Control promise
-assessments have not been changed to green from these checks.
+The initial signing issue was resolved by selecting the already signed-in Personal
+Team in the generated Xcode project; Xcode created a profile without account
+reauthentication. Signed installation and a user-observed real background speech
+session subsequently passed for this development build. Detached native/browser
+observations also passed. The tagged v0.27.0 commands, products, composition and
+source/plugin-unavailable rebuild/runtime checks are separately recorded in
+[release-report.md](release-report.md). Preserve this report and its metadata as
+the earlier development snapshot; do not attribute its hardware result to the
+later release-based product.

@@ -1,0 +1,8 @@
+Synthetic session active: fixture-7c6b4d44fa6b0f2a5f0643e3ab65c05c
+Accepted 1 (final=false)
+Accepted 2 (final=false)
+Accepted 3 (final=false)
+Accepted 4 (final=true)
+Accepted 5 (final=false)
+Accepted 6 (final=true)
+Synthetic session closed; acknowledged final text: This is synthetic text.
