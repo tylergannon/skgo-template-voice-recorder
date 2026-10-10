@@ -1,0 +1,14 @@
+?   	example.com/field-notes	[no test files]
+?   	example.com/field-notes/cmd	[no test files]
+ok  	example.com/field-notes/cmd/transcript-fixture	1.661s
+?   	example.com/field-notes/internal/app	[no test files]
+?   	example.com/field-notes/internal/serverhooks	[no test files]
+?   	example.com/field-notes/internal/skgo	[no test files]
+?   	example.com/field-notes/internal/skgo/params	[no test files]
+?   	example.com/field-notes/internal/skgo/prerender	[no test files]
+ok  	example.com/field-notes/internal/transcript	1.229s
+ok  	example.com/field-notes/native/build/macos-synthetic/sdk	15.527s
+ok  	example.com/field-notes/native/build/simulator-synthetic/sdk	15.421s
+?   	example.com/field-notes/native/host	[no test files]
+?   	example.com/field-notes/web	[no test files]
+?   	example.com/field-notes/web/src/lib	[no test files]

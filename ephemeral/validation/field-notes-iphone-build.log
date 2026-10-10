@@ -1,0 +1,167 @@
+{
+	"Path": "github.com/tylergannon/skgo",
+	"Version": "v0.26.2-0.20261010023807-2bde8115d4e0",
+	"Time": "2026-10-10T02:38:07Z",
+	"Dir": "/Users/tyler/go/pkg/mod/github.com/tylergannon/skgo@v0.26.2-0.20261010023807-2bde8115d4e0",
+	"GoMod": "/Users/tyler/go/pkg/mod/cache/download/github.com/tylergannon/skgo/@v/v0.26.2-0.20261010023807-2bde8115d4e0.mod",
+	"GoVersion": "1.27.1",
+	"Sum": "h1:m8thAkTRVSsKaftl0ju8zyVs6Yuhk6fhiSCrYPxYiGA=",
+	"GoModSum": "h1:HTDFFIy9eZ9AYBZfH9HSvdqKdzw993/gjYGvufRCvSw="
+}
+skgo: projected the types in example.com/field-notes/internal/transcript to /private/tmp/skgo-recorder-consumer.GthvK4/field-notes/web/src/lib/skgo/transcript/types.ts
+note: You are running `vp build` as a Vite+ built-in command. If you meant to run the build npm script, use `vpr build` instead.
+skgo prerender service started (pid 41315)
+transforming...
+✓ 154 modules transformed.
+rendering chunks...
+computing gzip size...
+.svelte-kit/output/server/.vite/manifest.json                         4.73 kB │ gzip:  0.73 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.Jd4xvsed.css    1.39 kB │ gzip:  0.55 kB
+.svelte-kit/output/server/remote-entry.js                             0.16 kB │ gzip:  0.12 kB
+.svelte-kit/output/server/chunks/index-server.js                      0.20 kB │ gzip:  0.16 kB │ map:   1.62 kB
+.svelte-kit/output/server/chunks/remote-13p9jtx.js                    0.24 kB │ gzip:  0.15 kB
+.svelte-kit/output/server/env.js                                      0.31 kB │ gzip:  0.19 kB │ map:   0.57 kB
+.svelte-kit/output/server/entries/hooks.server.js                     0.31 kB │ gzip:  0.20 kB │ map:   0.48 kB
+.svelte-kit/output/server/entries/fallbacks/error.svelte.js           1.38 kB │ gzip:  0.53 kB │ map:   2.87 kB
+.svelte-kit/output/server/chunks/transcript.remote.js                 1.71 kB │ gzip:  0.65 kB │ map:   1.71 kB
+.svelte-kit/output/server/index.js                                    2.40 kB │ gzip:  1.02 kB │ map:   3.47 kB
+.svelte-kit/output/server/entries/pages/_layout.svelte.js             2.62 kB │ gzip:  1.08 kB │ map:   2.75 kB
+.svelte-kit/output/server/entries/pages/_page.svelte.js               3.62 kB │ gzip:  1.27 kB │ map:  10.25 kB
+.svelte-kit/output/server/chunks/uneval.js                           19.41 kB │ gzip:  5.37 kB │ map:  40.87 kB
+.svelte-kit/output/server/chunks/server-errors.js                    24.28 kB │ gzip:  4.63 kB │ map:  35.02 kB
+.svelte-kit/output/server/chunks/server.js                           44.51 kB │ gzip: 12.25 kB │ map: 128.26 kB
+.svelte-kit/output/server/chunks/remote.js                           55.34 kB │ gzip: 11.95 kB │ map:  90.78 kB
+.svelte-kit/output/server/chunks/internal.js                        108.96 kB │ gzip: 29.00 kB │ map: 233.89 kB
+.svelte-kit/output/server/chunks/instance.js                        128.38 kB │ gzip: 33.75 kB │ map: 264.24 kB
+
+✓ built in 98ms
+Analysing routes
+(node:41303) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Building app
+transforming...
+✓ 198 modules transformed.
+rendering chunks...
+computing gzip size...
+.svelte-kit/output/client/_app/version.json                          0.02 kB │ gzip:  0.04 kB
+.svelte-kit/output/client/.vite/manifest.json                        4.79 kB │ gzip:  0.71 kB
+.svelte-kit/output/client/_app/immutable/assets/2.Jd4xvsed.css       1.39 kB │ gzip:  0.55 kB
+.svelte-kit/output/client/_app/immutable/entry/payload.DSmR2FwN.js   0.06 kB │ gzip:  0.07 kB
+.svelte-kit/output/client/_app/immutable/chunks/PPIjfU5s.js          0.07 kB │ gzip:  0.08 kB
+.svelte-kit/output/client/_app/immutable/nodes/1.5UUNyN3Q.js         0.32 kB │ gzip:  0.24 kB
+.svelte-kit/output/client/_app/immutable/entry/start.DYC_wl2a.js     0.54 kB │ gzip:  0.32 kB
+.svelte-kit/output/client/_app/immutable/entry/app.SleRRcr8.js       1.12 kB │ gzip:  0.56 kB
+.svelte-kit/output/client/_app/immutable/chunks/uBIymjUX.js          1.23 kB │ gzip:  0.68 kB
+.svelte-kit/output/client/_app/immutable/chunks/Bjy-W4x2.js          1.36 kB │ gzip:  0.65 kB
+.svelte-kit/output/client/_app/immutable/nodes/0.Bpke7FZq.js         2.38 kB │ gzip:  0.97 kB
+.svelte-kit/output/client/_app/immutable/chunks/Bw4OB-mw.js          4.74 kB │ gzip:  2.09 kB
+.svelte-kit/output/client/_app/immutable/nodes/2.Cghfu55x.js        16.43 kB │ gzip:  6.07 kB
+.svelte-kit/output/client/_app/immutable/chunks/uOsFyCby.js         35.36 kB │ gzip: 13.62 kB
+.svelte-kit/output/client/_app/immutable/chunks/DB7BTKL6.js         42.29 kB │ gzip: 15.48 kB
+
+✓ built in 109ms
+(node:41303) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Run npm run preview to preview your production build locally.
+
+> Using skgo
+(node:41303) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+transforming...
+✓ 155 modules transformed.
+rendering chunks...
+computing gzip size...
+build/.goja/bundle.js  202.05 kB │ gzip: 50.90 kB
+
+✓ built in 57ms
+skgo: lowered to es2017 for the engine's parser: 7 module(s)
+skgo: wrote build/
+skgo prerender service stopped (pid 41315)
+✔ done
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk
+⚙️  Generating plists...
+⚙️  Generating project...
+⚙️  Writing project...
+Created project at /tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/FieldNotes.xcodeproj
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project /private/tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/FieldNotes.xcodeproj -scheme FieldNotes -configuration Debug -sdk iphoneos -derivedDataPath /private/tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/DerivedData build CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=6H59L2SRR6 "CODE_SIGN_IDENTITY=Apple Development" -allowProvisioningUpdates -destination id=00008140-001150381AEB001C -allowProvisioningDeviceRegistration
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = Apple Development
+    CODE_SIGN_STYLE = Automatic
+    CODE_SIGNING_ALLOWED = YES
+    DEVELOPMENT_TEAM = 6H59L2SRR6
+    SDKROOT = iphoneos27.0
+
+Resolve Package Graph
+
+
+Resolved source packages:
+  RecorderTranscription: /tmp/skgo-recorder-consumer.GthvK4/field-notes/native/Transcription
+  SKGoNative: /tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/sdk/swift
+
+2026-10-09 20:44:37.038 xcodebuild[41496:5066714] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+note: Using codesigning identity override: Apple Development
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (10 targets)
+    Target 'FieldNotes' in project 'FieldNotes'
+        ➜ Explicit dependency on target 'SKGoNative-product' in project 'SKGoNative'
+        ➜ Explicit dependency on target 'TranscriptSource-product' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'AppleTranscription-product' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'ScriptedTranscription-product' in project 'RecorderTranscription'
+    Target 'ScriptedTranscription-product' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'ScriptedTranscription' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'TranscriptSource' in project 'RecorderTranscription'
+    Target 'ScriptedTranscription' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'TranscriptSource' in project 'RecorderTranscription'
+    Target 'AppleTranscription-product' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'AppleTranscription' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'TranscriptSource' in project 'RecorderTranscription'
+    Target 'AppleTranscription' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'TranscriptSource' in project 'RecorderTranscription'
+    Target 'TranscriptSource-product' in project 'RecorderTranscription'
+        ➜ Explicit dependency on target 'TranscriptSource' in project 'RecorderTranscription'
+    Target 'TranscriptSource' in project 'RecorderTranscription' (no dependencies)
+    Target 'SKGoNative-product' in project 'SKGoNative'
+        ➜ Explicit dependency on target 'SKGoNative' in project 'SKGoNative'
+        ➜ Explicit dependency on target 'CSKGo' in project 'SKGoNative'
+    Target 'SKGoNative' in project 'SKGoNative'
+        ➜ Explicit dependency on target 'CSKGo' in project 'SKGoNative'
+    Target 'CSKGo' in project 'SKGoNative' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: ddda6814a84ccb548654cb1a3a7179f3
+Build description path: /tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/DerivedData/Build/Intermediates.noindex/XCBuildData/ddda6814a84ccb548654cb1a3a7179f3.xcbuilddata
+/tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/FieldNotes.xcodeproj: error: No Accounts: Add a new account in Accounts settings. (in target 'FieldNotes' from project 'FieldNotes')
+/tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/FieldNotes.xcodeproj: error: No profiles for 'com.example.fieldnotes.real' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'com.example.fieldnotes.real'. (in target 'FieldNotes' from project 'FieldNotes')
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Building project FieldNotes with scheme FieldNotes and configuration Debug
+(1 failure)
+xcodebuild -project /private/tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/FieldNotes.xcodeproj -scheme FieldNotes -configuration Debug -sdk iphoneos -derivedDataPath /private/tmp/skgo-recorder-consumer.GthvK4/field-notes/native/build/iphone-real/DerivedData build CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=6H59L2SRR6 CODE_SIGN_IDENTITY=Apple Development -allowProvisioningUpdates -destination id=00008140-001150381AEB001C -allowProvisioningDeviceRegistration: exit status 65

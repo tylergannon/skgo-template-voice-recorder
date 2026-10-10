@@ -1,0 +1,62 @@
+native-app: changed native/.gitignore
+native-app: changed native/Bridge.h
+native-app: changed native/Sources/Application.swift
+native-app: changed native/Sources/ApplicationView.swift
+native-app: changed native/Sources/ApplicationWebView.swift
+native-app: changed native/Sources/NativeHost.swift
+native-app: changed native/host/main.go
+native-app: changed native/skgo-native.json
+native-app: Build with go tool skgo native build --platform macos (or iphone / simulator).
+applied native-app
+voice-notes: changed cmd/transcript-fixture/main.go
+voice-notes: changed cmd/transcript-fixture/main_test.go
+voice-notes: changed internal/transcript/store.go
+voice-notes: changed internal/transcript/store_test.go
+voice-notes: changed internal/transcript/stream_real.go
+voice-notes: changed internal/transcript/stream_synthetic.go
+voice-notes: changed internal/transcript/stream_synthetic_test.go
+voice-notes: changed native/Resources/Licenses/AppleSample-LICENSE.txt
+voice-notes: changed native/Resources/Licenses/AuralKit-LICENSE.txt
+voice-notes: changed native/Resources/synthetic-transcript.json
+voice-notes: changed native/Sources/ApplicationView.swift
+voice-notes: changed native/Sources/MicrophoneSource.swift
+voice-notes: changed native/Sources/NativeCommands.swift
+voice-notes: changed native/Sources/RecorderController.swift
+voice-notes: changed native/Sources/RecorderControls.swift
+voice-notes: changed native/Sources/RecorderScreen.swift
+voice-notes: changed native/Sources/RecordingInput.swift
+voice-notes: changed native/Sources/RecordingSettings.swift
+voice-notes: changed native/Sources/SyntheticSource.swift
+voice-notes: changed native/Sources/TranscriptCore.swift
+voice-notes: changed native/Tests/ControllerTests.swift
+voice-notes: changed native/Tests/CoreTests.swift
+voice-notes: changed native/Tests/Fixtures/burst-transcript.json
+voice-notes: changed native/Tests/RecordingInputTests.swift
+voice-notes: changed native/Tests/ScriptedControllerTests.swift
+voice-notes: changed native/Transcription/.gitignore
+voice-notes: changed native/Transcription/Package.swift
+voice-notes: changed native/Transcription/ProbeInfo.plist
+voice-notes: changed native/Transcription/README.md
+voice-notes: changed native/Transcription/Sources/AppleTranscription/AudioInputLevel.swift
+voice-notes: changed native/Transcription/Sources/AppleTranscription/InputDevices.swift
+voice-notes: changed native/Transcription/Sources/AppleTranscription/MicrophoneSource.swift
+voice-notes: changed native/Transcription/Sources/ScriptedTranscription/SyntheticSource.swift
+voice-notes: changed native/Transcription/Sources/TranscriptSource/TranscriptSource.swift
+voice-notes: changed native/Transcription/Sources/TranscriptionProbe/main.swift
+voice-notes: changed native/Transcription/Tests/AudioTests/AudioTests.swift
+voice-notes: changed native/Transcription/Tests/SyntheticTests/SyntheticTests.swift
+voice-notes: changed native/skgo-native.json
+voice-notes: changed scripts/check-recorder.sh
+voice-notes: changed scripts/check-transcription.sh
+voice-notes: changed scripts/feed-transcript.sh
+voice-notes: changed scripts/probe-transcription.sh
+voice-notes: changed web/src/lib/TranscriptScreen.svelte
+voice-notes: changed web/src/lib/TranscriptScreen.svelte.spec.ts
+voice-notes: changed web/src/lib/native-status.spec.ts
+voice-notes: changed web/src/lib/native-status.ts
+voice-notes: changed web/src/lib/transcript.remote.go
+voice-notes: changed web/src/routes/+page.svelte
+voice-notes: Build the native recorder with go tool skgo native build --platform macos --preset real (or iphone / simulator).
+voice-notes: For microphone-free playback, select --preset synthetic; synthetic does not establish microphone capture or Apple recognition.
+voice-notes: Browser mode serves transcripts without capture. Start the web server and use scripts/feed-transcript.sh --help for external synthetic delivery.
+applied voice-notes

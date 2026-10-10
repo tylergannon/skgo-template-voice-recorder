@@ -1,0 +1,6 @@
+{
+  "bundleID": "com.example.fieldnotes.synthetic.burst",
+  "source": "synthetic",
+  "fixture": "burst-transcript",
+  "fixtureSHA256": "e8ddb840da2150fb82aca51e29b3095b568da8f6aed84966f6cf0b84251455fc"
+}

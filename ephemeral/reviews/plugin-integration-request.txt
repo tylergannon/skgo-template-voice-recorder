@@ -1,0 +1,9 @@
+Review the changes in /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder read-only as an independent Claude Opus 5.5 reviewer.
+
+This is the actual source-built voice-notes SKGo template plugin, not a new recorder implementation. Original working app source 4bb9373 remains intact at /Users/tyler/.codex/worktrees/voice-notes-initial-release/voice-notes. Shared generic shell belongs to published SKGo development commit 2bde811, pinned in root go.mod; sources inspectable in module cache. No fake SDK or copying generic bootstrap. All normal checks must avoid microphone/system device changes.
+
+Focus on material defects in template/apply.go, config.go, recorder.go, allowlist/stage, scripts/build-plugin.sh, internal/packagefiles, new native ApplicationView and RecordingInput fixture selection, and macOS RecorderScreen recovery forwarding. Read tests and actual core API. Check identity/config conflict preservation, exact default replacements, idempotence, actual plugin factory/host stamp, independent source seam and lifecycle. Find things that will break a fresh differently named consumer or lose existing recorder behavior. Don't demand a generalized framework. Don't change files or run capture; focused Go checks allowed.
+
+Evidence currently available: root Go race tests pass including Apply/prerequisite/config/conflict/no-op; actual core helper built and loaded plugin for separately installed actual CLI and help lists exports. Fresh scaffold/native tests still underway: no complete consumer runtime proof claimed. Existing package/controller baseline is not fresh runtime evidence.
+
+Return concrete material findings with file/line and trigger; otherwise state no material findings. Separate unproved runtime claims from observed defects. Scope includes native state/bridge integration, so scrutinize it without asserting physical-device behavior.

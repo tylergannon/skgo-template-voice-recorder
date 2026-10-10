@@ -1,0 +1,15 @@
+{
+  "recorderCommit": "a4813333e0f0a6ea117fa40f7e67f0ecbe442f9e",
+  "skgoCommit": "2bde811",
+  "module": "example.com/field-notes",
+  "bundleID": "com.example.fieldnotes.real",
+  "defaultSource": "real",
+  "backgroundModes": [
+    "audio"
+  ],
+  "executableSHA256": "7d5a412a5bfbecbfc198add65872a06b00af942404b5e00deb30827e550571c7",
+  "observationMode": "human-reported physical iPhone real microphone/Apple speech",
+  "userReply": "Yes, all three appeared",
+  "question": "Say before background; go to Home and say while backgrounded; lock and say while locked; reopen FieldNotes and Stop. Did all three appear in the same session, with green meter responding while visible?",
+  "limits": "User confirmed phrase/session outcome; no agent screenshot or separate explicit meter response. This build predates tagged v0.27.0 adoption."
+}
