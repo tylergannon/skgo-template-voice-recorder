@@ -1,0 +1,30 @@
+$ git clone --branch codex/recorder-template --single-branch https://github.com/tylergannon/skgo-template-voice-recorder.git /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/build/source-clone
+cwd: /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder
+Cloning into '/Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/build/source-clone'...
+Exit status: 0
+
+$ git rev-parse HEAD
+cwd: /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/build/source-clone
+8a4e398113dd78a0bf5ca79c3ef77820fdc07e63
+Exit status: 0
+
+$ go run ./template/stage
+cwd: /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/build/source-clone
+Exit status: 0
+
+$ go test ./...
+cwd: /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/build/source-clone
+ok  	github.com/tylergannon/skgo-template-voice-recorder/internal/packagefiles	0.113s
+ok  	github.com/tylergannon/skgo-template-voice-recorder/template	0.159s
+?   	github.com/tylergannon/skgo-template-voice-recorder/template/stage	[no test files]
+Exit status: 0
+
+$ go build ./...
+cwd: /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/build/source-clone
+Exit status: 0
+
+$ go test -C recorder ./internal/transcript
+cwd: /Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder/build/source-clone
+ok  	github.com/tylergannon/skgo-template-voice-recorder/recorder/internal/transcript	0.118s
+Exit status: 0
+
