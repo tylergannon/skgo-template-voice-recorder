@@ -23,3 +23,5 @@ Example: skgo new myapp -- --template demo --types jsdoc --add tailwindcss=plugi
     	application template applied after the ordinary minimal TypeScript scaffold
 Plugins are trusted native code, loaded eagerly in sorted file order. They must match this host toolchain and shared dependencies; dependencies shared only between plugins must also match. Incompatible plugins cannot coexist: remove or isolate their .so files in separate SKGO_PLUGIN_DIRS.
 Available templates:
+voice-notes: A native voice recorder built on the standard SKGo project
+    --set bundle-id=VALUE: Base application bundle identifier (default "", required true)

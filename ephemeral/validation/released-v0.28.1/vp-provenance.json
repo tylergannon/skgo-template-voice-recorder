@@ -1,0 +1,12 @@
+{
+  "vendorRelease": "https://github.com/voidzero-dev/vite-plus/releases/tag/v1.0.0",
+  "releaseAssetAPI": "https://api.github.com/repos/voidzero-dev/vite-plus/releases/assets/594610033",
+  "archiveURL": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.0.0/vp-aarch64-apple-darwin.tar.gz",
+  "publishedArchiveDigest": "sha256:309d42550348aa156e34a9a2eb6e9e8b1c5886126b14cd9a88f42d158a944b35",
+  "verifiedArchiveDigest": "sha256:309d42550348aa156e34a9a2eb6e9e8b1c5886126b14cd9a88f42d158a944b35",
+  "archiveBinaryEntry": "vp",
+  "vendorBinarySHA256": "d787c0a83bd0d9ed715d23234473fd8363b8e5dd08937a2cea85e3eb17cd9e34",
+  "selectedBinary": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/1.0.0/bin/vp",
+  "selectedBinarySHA256": "d787c0a83bd0d9ed715d23234473fd8363b8e5dd08937a2cea85e3eb17cd9e34",
+  "byteIdentical": true
+}

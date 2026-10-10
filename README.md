@@ -28,6 +28,10 @@ ordinary `skgo new` with the released manual plugin helper and qualified VitePlu
 the production web/Go build and Go checks passed, and regular browser computer use
 observed synthetic text. This is separate from the v0.27.0 native/physical evidence;
 no new native result is claimed. See the [v0.28.1 report](ephemeral/validation/released-v0.28.1/report.md).
+To supply 1.0.0 alongside a newer global installation, follow the
+[vendor's installation guide](https://viteplus.dev/guide/global-cli) with
+`VP_VERSION=1.0.0` and an absolute `VP_HOME`, then select that home's `bin` on PATH
+and keep the same `VP_HOME` for `skgo new`.
 
 The recorder preserves microphone selection, native recording controls, timer,
 five horizontal green bars stacked upward, live transcript delivery, synthetic
