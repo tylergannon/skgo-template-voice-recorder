@@ -2,6 +2,8 @@ module github.com/tylergannon/skgo-template-voice-recorder
 
 go 1.27.2
 
+ignore ./build
+
 require (
 	github.com/tylergannon/skgo v0.27.0
 	golang.org/x/mod v0.41.0

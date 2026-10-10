@@ -62,6 +62,10 @@ The equivalent manual composition is ordinary `skgo new`, followed by
 `skgo add --set bundle-id=com.example.fieldnotes native-app` and
 `skgo add voice-notes`. A generated application owns its copied sources and does
 not load the plugin at runtime. Signing inputs belong to the consumer developer.
+Rebuild the development plugin for each changed SKGo host or Go toolchain;
+the shared helper verifies compatibility against the host that will load it.
+See the [qualification limits](ephemeral/validation/fresh-consumer/release-report.md#limits)
+for the v0.27.0 disposable SDK directory issue and separate update-release work.
 
 From the created consumer, use `go tool skgo native build --platform macos
 --preset synthetic` for microphone-free desktop playback, or change the platform

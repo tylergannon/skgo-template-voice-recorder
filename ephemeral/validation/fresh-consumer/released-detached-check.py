@@ -1,3 +1,6 @@
+# Retained as executed. ADDR below was ignored by the generated server; its log
+# established the actual default origin http://127.0.0.1:8080. The external feeder
+# and CUA screenshots were performed separately while this guard held source absent.
 import os,time,pathlib,subprocess,shutil,json
 source=pathlib.Path('/Users/tyler/.codex/worktrees/recorder-template/skgo-template-voice-recorder')
 hidden=source.with_name(source.name+'-unavailable')

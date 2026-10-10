@@ -49,7 +49,7 @@ Root race checks passed against released dependencies.
 The template worktree was temporarily renamed away from its original path,
 including all its plugin directories. The unrelated original Voice Notes checkout
 was left intact. The pinned development toolchain was moved to an independent
- temporary directory so compilation did not borrow tooling from the missing source
+temporary directory so compilation did not borrow tooling from the missing source
 path. A bounded guard restored both paths and stopped its server afterward.
 
 During that absence, the released consumer rebuilt its standalone Go server and
@@ -67,6 +67,9 @@ restoration. [Build log](released-detached-build.log),
 [one-off guard](released-detached-check.py).
 These establish build and runtime independence for the generated web/macOS app.
 The physical phone runs a self-contained installed product; no plugin is shipped.
+The guard's `ADDR` environment variable was ignored: the server log established
+the actual default origin at port 8080. The feeder and CUA observations were
+performed separately against that origin while the guard kept the checkout absent.
 
 ## Separate real speech observation
 
@@ -95,3 +98,17 @@ this fresh-template qualification. SKGo compatible-update work is separately own
 and not included in v0.27.0 qualification; the next update-capable release needs its
 own consumer check. The released native SDK still stages under `sdk`; the peer's
 subsequent `.sdk` correction was not silently applied here.
+
+## Independent release review and clean source build
+
+Claude Opus 5.5 reviewed the requirements, implementation, release reports,
+metadata, logs and screenshots read-only. It found only nitpicks, with no material
+requirement gap or misattributed observation.
+[Complete review](../../reviews/release-qualification-review.md).
+The retained guard/default-port explanation and host/toolchain rebuild guidance
+address its documentation notes. Root `ignore ./build` excludes disposable tooling
+from Go discovery; [focused root race output](../plugin-released-focused-checks.log)
+contains only owned packages. This does not alter consumer application sources.
+A clean GitHub clone of checkpoint `736953c` staged its own allowlisted payload and
+built/loaded the plugin with the released standalone host, with no preexisting
+payload or original-app dependency. [Clean clone/helper log](../final-clean-clone.log).
