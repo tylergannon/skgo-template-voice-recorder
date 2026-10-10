@@ -1,0 +1,36 @@
+{
+  "heldBaselineUnchanged": true,
+  "originalInputCount": 120,
+  "changedOriginalPaths": [
+    "go.mod",
+    "go.sum",
+    "internal/skgo/skgo_gen.go",
+    "web/package.json",
+    "web/pnpm-lock.yaml",
+    "web/pnpm-workspace.yaml",
+    "web/skgo.remotes.json"
+  ],
+  "authoredReceipts": {
+    "README.md": {
+      "before": "ba393c866f4ca6f574eb0f20e6e9afc47d06e34bf38f132f7ba1a56199e3c8d0",
+      "after": "ba393c866f4ca6f574eb0f20e6e9afc47d06e34bf38f132f7ba1a56199e3c8d0",
+      "unchanged": true
+    },
+    "native/Sources/ApplicationView.swift": {
+      "before": "1f69a97b4666e88f284ef6fd8cf6151748d06f820f36e4d65f32626a6d0a5036",
+      "after": "1f69a97b4666e88f284ef6fd8cf6151748d06f820f36e4d65f32626a6d0a5036",
+      "unchanged": true
+    },
+    "native/skgo-native.json": {
+      "before": "847d853496dd6c9f155ea4ad86676584b3300d2ec677cbcb533503cf2041329d",
+      "after": "847d853496dd6c9f155ea4ad86676584b3300d2ec677cbcb533503cf2041329d",
+      "unchanged": true
+    },
+    "web/src/lib/TranscriptScreen.svelte": {
+      "before": "53dba41e80840ccef739c54f782c992481aacd221de44f6e09ed26aea74ad576",
+      "after": "53dba41e80840ccef739c54f782c992481aacd221de44f6e09ed26aea74ad576",
+      "unchanged": true
+    }
+  },
+  "hostSHA256After": "9bff943f3f20d6d7b7a457c23b28d7133bb76abe9aa5b9e624984453641b898f"
+}

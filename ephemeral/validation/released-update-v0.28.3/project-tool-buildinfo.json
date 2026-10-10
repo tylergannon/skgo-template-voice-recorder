@@ -1,0 +1,12 @@
+{
+  "resolutionArgv": [
+    "go",
+    "tool",
+    "-n",
+    "skgo"
+  ],
+  "resolutionExitCode": 0,
+  "resolutionOutput": "/Users/tyler/Library/Caches/go-build/ac/accab22686762b935b125fc4fd677e6342c4f20c914aae98197d52b77e9ed8d0-d/skgo\n",
+  "buildinfoExitCode": 0,
+  "buildinfo": "/Users/tyler/Library/Caches/go-build/ac/accab22686762b935b125fc4fd677e6342c4f20c914aae98197d52b77e9ed8d0-d/skgo: go1.27.2\n\tpath\tgithub.com/tylergannon/skgo/cmd/skgo\n\tmod\tgithub.com/tylergannon/skgo\tv0.28.3\th1:ljGrUYh6c8jd93S4Kcuu6WPcX/jvlrsZsBmPBACGENM=\n\tdep\tgithub.com/dave/dst\tv0.27.4\th1:d+EVnOZmphH+lUEXq9rit4GjsFSKJ3AhfRWf7eobTps=\n\tdep\tgithub.com/dlclark/regexp2/v2\tv2.8.1\th1:I1jbaCbXeOxdVN8z3fb55Mvtgb94/6+Dh0zjmXjKV/0=\n\tdep\tgithub.com/dop251/goja\tv0.0.0-20261008222547-e9f698900731\th1:j4pHbSFW20XvSKGrXR/m3YbITBSt8S2SvqFc29BXaHo=\n\tdep\tgithub.com/dop251/goja_nodejs\tv0.0.0-20260212111938-1f56ff5bcf14\th1:3U8dTgyNBhEQ/GVw0jZW5q+93Zw2gAZPRWhJ9TwV3rM=\n\tdep\tgithub.com/go-sourcemap/sourcemap\tv2.1.4+incompatible\th1:a+iTbH5auLKxaNwQFg0B+TCYl6lbukKPc7b5x0n1s6Q=\n\tdep\tgithub.com/google/pprof\tv0.0.0-20260906184651-6331bc6350fe\th1:QAinXoAFJdGQYztXn3VpFey7KCwpedbZ/EkzbplQ0cY=\n\tdep\tgithub.com/tylergannon/devalue/v5\tv5.0.0\th1:UZuNeNpVXHnn79lOS/l7gEWcC4jKoILHUb0s3F2+3J8=\n\tdep\tgithub.com/tylergannon/polytype\tv1.5.0\th1:lcGJ0Rav1HA3Wa+qe/bl3fEcWbMgNFsRE6mfV8QrQs8=\n\tdep\tgithub.com/tylergannon/structtag\tv0.1.0\th1:Vn4ZEemGUtAfw9ddEtHQILKnIWqSWCSpciFTNPh1gcY=\n\tdep\tgolang.org/x/mod\tv0.41.0\th1:qJmnOUb4YB+FsEuM3HcWucdZASCPGhsX6uljO6pog0c=\n\tdep\tgolang.org/x/net\tv0.59.0\th1:5zfYln+w5XCxwrnMMJPufRgNoXEaGxl0wo5GqPXyues=\n\tdep\tgolang.org/x/sync\tv0.23.0\th1:KameEIfc1IkluZyXWLn39Wd4tURc6GbCiISGiZm2bQk=\n\tdep\tgolang.org/x/sys\tv0.48.0\th1:bbX/i/6MgT9BVLM9RT1thmxL04yeTAhbEz4SyadbXoo=\n\tdep\tgolang.org/x/term\tv0.46.0\th1:3+OXuTbaKDgwk8jTi3aSLHRlmWqHEUDUtxnbFigO4YE=\n\tdep\tgolang.org/x/text\tv0.42.0\th1:JbOZXgfeCPU9gacVtYliJqOhD+zhrEqK4LfdpmlUZqI=\n\tdep\tgolang.org/x/tools\tv0.50.0\th1:c2ifzfcuY7L90lZ2aKd8S4K2NpASF08SZx9ZuJkHmSU=\n\tdep\tgopkg.in/yaml.v3\tv3.0.1\th1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\tCGO_ENABLED=1\n\tbuild\tCGO_CFLAGS=\n\tbuild\tCGO_CPPFLAGS=\n\tbuild\tCGO_CXXFLAGS=\n\tbuild\tCGO_LDFLAGS=\n\tbuild\tGOARCH=arm64\n\tbuild\tGOOS=darwin\n\tbuild\tGOARM64=v8.0\n"
+}

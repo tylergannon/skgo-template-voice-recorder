@@ -1,0 +1,13 @@
+{
+  "sourceConsumer": "released-manual",
+  "startingSKGo": "v0.27.0",
+  "updaterCLI": "/private/tmp/skgo-recorder-consumer.GthvK4/update-host/skgo",
+  "updaterVersion": "v0.28.0",
+  "consumerDirectory": "/private/tmp/skgo-recorder-consumer.GthvK4/edited-update-consumer",
+  "authoredSHA256": {
+    "README.md": "ba393c866f4ca6f574eb0f20e6e9afc47d06e34bf38f132f7ba1a56199e3c8d0",
+    "native/Sources/ApplicationView.swift": "1f69a97b4666e88f284ef6fd8cf6151748d06f820f36e4d65f32626a6d0a5036",
+    "native/skgo-native.json": "847d853496dd6c9f155ea4ad86676584b3300d2ec677cbcb533503cf2041329d",
+    "web/src/lib/TranscriptScreen.svelte": "53dba41e80840ccef739c54f782c992481aacd221de44f6e09ed26aea74ad576"
+  }
+}

@@ -1,0 +1,9 @@
+Cache-Control: private, no-cache
+Content-Length: 4351
+Content-Type: text/html; charset=utf-8
+Etag: "95r6r"
+X-Sveltekit-Page: true
+X-Sveltekit-Version: 1791622435523
+Date: Sat, 10 Oct 2026 08:58:04 GMT
+Connection: close
+

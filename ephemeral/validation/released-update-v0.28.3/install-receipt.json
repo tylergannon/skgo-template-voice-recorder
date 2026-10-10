@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "go",
+    "install",
+    "github.com/tylergannon/skgo/cmd/skgo@v0.28.3"
+  ],
+  "environmentOverrides": {
+    "GOBIN": "/private/tmp/recorder-update-v0283-5s0_m457/host",
+    "GOWORK": "off"
+  },
+  "observedExitCode": 0,
+  "capturedOutputBytes": 0
+}

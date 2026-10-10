@@ -1,0 +1,56 @@
+{
+  "go": {
+    "argv": [
+      "go",
+      "version"
+    ],
+    "exitCode": 0,
+    "output": "go version go1.27.2 darwin/arm64\n"
+  },
+  "nodeAmbient": {
+    "argv": [
+      "node",
+      "--version"
+    ],
+    "exitCode": 0,
+    "output": "v26.11.0\n"
+  },
+  "pnpmAmbient": {
+    "argv": [
+      "pnpm",
+      "--version"
+    ],
+    "exitCode": 0,
+    "output": "12.10.1\n"
+  },
+  "vp": {
+    "argv": [
+      "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin/vp",
+      "--version"
+    ],
+    "exitCode": 0,
+    "output": "vp v1.0.0\n\nLocal vite-plus:\n  vite-plus  Not found\n\nTools:\n  vite             Not found\n  rolldown         Not found\n  vitest           Not found\n  oxfmt            Not found\n  oxlint           Not found\n  oxlint-tsgolint  Not found\n  tsdown           Not found\n\nEnvironment:\n  Package manager  Not found\n  Node.js          v24.21.0\n"
+  },
+  "projectGoTool": {
+    "argv": [
+      "go",
+      "version",
+      "-m",
+      "/private/tmp/recorder-update-v0283-5s0_m457/UpdatedFieldNotes/bin/skgo"
+    ],
+    "exitCode": 1,
+    "output": "stat /private/tmp/recorder-update-v0283-5s0_m457/UpdatedFieldNotes/bin/skgo: no such file or directory\n"
+  },
+  "@skgo/sveltekit-adapter": {
+    "installedVersion": "0.28.2"
+  },
+  "@sveltejs/kit": {
+    "installedVersion": "3.0.0"
+  },
+  "vite-plus": {
+    "installedVersion": "1.0.0"
+  },
+  "sv": {
+    "installedPackageNotFound": true
+  }
+}

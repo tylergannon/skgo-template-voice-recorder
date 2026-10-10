@@ -1,0 +1,362 @@
+{
+  ".gitignore": {
+    "sha256": "288acd12ff92714cca8bac1b48f9bce47feb3a0204e7e2982a4341d6dd8964a3"
+  },
+  "Justfile": {
+    "sha256": "1d234bf44b8d69642cfcb72316c194620e5f7606ebc10b47d3d88a82855bc55c"
+  },
+  "README.md": {
+    "sha256": "ba393c866f4ca6f574eb0f20e6e9afc47d06e34bf38f132f7ba1a56199e3c8d0"
+  },
+  "cmd/main.go": {
+    "sha256": "35ba980593cfee905311bb0267bc4be64b8ed50c2834b8d61442a8eb0e3f6452"
+  },
+  "cmd/transcript-fixture/main.go": {
+    "sha256": "07704a3e6ea2ba6b9b35599f7c0b8f5b8b19e8a63c2e8aa8c1fcc2c04105372d"
+  },
+  "cmd/transcript-fixture/main_test.go": {
+    "sha256": "ed1da8ccef3110831a7b97b43a2aa54cbf1d730708ba753cc3cc5a177a828d6b"
+  },
+  "go.mod": {
+    "sha256": "e2014944b1b3810e2922481b1f395ab42060448a5170a90efebb30cee5ac3544"
+  },
+  "go.sum": {
+    "sha256": "9ab24870e30cf69d68aca30ef4b9f57d590c7f0dd59c00276715c9b32f20fe67"
+  },
+  "internal/app/locals.go": {
+    "sha256": "57fc64b7b001f6f019d781632ed32572699f4ef2f8d1464e0f388af2fee84889"
+  },
+  "internal/app/skgo_gen.go": {
+    "sha256": "5ea1e0fbf819f5676b951e75fefe8f6a945ffb0d5340299e34be18035bae8c57"
+  },
+  "internal/serverhooks/handle.go": {
+    "sha256": "3fc38b70dadeb6849938cf2748f31752be85fefd922c40d54db3212fc6ddf554"
+  },
+  "internal/skgo/config.go": {
+    "sha256": "eb789f7fbda495d0220127fb25f13c7aa652cf50896dd93706dbb9d17cf7f8e7"
+  },
+  "internal/skgo/params/skgo_gen.go": {
+    "sha256": "9f1029ec0d5b0d26ee86b1f5f360dd075b2e518063e61af8c3a43d0717390d9c"
+  },
+  "internal/skgo/prerender/skgo_gen.go": {
+    "sha256": "74778966e5f649163e2f38faf742e018d781861a25523abf9d58efaedc7b2c5c"
+  },
+  "internal/skgo/skgo_gen.go": {
+    "sha256": "b963c13e266b5abfecf5f913295501feddd6e2edbe9621d0f5d6076aeecd5323"
+  },
+  "internal/transcript/store.go": {
+    "sha256": "047bb7d47463280f1d2267bd82f377b517a38d3d49c98502393c18a10c0b6c15"
+  },
+  "internal/transcript/store_test.go": {
+    "sha256": "491004af703b4d8cf98c6e86a43cc3ab7fc02a6341977fa5929aa2559b1e0e40"
+  },
+  "internal/transcript/stream_real.go": {
+    "sha256": "31f283292605039a8e6a24f9c328992ef681cdf667e5556680aab9b391db1201"
+  },
+  "internal/transcript/stream_synthetic.go": {
+    "sha256": "d0593d5363db7aed61c0037c99988a9330a67ac9e53a04449fec5f62e9bb95de"
+  },
+  "internal/transcript/stream_synthetic_test.go": {
+    "sha256": "9dd9390ed7063fdeefad9ccfef6a80fcbf452fa4de602237888d6c1b8cc0deb6"
+  },
+  "native/.gitignore": {
+    "sha256": "c494ea15fc74fee9fec1db5d9258a9b32fce66767813734c0d37512f9eb6df70"
+  },
+  "native/Bridge.h": {
+    "sha256": "9bdaa403cdbb5d81131abf7a23415b4ecbbcc547a001a7ec02208cc6d4a19dca"
+  },
+  "native/Resources/Licenses/AppleSample-LICENSE.txt": {
+    "sha256": "ef80d1c2ac05c7040c0ced9d603c2c359712f90fdb3ece8da70b976981a69e89"
+  },
+  "native/Resources/Licenses/AuralKit-LICENSE.txt": {
+    "sha256": "bb3ed780d373ad8ee41ea8d2f5dffe62475f90914c77a24a7eae715cbe40f9a8"
+  },
+  "native/Resources/synthetic-transcript.json": {
+    "sha256": "78a5e29af815b030d93fbadc0435085f1444fab94609dde03cb41ccd95c641a0"
+  },
+  "native/Sources/Application.swift": {
+    "sha256": "f8ad90fa62b3605e5bcb0d1b8aa21e29a13100288b1f3f37a373f48ce6a5ccc0"
+  },
+  "native/Sources/ApplicationView.swift": {
+    "sha256": "1f69a97b4666e88f284ef6fd8cf6151748d06f820f36e4d65f32626a6d0a5036"
+  },
+  "native/Sources/ApplicationWebView.swift": {
+    "sha256": "743f17eec71f130ed2de847097666c1eec2905a3b26451046d67b5bf85f8d9ea"
+  },
+  "native/Sources/MicrophoneSource.swift": {
+    "sha256": "aa4f0e95afc12d066e48a941ebe20c26fa715d2e4aa3bd462c52b10bff0a8774"
+  },
+  "native/Sources/NativeCommands.swift": {
+    "sha256": "3e1735dc5c65a6d28b4ceeb0a5b1ff3643b667e262c05df056616f7fd6a2c99f"
+  },
+  "native/Sources/NativeHost.swift": {
+    "sha256": "6b6da3fbb7c7900ea66e0d0871c6072a5188efd1059a65ee0ea1853c7fe6ae6d"
+  },
+  "native/Sources/RecorderController.swift": {
+    "sha256": "3deb5392ef936510b05e509dac1efff771db3812e8c5d1bc22607ac84b1530db"
+  },
+  "native/Sources/RecorderControls.swift": {
+    "sha256": "63f9e184ee2b6a04295af102bbcdd63a082496a32726bd06e10ebfe5cbb3a76f"
+  },
+  "native/Sources/RecorderScreen.swift": {
+    "sha256": "d659ba7e9d71618b2abb0e9a3c5f13e64794abaf81c0ec11430f20faf4ee2b66"
+  },
+  "native/Sources/RecordingInput.swift": {
+    "sha256": "84dc9d60899f2f7a8fc29dc82ffa87069d2f2240c1200acdc1b40550f9a9ca9d"
+  },
+  "native/Sources/RecordingSettings.swift": {
+    "sha256": "c4a5b79b0ab78b2d170708e20092e46476b91d4460793359e8e7c5c119d6ac72"
+  },
+  "native/Sources/SyntheticSource.swift": {
+    "sha256": "22c0929891d7e1d462b3254a8eabf20fdcc4203b9cd7abd978a22f2dfc565c66"
+  },
+  "native/Sources/TranscriptCore.swift": {
+    "sha256": "be656efe3df8c575d5c349051bb9a30559f200ba66c187d4d6f57929141d2ce3"
+  },
+  "native/Tests/ControllerTests.swift": {
+    "sha256": "29435e39dc3bb30ef9fa7c4f2975fb168d4b04591e761fc70a55349f21e1c09e"
+  },
+  "native/Tests/CoreTests.swift": {
+    "sha256": "8cc2d1923acbfbfd288d94ec5be9c66d24080938a99d166f48f40d8ff42b1a6a"
+  },
+  "native/Tests/Fixtures/burst-transcript.json": {
+    "sha256": "e8ddb840da2150fb82aca51e29b3095b568da8f6aed84966f6cf0b84251455fc"
+  },
+  "native/Tests/RecordingInputTests.swift": {
+    "sha256": "9f54bc6f94c3766dbf432866f90f69c31f58b69428f320b9bd8c5ad1600fd639"
+  },
+  "native/Tests/ScriptedControllerTests.swift": {
+    "sha256": "8f1d89a57f6d2c9b14e7113ca0a31745e315178962a754831f1bade1b91681de"
+  },
+  "native/Transcription/.gitignore": {
+    "sha256": "a5fe6c65674f5049b10bac541bcbf85b47991c3553526ea7bbdeedd5f45512e1"
+  },
+  "native/Transcription/Package.swift": {
+    "sha256": "46986a1c3fa76b6792b4d3952a2efaf452f1e33524313acbecdf9cd4da85c6f1"
+  },
+  "native/Transcription/ProbeInfo.plist": {
+    "sha256": "3b621015126fb47c53559aa671326de37907a2817778aa57024360e2deb51987"
+  },
+  "native/Transcription/README.md": {
+    "sha256": "1c062d2307bd304394c63783c706003fbfee8d2d58eb9e211b9c4c7e658e12a3"
+  },
+  "native/Transcription/Sources/AppleTranscription/AudioInputLevel.swift": {
+    "sha256": "0c8e0989eb32ee857b2a34a493d96b76b825468ff80353e043f81181906d4ef4"
+  },
+  "native/Transcription/Sources/AppleTranscription/InputDevices.swift": {
+    "sha256": "c34705629975098bf7baae85ecb48d060859651107c3b92a724bd31856b708ce"
+  },
+  "native/Transcription/Sources/AppleTranscription/MicrophoneSource.swift": {
+    "sha256": "0eaea96b978092fd899f882445de26ab5072ea08513785b5c996b3d9dd3f4f83"
+  },
+  "native/Transcription/Sources/ScriptedTranscription/SyntheticSource.swift": {
+    "sha256": "3556ff04086927a7ab5b7cfa267305b17e9d130942430a6701ee908c3e76e226"
+  },
+  "native/Transcription/Sources/TranscriptSource/TranscriptSource.swift": {
+    "sha256": "3ea06a59164a6c165c769a59d0de8f3fa1ad4e5fd2e7b3c9f136d13b4ba74f79"
+  },
+  "native/Transcription/Sources/TranscriptionProbe/main.swift": {
+    "sha256": "1c4ad471502c9dcdd2a9ed17ff457713fc83b573dd18db12e554c7749baf3dc0"
+  },
+  "native/Transcription/Tests/AudioTests/AudioTests.swift": {
+    "sha256": "6c2a182c6e79b5b4d160af143cdf3e5a013e3fe8b6c70dc2e78d8ac1e5cdd265"
+  },
+  "native/Transcription/Tests/SyntheticTests/SyntheticTests.swift": {
+    "sha256": "be99873d7fc90ca4d13f8cdd0085a976fcb857a3e0d4f058ca342cae662b5e3b"
+  },
+  "native/host/main.go": {
+    "sha256": "d51b75b57607bf0de814b9f2da6685a05f8fad13e7fd617a23358eec1f4e4453"
+  },
+  "native/skgo-native.json": {
+    "sha256": "847d853496dd6c9f155ea4ad86676584b3300d2ec677cbcb533503cf2041329d"
+  },
+  "scripts/check-recorder.sh": {
+    "sha256": "5ea111be5c8e006ab86858529d49b24c8ea93cd89013d6d8b7950e6cf1cd7576"
+  },
+  "scripts/check-transcription.sh": {
+    "sha256": "ad139a391996fba09041fc21c03c9b4639b7e2a42a49aa7c021faf3813c1e751"
+  },
+  "scripts/feed-transcript.sh": {
+    "sha256": "0b13deb9d4bdeb6042baedb5767ed81aa8849a0cb20e81337f123dd82d4f1d96"
+  },
+  "scripts/probe-transcription.sh": {
+    "sha256": "f11e680ec0c54f4412f8ef25b38ad66c28d800972045405e5636e47e48c61ca9"
+  },
+  "server.go": {
+    "sha256": "7662932111b848371dde25eb27ba5a0b90a3f4e9f11dd94309b56c8d65db7a6e"
+  },
+  "skgo.json": {
+    "sha256": "6450bb2b4e2999be6da90ffa783f987d9c94835c0c519702d7a02183e3c84d28"
+  },
+  "web/.gitignore": {
+    "sha256": "0140725247fad267676ac27c11e8a3e947318a88d5511ef9af75455b01313340"
+  },
+  "web/.npmrc": {
+    "sha256": "7151cf397def0c2cb0ab65643701d27d335a72c90f775675b5f826bc7005818a"
+  },
+  "web/.storybook/main.ts": {
+    "sha256": "09600c747133c84bb28c9cc7ec6b8a0eca9f636e5e832004bfc54011144e0659"
+  },
+  "web/.storybook/preview.ts": {
+    "sha256": "a925ffde53549771daad40ea8e0053ed65496bcbcf6145deb03e757d07c7b363"
+  },
+  "web/.vscode/extensions.json": {
+    "sha256": "d7a544abf54e307549d089c775f179a5b454c97f2143846c80d3f93fa64984b9"
+  },
+  "web/README.md": {
+    "sha256": "69b91707e9090e75a515d15a14c4c50d9430ba8dd6d3cf660d194f4b3c5541f4"
+  },
+  "web/debug-storybook.log": {
+    "sha256": "115ad5a50b0e23eee12325338f830430b308dcd2cec72fc76e602f1e7e021c86"
+  },
+  "web/dist.go": {
+    "sha256": "f7ededcba547d963dd78560f539e06232c8d2b0d48f619e8bcc4bf98742df66b"
+  },
+  "web/package.json": {
+    "sha256": "5d5913658bf373f380028efe953180ed672f3cb4f978059d4faed65cf4142cf2"
+  },
+  "web/patches/skgo-kit-3.0.0-queue.patch": {
+    "sha256": "0d35d370d3e5fb6e0c801cd1079013b3d487d6e301e27777f26fabbf6e0106c4"
+  },
+  "web/pnpm-lock.yaml": {
+    "sha256": "9871ee51ae3b3875659dba96914ee00a73972978bde7811575c5d3fc0cb23e17"
+  },
+  "web/pnpm-workspace.yaml": {
+    "sha256": "f04415722cde31689cb7d1a8d057322665892df97fc9002afdf010a574126206"
+  },
+  "web/skgo.remotes.json": {
+    "sha256": "06d7a27744710d9ca34323b0855ebd7870f7c0ab615b65424def7569d0734ff7"
+  },
+  "web/src/app.d.ts": {
+    "sha256": "21f0deb499f7a51aa5251dd3592a0cb14410d0bef3d86cffac0197e36331758a"
+  },
+  "web/src/app.html": {
+    "sha256": "6715fa70c1f776621ff09fec4a250d7a2ce0e4ed264d8ae3600ad63c14f18d03"
+  },
+  "web/src/hooks.server.ts": {
+    "sha256": "e16860bd53f36c43ce095dfe1009a8a9e785316ff7356f4abb2994133596eea1"
+  },
+  "web/src/lib/TranscriptScreen.svelte": {
+    "sha256": "53dba41e80840ccef739c54f782c992481aacd221de44f6e09ed26aea74ad576"
+  },
+  "web/src/lib/TranscriptScreen.svelte.spec.ts": {
+    "sha256": "30e59ba40877abd3c3be64dde16ae53aed6dc59821e84a2f9227338107d464b2"
+  },
+  "web/src/lib/assets/favicon.svg": {
+    "sha256": "d7d9227f0fe5bfb4189fb6ba4dd9e2d524f6a1dfd02bd901c65330987675c0b3"
+  },
+  "web/src/lib/index.ts": {
+    "sha256": "78c1e80903c1207997c9a4384727c08717561f5d615fedd714a4f91807d80862"
+  },
+  "web/src/lib/native-status.spec.ts": {
+    "sha256": "9403c79724c99067108b29f14c5fba88ff92e14e3cffe3628c93f3609132c6e0"
+  },
+  "web/src/lib/native-status.ts": {
+    "sha256": "d127ad5be2713067655d7ea3a669458556590b781e9e065b2e6381d764321e8b"
+  },
+  "web/src/lib/transcript.remote.go": {
+    "sha256": "397d12be84040e6bee228f49b83dbbaacf5a7860e387fb39b239c9ab48fcc105"
+  },
+  "web/src/lib/vitest-examples/Welcome.svelte": {
+    "sha256": "213acedb4a6383de495570956752969d3be8aa08b3a227d24cf6470e4d2e0af7"
+  },
+  "web/src/lib/vitest-examples/Welcome.svelte.spec.ts": {
+    "sha256": "c587770018ced45303bf570319bd270d97afbabdd328198d706570c4f5d91da6"
+  },
+  "web/src/lib/vitest-examples/greet.spec.ts": {
+    "sha256": "46ed92458813bc77e8eaec542fd0900d0ab0f744843a0d8d95837dc2a8fdfb12"
+  },
+  "web/src/lib/vitest-examples/greet.ts": {
+    "sha256": "43f98668d12af9f316ba17cdf42411eee926fd953ab003e8fe275a824ed343be"
+  },
+  "web/src/routes/+layout.svelte": {
+    "sha256": "d445fe6319ae37282bdafd145320263b47ce13d623c7728e82b40665c8f70e5b"
+  },
+  "web/src/routes/+page.svelte": {
+    "sha256": "bd87ea77b4fe72aa95b324a24443cc247e78a2ef0f8897eeb64f4ee0c135a267"
+  },
+  "web/src/stories/Button.stories.svelte": {
+    "sha256": "58e6247303cf1582302a2c832a886485a1b345073219aa0b0e4c366fc93d3eba"
+  },
+  "web/src/stories/Button.svelte": {
+    "sha256": "eaa21a335256323bf9fe85b8a0b2f142021fc235fa318b8dc6a965edf21ef94b"
+  },
+  "web/src/stories/Header.stories.svelte": {
+    "sha256": "5f0945e18733eb8f2389c8b836b23572480d1a938bc1bedb12840099dbc32e4d"
+  },
+  "web/src/stories/Header.svelte": {
+    "sha256": "b630ea50d5791c0808cb5c036239493e5cace4afde50a57a6daeea79b6d117b4"
+  },
+  "web/src/stories/Page.stories.svelte": {
+    "sha256": "b396d9bdc4b56aec42c845732de7fdaec4aff7219de550282ccff5dfbbb13dfb"
+  },
+  "web/src/stories/Page.svelte": {
+    "sha256": "6638d152adbd7f9ce86524bca227e48bd5938b03567133542e39fe201761cddf"
+  },
+  "web/src/stories/assets/accessibility.png": {
+    "sha256": "cd6d60f7f8fee968e7687b6d886f766990424923f2a4c4b7d03b7ba54ccee191"
+  },
+  "web/src/stories/assets/accessibility.svg": {
+    "sha256": "75e59b0443a248b91372f09fee7ca4e3acff2269cfee4ea684bb6ffbc48221bd"
+  },
+  "web/src/stories/assets/addon-library.png": {
+    "sha256": "bc7ba70560462f6ddc4d22a6fcaaf40e577b2f37f3c3df88fcaa5b08a708a5e8"
+  },
+  "web/src/stories/assets/assets.png": {
+    "sha256": "2c90cb173ddcf13fec797baf538fbb211f4675eb6cd438b09ec64a84d7a2ffde"
+  },
+  "web/src/stories/assets/avif-test-image.avif": {
+    "sha256": "2d63d30c71eba93e6ce5ea77a1b85718be67aafde52c772da44ff891225558c6"
+  },
+  "web/src/stories/assets/context.png": {
+    "sha256": "c612d889d515d6e680ecf1131c4f116532eb19ae17654c6df5bc8ff0864f96fa"
+  },
+  "web/src/stories/assets/discord.svg": {
+    "sha256": "728ff2659cd453eb3abca53948ac35e815e6b8880a78582ba4ccab3c50564803"
+  },
+  "web/src/stories/assets/docs.png": {
+    "sha256": "5b0c7100c80607174ad6e930376103fae0d729328e9de85ee292b36b6b102214"
+  },
+  "web/src/stories/assets/figma-plugin.png": {
+    "sha256": "b0a5ad2d021efea93a13ae3829211714ab162a49b0b9e215559dab01c2328149"
+  },
+  "web/src/stories/assets/github.svg": {
+    "sha256": "a4113cf2c6e0e6fba99a85498e6b7c84c42d8c13928f89e0eede78bc596e0add"
+  },
+  "web/src/stories/assets/share.png": {
+    "sha256": "b59d6c77b3ac1fc89d6d026e9e70ba5204801d6864022e801322ce8d579bcbd9"
+  },
+  "web/src/stories/assets/styling.png": {
+    "sha256": "c83082e0e8386ae5d56e13dc4cd85b06a53162a4b6575a0fbb2e45c95ec7f82e"
+  },
+  "web/src/stories/assets/testing.png": {
+    "sha256": "6a59f68143c561f5feb549cf417fa084d0c761b856b0d9903f4fed44d850da16"
+  },
+  "web/src/stories/assets/theming.png": {
+    "sha256": "b6e819c3dd77c466a6509b199a33dd2bbc9471b42891c3fcb469d9bf849bc976"
+  },
+  "web/src/stories/assets/tutorials.svg": {
+    "sha256": "92011d59300200edd459f01eee8203576a90d5f2b0cf1a15481a0205d84c1f74"
+  },
+  "web/src/stories/assets/youtube.svg": {
+    "sha256": "9d265ff6f05ea0610040f990152026109bba39cc505b8e5aec2bdcd0e84d0ff2"
+  },
+  "web/src/stories/button.css": {
+    "sha256": "98c486391e8670d0d41c417f80c6d84413d19e60164f98281ec4200f780e2b67"
+  },
+  "web/src/stories/header.css": {
+    "sha256": "7ceb936fd6dcf8dd984ddd523db7ad1662aee49a8bacaef3cf25ca3e1c280228"
+  },
+  "web/src/stories/page.css": {
+    "sha256": "3694cbab9a82c67fd67a89b5f21b7fb737c02b383ab5946fdb436769846f3f3d"
+  },
+  "web/static/robots.txt": {
+    "sha256": "b033243267bcbdab84cb01e940811d6d77a894d78f0470faaf0eb43f8e4efcc9"
+  },
+  "web/tsconfig.json": {
+    "sha256": "459266125df835d2e16d3a70956861743d30965e01493da33015cc1918a18c7f"
+  },
+  "web/vite.config.ts": {
+    "sha256": "9d36d92ec0b730e8b3f69cfb232520e3e8c3e7f3f13596b57a2eec68e4e943b2"
+  }
+}

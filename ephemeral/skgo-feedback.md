@@ -126,3 +126,21 @@ that tomorrow's execution will necessarily reproduce or that it will succeed.
 No consumer patch, retry or native/browser completion test followed. Report the
 observed refusal to the framework owner; do not infer or weaken the policy to
 manufacture a passing consumer. Successful released updater proof remains open.
+
+## Released v0.28.3 accepts the actual fresh-adapter exception
+
+Version: v0.28.3/2edb21c8947bb7ccd8ec973e221abfcef8242884; normal update,
+issue #297, released repair #305. A fresh exact copy of the same held edited
+v0.27.0 baseline completed without prerequisite patches or development overrides.
+Adapter 0.28.2 was 3606.747 seconds old at attempt start; pnpm logged adding its
+exact minimumReleaseAgeExclude entry, the guard accepted it, and the retained
+workspace diff proves the addition. Production web/Go and macOS synthetic build
+passed; regular browser observed final synthetic text. This supersedes the
+remaining-open qualification statement above for this input, not its historical
+refusal. Report/receipts: ephemeral/validation/released-update-v0.28.3/.
+
+Tooling friction: initial just test refused ambient pnpm 12.10.1 against the
+project's 12.9.1 onFail:error pin. Same recipe via official vp env exec
+--package-manager pnpm@12.9.1 passed all 11 tests; ordinary shell success is not
+claimed. No source or manifest workaround was applied. Native runtime and
+managed source installer remain separately unqualified on this release.

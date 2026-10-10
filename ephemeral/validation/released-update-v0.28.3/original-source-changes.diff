@@ -1,0 +1,2003 @@
+--- before/go.mod
++++ after/go.mod
+@@ -4,7 +4,10 @@
+ 
+ ignore ./web/node_modules
+ 
+-require github.com/tylergannon/skgo v0.27.0
++require (
++	github.com/tylergannon/devalue/v5 v5.0.0
++	github.com/tylergannon/skgo v0.28.3
++)
+ 
+ require (
+ 	github.com/dave/dst v0.27.4 // indirect
+@@ -13,7 +16,6 @@
+ 	github.com/dop251/goja_nodejs v0.0.0-20260212111938-1f56ff5bcf14 // indirect
+ 	github.com/go-sourcemap/sourcemap v2.1.4+incompatible // indirect
+ 	github.com/google/pprof v0.0.0-20260906184651-6331bc6350fe // indirect
+-	github.com/tylergannon/devalue/v5 v5.0.0 // indirect
+ 	github.com/tylergannon/polytype v1.5.0 // indirect
+ 	github.com/tylergannon/structtag v0.1.0 // indirect
+ 	golang.org/x/mod v0.41.0 // indirect
+--- before/go.sum
++++ after/go.sum
+@@ -34,8 +34,8 @@
+ github.com/tylergannon/devalue/v5 v5.0.0/go.mod h1:F3VxJn5uu/ROJxoVB3zhxFwuWl+jUrv6n6EJC5yB3z8=
+ github.com/tylergannon/polytype v1.5.0 h1:lcGJ0Rav1HA3Wa+qe/bl3fEcWbMgNFsRE6mfV8QrQs8=
+ github.com/tylergannon/polytype v1.5.0/go.mod h1:ljszsbERJJBCiZvsLCIaRBl2/f8USUuGJ0+uD1hJbgw=
+-github.com/tylergannon/skgo v0.27.0 h1:J//xPJ8hsvDXGnDtFrj/DWgnhzNf1QPA/HQmjKWjRiU=
+-github.com/tylergannon/skgo v0.27.0/go.mod h1:HTDFFIy9eZ9AYBZfH9HSvdqKdzw993/gjYGvufRCvSw=
++github.com/tylergannon/skgo v0.28.3 h1:ljGrUYh6c8jd93S4Kcuu6WPcX/jvlrsZsBmPBACGENM=
++github.com/tylergannon/skgo v0.28.3/go.mod h1:HTDFFIy9eZ9AYBZfH9HSvdqKdzw993/gjYGvufRCvSw=
+ github.com/tylergannon/structtag v0.1.0 h1:Vn4ZEemGUtAfw9ddEtHQILKnIWqSWCSpciFTNPh1gcY=
+ github.com/tylergannon/structtag v0.1.0/go.mod h1:Rjgg4hJfebaKNeyqoLh4n+zKhfVBdMyc7nBHIlQsVw0=
+ golang.org/x/mod v0.41.0 h1:qJmnOUb4YB+FsEuM3HcWucdZASCPGhsX6uljO6pog0c=
+--- before/internal/skgo/skgo_gen.go
++++ after/internal/skgo/skgo_gen.go
+@@ -3,14 +3,1283 @@
+ package skgo
+ 
+ import (
++	context "context"
++	json "encoding/json"
+ 	serverhooks "example.com/field-notes/internal/serverhooks"
+ 	params "example.com/field-notes/internal/skgo/params"
++	transcript "example.com/field-notes/internal/transcript"
++	skgo0 "example.com/field-notes/web/src/lib"
++	fmt "fmt"
++	devalue "github.com/tylergannon/devalue/v5"
+ 	skgo "github.com/tylergannon/skgo"
++	math "math"
+ 	http "net/http"
++	slices "slices"
++	strconv "strconv"
++	time "time"
+ )
+ 
+ func RequestBoundary(cfg skgo.HandleConfig, next http.Handler) http.Handler {
+ 	return params.Middleware(serverhooks.Handle).Intercept(cfg, next)
++}
++
++var _ = math.IsNaN
++var _ = strconv.Itoa
++
++func skgoNativeCheck1(value string, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck0(value transcript.SessionRequest, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if err := skgoNativeCheck1(value.SessionID, path+"/sessionID", depth+1); err != nil {
++		return err
++	}
++	return nil
++}
++func skgoNativeCheck3(value string, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck4(value int64, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if int64(value) < -9007199254740991 || int64(value) > 9007199254740991 {
++		return fmt.Errorf("native integer %s is outside the JavaScript number domain", path)
++	}
++	return nil
++}
++func skgoNativeCheck5(value bool, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck2(value transcript.Ack, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if err := skgoNativeCheck3(value.SessionID, path+"/sessionID", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck4(value.Sequence, path+"/sequence", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck5(value.Closed, path+"/closed", depth+1); err != nil {
++		return err
++	}
++	return nil
++}
++func skgoNativeCheck7(value string, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck8(value int64, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if int64(value) < -9007199254740991 || int64(value) > 9007199254740991 {
++		return fmt.Errorf("native integer %s is outside the JavaScript number domain", path)
++	}
++	return nil
++}
++func skgoNativeCheck11(value int64, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if int64(value) < -9007199254740991 || int64(value) > 9007199254740991 {
++		return fmt.Errorf("native integer %s is outside the JavaScript number domain", path)
++	}
++	return nil
++}
++func skgoNativeCheck12(value int64, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if int64(value) < -9007199254740991 || int64(value) > 9007199254740991 {
++		return fmt.Errorf("native integer %s is outside the JavaScript number domain", path)
++	}
++	return nil
++}
++func skgoNativeCheck13(value string, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck10(value transcript.Chunk, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if err := skgoNativeCheck11(value.StartMs, path+"/startMs", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck12(value.EndMs, path+"/endMs", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck13(value.Text, path+"/text", depth+1); err != nil {
++		return err
++	}
++	return nil
++}
++func skgoNativeCheck9(value []transcript.Chunk, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	for i, item := range value {
++		if err := skgoNativeCheck10(item, path+"/"+strconv.Itoa(i), depth+1); err != nil {
++			return err
++		}
++	}
++	return nil
++}
++func skgoNativeCheck14(value []transcript.Chunk, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	for i, item := range value {
++		if err := skgoNativeCheck10(item, path+"/"+strconv.Itoa(i), depth+1); err != nil {
++			return err
++		}
++	}
++	return nil
++}
++func skgoNativeCheck6(value transcript.Update, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if err := skgoNativeCheck7(value.SessionID, path+"/sessionID", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck8(value.Sequence, path+"/sequence", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck9(value.Finalized, path+"/finalized", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck14(value.Provisional, path+"/provisional", depth+1); err != nil {
++		return err
++	}
++	return nil
++}
++func skgoNativeCheck16(value string, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck17(value int64, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if int64(value) < -9007199254740991 || int64(value) > 9007199254740991 {
++		return fmt.Errorf("native integer %s is outside the JavaScript number domain", path)
++	}
++	return nil
++}
++func skgoNativeCheck15(value transcript.CloseRequest, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if err := skgoNativeCheck16(value.SessionID, path+"/sessionID", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck17(value.Sequence, path+"/sequence", depth+1); err != nil {
++		return err
++	}
++	return nil
++}
++func skgoNativeCheck19(value string, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck20(value string, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	return nil
++}
++func skgoNativeCheck18(value transcript.OpenRequest, path string, depth int) error {
++	if depth >= 256 {
++		return fmt.Errorf("native model %s exceeds depth 255", path)
++	}
++	if err := skgoNativeCheck19(value.SessionID, path+"/sessionID", depth+1); err != nil {
++		return err
++	}
++	if err := skgoNativeCheck20(value.Source, path+"/source", depth+1); err != nil {
++		return err
++	}
++	return nil
++}
++
++// dvAt renders a JSON-pointer-style path for a diagnostic. The root value has
++// the empty path, which is spelled "/" so a message never starts with ": ".
++func dvAt(at string) string {
++	if at == "" {
++		return "/"
++	}
++	return at
++}
++
++func dvErr(at string, format string, args ...any) error {
++	return fmt.Errorf("%s: %s", dvAt(at), fmt.Sprintf(format, args...))
++}
++
++// dvKind names the devalue value model kind of v for wrong-kind diagnostics.
++// Every tagged form is named so a rejected Date or Map says which one it was.
++func dvKind(v any) string {
++	switch v.(type) {
++	case nil:
++		return "null"
++	case devalue.UndefinedValue:
++		return "undefined"
++	case devalue.HoleValue:
++		return "a sparse-array hole"
++	case bool:
++		return "a boolean"
++	case float64:
++		return "a number"
++	case string:
++		return "a string"
++	case []any:
++		return "an array"
++	case *devalue.Object:
++		return "an object"
++	case devalue.Date:
++		return "a Date"
++	case *devalue.Map:
++		return "a Map"
++	case *devalue.Set:
++		return "a Set"
++	case devalue.BigInt:
++		return "a BigInt"
++	case devalue.RegExp:
++		return "a RegExp"
++	case devalue.ArrayBuffer:
++		return "an ArrayBuffer"
++	case *devalue.Boxed:
++		return "a boxed primitive"
++	default:
++		return fmt.Sprintf("a value of type %T", v)
++	}
++}
++
++func dvBool(raw any, at string) (bool, error) {
++	v, ok := raw.(bool)
++	if !ok {
++		return false, dvErr(at, "expected a boolean, got %s", dvKind(raw))
++	}
++	return v, nil
++}
++
++func dvString(raw any, at string) (string, error) {
++	v, ok := raw.(string)
++	if !ok {
++		return "", dvErr(at, "expected a string, got %s", dvKind(raw))
++	}
++	return v, nil
++}
++
++func dvNumber(raw any, at string) (float64, error) {
++	v, ok := raw.(float64)
++	if !ok {
++		return 0, dvErr(at, "expected a number, got %s", dvKind(raw))
++	}
++	return v, nil
++}
++
++// dvFloat32 narrows a wire number, refusing values outside float32's range so
++// a decode never silently yields an infinity.
++func dvFloat32(raw any, at string) (float32, error) {
++	v, err := dvNumber(raw, at)
++	if err != nil {
++		return 0, err
++	}
++	if !math.IsInf(v, 0) && !math.IsNaN(v) && math.Abs(v) > math.MaxFloat32 {
++		return 0, dvErr(at, "number %v is out of range for float32", v)
++	}
++	return float32(v), nil
++}
++
++// dvInteger admits only integral numbers inside [min, max]. The bounds are
++// float64 because every wire number is one; kinds wider than 2^53 are checked
++// against the rounded bound, which is the same precision the encoder has.
++func dvInteger(raw any, at string, min, max float64) (float64, error) {
++	v, err := dvNumber(raw, at)
++	if err != nil {
++		return 0, err
++	}
++	if math.IsInf(v, 0) || math.IsNaN(v) || v != math.Trunc(v) {
++		return 0, dvErr(at, "expected an integer, got %v", v)
++	}
++	if v < min || v > max {
++		return 0, dvErr(at, "number %v is out of range", v)
++	}
++	return v, nil
++}
++
++func dvArray(raw any, at string) ([]any, error) {
++	v, ok := raw.([]any)
++	if !ok {
++		return nil, dvErr(at, "expected an array, got %s", dvKind(raw))
++	}
++	for i, item := range v {
++		if _, hole := item.(devalue.HoleValue); hole {
++			return nil, dvErr(at+"/"+strconv.Itoa(i), "array element is a hole")
++		}
++	}
++	return v, nil
++}
++
++func dvObject(raw any, at string) (*devalue.Object, error) {
++	v, ok := raw.(*devalue.Object)
++	if !ok {
++		return nil, dvErr(at, "expected an object, got %s", dvKind(raw))
++	}
++	return v, nil
++}
++
++func dvKnown(o *devalue.Object, at string, known ...string) error {
++	for _, key := range o.Keys() {
++		if !slices.Contains(known, key) {
++			return dvErr(at, "unknown property %q", key)
++		}
++	}
++	return nil
++}
++
++// dvRequired reads a property that must be present and must not be undefined.
++// at is the property's own path, so the diagnostic points at the value.
++func dvRequired(o *devalue.Object, key string, at string) (any, error) {
++	v, ok := o.Get(key)
++	if !ok {
++		return nil, dvErr(at, "missing required property %q", key)
++	}
++	if _, undefined := v.(devalue.UndefinedValue); undefined {
++		return nil, dvErr(at, "value is undefined")
++	}
++	return v, nil
++}
++
++// dvPresent reads an optional property. It reports absence, and rejects an
++// explicit undefined, which is not the same thing on this wire.
++func dvPresent(o *devalue.Object, key string, at string) (any, bool, error) {
++	v, ok := o.Get(key)
++	if !ok {
++		return nil, false, nil
++	}
++	if _, undefined := v.(devalue.UndefinedValue); undefined {
++		return nil, false, dvErr(at, "value is undefined")
++	}
++	return v, true, nil
++}
++
++// dvWithout copies o omitting key, so a union payload decoder does not see the
++// discriminator it never declared as a field.
++func dvWithout(o *devalue.Object, key string) *devalue.Object {
++	out := devalue.NewObject()
++	for _, k := range o.Keys() {
++		if k == key {
++			continue
++		}
++		v, _ := o.Get(k)
++		out.Set(k, v)
++	}
++	return out
++}
++
++// dvTagged rebuilds a union payload with the discriminator first, leaving any
++// discriminator the payload itself carried out of the result.
++func dvTagged(payload any, discriminator string, tag string, at string) (any, error) {
++	o, err := dvObject(payload, at)
++	if err != nil {
++		return nil, err
++	}
++	out := devalue.NewObject()
++	out.Set(discriminator, tag)
++	for _, k := range o.Keys() {
++		if k == discriminator {
++			continue
++		}
++		v, _ := o.Get(k)
++		out.Set(k, v)
++	}
++	return out, nil
++}
++
++// dvEncodeTime and dvDecodeTime use time.Time's own JSON methods, so the wire
++// string is exactly the one encoding/json would produce and accept.
++func dvEncodeTime(v time.Time, at string) (any, error) {
++	encoded, err := v.MarshalJSON()
++	if err != nil {
++		return nil, dvErr(at, "%v", err)
++	}
++	var s string
++	if err := json.Unmarshal(encoded, &s); err != nil {
++		return nil, dvErr(at, "%v", err)
++	}
++	return s, nil
++}
++
++func dvDecodeTime(raw any, at string) (time.Time, error) {
++	s, err := dvString(raw, at)
++	if err != nil {
++		return time.Time{}, err
++	}
++	quoted, err := json.Marshal(s)
++	if err != nil {
++		return time.Time{}, dvErr(at, "%v", err)
++	}
++	var v time.Time
++	if err := v.UnmarshalJSON(quoted); err != nil {
++		return time.Time{}, dvErr(at, "%v", err)
++	}
++	return v, nil
++}
++
++func encSessionRequest(v transcript.SessionRequest, at string) (any, error) {
++	enc1 := devalue.NewObject()
++	var enc2 any = string(v.SessionID)
++	enc1.Set("sessionID", enc2)
++	return enc1, nil
++}
++
++func decSessionRequest(raw any, at string) (transcript.SessionRequest, error) {
++	var dvZero transcript.SessionRequest
++	var dec1 transcript.SessionRequest
++	obj2, err := dvObject(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	if err := dvKnown(obj2, at, "sessionID"); err != nil {
++		return dvZero, err
++	}
++	raw3, err := dvRequired(obj2, "sessionID", at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec4, err := dvString(raw3, at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.SessionID = dec4
++	return dec1, nil
++}
++
++// EncodeSessionRequest converts v into the devalue value model.
++func EncodeSessionRequest(v transcript.SessionRequest) (any, error) {
++	return encSessionRequest(v, "")
++}
++
++// DecodeSessionRequest converts a devalue value model tree into a pkg_transcript.SessionRequest, rejecting any
++// shape the type grammar does not admit.
++func DecodeSessionRequest(raw any) (transcript.SessionRequest, error) {
++	return decSessionRequest(raw, "")
++}
++
++// StringifySessionRequest encodes v and serializes it with devalue.
++func StringifySessionRequest(v transcript.SessionRequest) (string, error) {
++	encoded, err := encSessionRequest(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseSessionRequest parses a devalue document and decodes it into a pkg_transcript.SessionRequest.
++func ParseSessionRequest(s string) (transcript.SessionRequest, error) {
++	var zero transcript.SessionRequest
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decSessionRequest(parsed, "")
++}
++
++func encAck(v transcript.Ack, at string) (any, error) {
++	enc1 := devalue.NewObject()
++	var enc2 any = string(v.SessionID)
++	enc1.Set("sessionID", enc2)
++	var enc3 any = float64(v.Sequence)
++	enc1.Set("sequence", enc3)
++	var enc4 any = bool(v.Closed)
++	enc1.Set("closed", enc4)
++	return enc1, nil
++}
++
++func decAck(raw any, at string) (transcript.Ack, error) {
++	var dvZero transcript.Ack
++	var dec1 transcript.Ack
++	obj2, err := dvObject(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	if err := dvKnown(obj2, at, "sessionID", "sequence", "closed"); err != nil {
++		return dvZero, err
++	}
++	raw3, err := dvRequired(obj2, "sessionID", at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec4, err := dvString(raw3, at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.SessionID = dec4
++	raw5, err := dvRequired(obj2, "sequence", at+"/sequence")
++	if err != nil {
++		return dvZero, err
++	}
++	num7, err := dvInteger(raw5, at+"/sequence", math.MinInt64, math.MaxInt64)
++	if err != nil {
++		return dvZero, err
++	}
++	dec6 := int64(num7)
++	dec1.Sequence = dec6
++	raw8, err := dvRequired(obj2, "closed", at+"/closed")
++	if err != nil {
++		return dvZero, err
++	}
++	dec9, err := dvBool(raw8, at+"/closed")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.Closed = dec9
++	return dec1, nil
++}
++
++// EncodeAck converts v into the devalue value model.
++func EncodeAck(v transcript.Ack) (any, error) { return encAck(v, "") }
++
++// DecodeAck converts a devalue value model tree into a pkg_transcript.Ack, rejecting any
++// shape the type grammar does not admit.
++func DecodeAck(raw any) (transcript.Ack, error) { return decAck(raw, "") }
++
++// StringifyAck encodes v and serializes it with devalue.
++func StringifyAck(v transcript.Ack) (string, error) {
++	encoded, err := encAck(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseAck parses a devalue document and decodes it into a pkg_transcript.Ack.
++func ParseAck(s string) (transcript.Ack, error) {
++	var zero transcript.Ack
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decAck(parsed, "")
++}
++
++func encUpdate(v transcript.Update, at string) (any, error) {
++	enc1 := devalue.NewObject()
++	var enc2 any = string(v.SessionID)
++	enc1.Set("sessionID", enc2)
++	var enc3 any = float64(v.Sequence)
++	enc1.Set("sequence", enc3)
++	enc4 := make([]any, 0, len(v.Finalized))
++	for i5, item6 := range v.Finalized {
++		enc7, err := encChunk(item6, at+"/finalized"+"/"+strconv.Itoa(i5))
++		if err != nil {
++			return nil, err
++		}
++		enc4 = append(enc4, enc7)
++	}
++	var enc8 any = enc4
++	enc1.Set("finalized", enc8)
++	enc9 := make([]any, 0, len(v.Provisional))
++	for i10, item11 := range v.Provisional {
++		enc12, err := encChunk(item11, at+"/provisional"+"/"+strconv.Itoa(i10))
++		if err != nil {
++			return nil, err
++		}
++		enc9 = append(enc9, enc12)
++	}
++	var enc13 any = enc9
++	enc1.Set("provisional", enc13)
++	return enc1, nil
++}
++
++func decUpdate(raw any, at string) (transcript.Update, error) {
++	var dvZero transcript.Update
++	var dec1 transcript.Update
++	obj2, err := dvObject(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	if err := dvKnown(obj2, at, "sessionID", "sequence", "finalized", "provisional"); err != nil {
++		return dvZero, err
++	}
++	raw3, err := dvRequired(obj2, "sessionID", at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec4, err := dvString(raw3, at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.SessionID = dec4
++	raw5, err := dvRequired(obj2, "sequence", at+"/sequence")
++	if err != nil {
++		return dvZero, err
++	}
++	num7, err := dvInteger(raw5, at+"/sequence", math.MinInt64, math.MaxInt64)
++	if err != nil {
++		return dvZero, err
++	}
++	dec6 := int64(num7)
++	dec1.Sequence = dec6
++	raw8, err := dvRequired(obj2, "finalized", at+"/finalized")
++	if err != nil {
++		return dvZero, err
++	}
++	items10, err := dvArray(raw8, at+"/finalized")
++	if err != nil {
++		return dvZero, err
++	}
++	dec9 := make([]transcript.Chunk, 0, len(items10))
++	for i11, item12 := range items10 {
++		dec13, err := decChunk(item12, at+"/finalized"+"/"+strconv.Itoa(i11))
++		if err != nil {
++			return dvZero, err
++		}
++		dec9 = append(dec9, dec13)
++	}
++	dec1.Finalized = dec9
++	raw14, err := dvRequired(obj2, "provisional", at+"/provisional")
++	if err != nil {
++		return dvZero, err
++	}
++	items16, err := dvArray(raw14, at+"/provisional")
++	if err != nil {
++		return dvZero, err
++	}
++	dec15 := make([]transcript.Chunk, 0, len(items16))
++	for i17, item18 := range items16 {
++		dec19, err := decChunk(item18, at+"/provisional"+"/"+strconv.Itoa(i17))
++		if err != nil {
++			return dvZero, err
++		}
++		dec15 = append(dec15, dec19)
++	}
++	dec1.Provisional = dec15
++	return dec1, nil
++}
++
++// EncodeUpdate converts v into the devalue value model.
++func EncodeUpdate(v transcript.Update) (any, error) { return encUpdate(v, "") }
++
++// DecodeUpdate converts a devalue value model tree into a pkg_transcript.Update, rejecting any
++// shape the type grammar does not admit.
++func DecodeUpdate(raw any) (transcript.Update, error) { return decUpdate(raw, "") }
++
++// StringifyUpdate encodes v and serializes it with devalue.
++func StringifyUpdate(v transcript.Update) (string, error) {
++	encoded, err := encUpdate(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseUpdate parses a devalue document and decodes it into a pkg_transcript.Update.
++func ParseUpdate(s string) (transcript.Update, error) {
++	var zero transcript.Update
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decUpdate(parsed, "")
++}
++
++func encChunk(v transcript.Chunk, at string) (any, error) {
++	enc1 := devalue.NewObject()
++	var enc2 any = float64(v.StartMs)
++	enc1.Set("startMs", enc2)
++	var enc3 any = float64(v.EndMs)
++	enc1.Set("endMs", enc3)
++	var enc4 any = string(v.Text)
++	enc1.Set("text", enc4)
++	return enc1, nil
++}
++
++func decChunk(raw any, at string) (transcript.Chunk, error) {
++	var dvZero transcript.Chunk
++	var dec1 transcript.Chunk
++	obj2, err := dvObject(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	if err := dvKnown(obj2, at, "startMs", "endMs", "text"); err != nil {
++		return dvZero, err
++	}
++	raw3, err := dvRequired(obj2, "startMs", at+"/startMs")
++	if err != nil {
++		return dvZero, err
++	}
++	num5, err := dvInteger(raw3, at+"/startMs", math.MinInt64, math.MaxInt64)
++	if err != nil {
++		return dvZero, err
++	}
++	dec4 := int64(num5)
++	dec1.StartMs = dec4
++	raw6, err := dvRequired(obj2, "endMs", at+"/endMs")
++	if err != nil {
++		return dvZero, err
++	}
++	num8, err := dvInteger(raw6, at+"/endMs", math.MinInt64, math.MaxInt64)
++	if err != nil {
++		return dvZero, err
++	}
++	dec7 := int64(num8)
++	dec1.EndMs = dec7
++	raw9, err := dvRequired(obj2, "text", at+"/text")
++	if err != nil {
++		return dvZero, err
++	}
++	dec10, err := dvString(raw9, at+"/text")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.Text = dec10
++	return dec1, nil
++}
++
++// EncodeChunk converts v into the devalue value model.
++func EncodeChunk(v transcript.Chunk) (any, error) { return encChunk(v, "") }
++
++// DecodeChunk converts a devalue value model tree into a pkg_transcript.Chunk, rejecting any
++// shape the type grammar does not admit.
++func DecodeChunk(raw any) (transcript.Chunk, error) { return decChunk(raw, "") }
++
++// StringifyChunk encodes v and serializes it with devalue.
++func StringifyChunk(v transcript.Chunk) (string, error) {
++	encoded, err := encChunk(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseChunk parses a devalue document and decodes it into a pkg_transcript.Chunk.
++func ParseChunk(s string) (transcript.Chunk, error) {
++	var zero transcript.Chunk
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decChunk(parsed, "")
++}
++
++func encCloseRequest(v transcript.CloseRequest, at string) (any, error) {
++	enc1 := devalue.NewObject()
++	var enc2 any = string(v.SessionID)
++	enc1.Set("sessionID", enc2)
++	var enc3 any = float64(v.Sequence)
++	enc1.Set("sequence", enc3)
++	return enc1, nil
++}
++
++func decCloseRequest(raw any, at string) (transcript.CloseRequest, error) {
++	var dvZero transcript.CloseRequest
++	var dec1 transcript.CloseRequest
++	obj2, err := dvObject(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	if err := dvKnown(obj2, at, "sessionID", "sequence"); err != nil {
++		return dvZero, err
++	}
++	raw3, err := dvRequired(obj2, "sessionID", at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec4, err := dvString(raw3, at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.SessionID = dec4
++	raw5, err := dvRequired(obj2, "sequence", at+"/sequence")
++	if err != nil {
++		return dvZero, err
++	}
++	num7, err := dvInteger(raw5, at+"/sequence", math.MinInt64, math.MaxInt64)
++	if err != nil {
++		return dvZero, err
++	}
++	dec6 := int64(num7)
++	dec1.Sequence = dec6
++	return dec1, nil
++}
++
++// EncodeCloseRequest converts v into the devalue value model.
++func EncodeCloseRequest(v transcript.CloseRequest) (any, error) { return encCloseRequest(v, "") }
++
++// DecodeCloseRequest converts a devalue value model tree into a pkg_transcript.CloseRequest, rejecting any
++// shape the type grammar does not admit.
++func DecodeCloseRequest(raw any) (transcript.CloseRequest, error) {
++	return decCloseRequest(raw, "")
++}
++
++// StringifyCloseRequest encodes v and serializes it with devalue.
++func StringifyCloseRequest(v transcript.CloseRequest) (string, error) {
++	encoded, err := encCloseRequest(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseCloseRequest parses a devalue document and decodes it into a pkg_transcript.CloseRequest.
++func ParseCloseRequest(s string) (transcript.CloseRequest, error) {
++	var zero transcript.CloseRequest
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decCloseRequest(parsed, "")
++}
++
++func encOpenRequest(v transcript.OpenRequest, at string) (any, error) {
++	enc1 := devalue.NewObject()
++	var enc2 any = string(v.SessionID)
++	enc1.Set("sessionID", enc2)
++	var enc3 any = string(v.Source)
++	enc1.Set("source", enc3)
++	return enc1, nil
++}
++
++func decOpenRequest(raw any, at string) (transcript.OpenRequest, error) {
++	var dvZero transcript.OpenRequest
++	var dec1 transcript.OpenRequest
++	obj2, err := dvObject(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	if err := dvKnown(obj2, at, "sessionID", "source"); err != nil {
++		return dvZero, err
++	}
++	raw3, err := dvRequired(obj2, "sessionID", at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec4, err := dvString(raw3, at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.SessionID = dec4
++	raw5, err := dvRequired(obj2, "source", at+"/source")
++	if err != nil {
++		return dvZero, err
++	}
++	dec6, err := dvString(raw5, at+"/source")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.Source = dec6
++	return dec1, nil
++}
++
++// EncodeOpenRequest converts v into the devalue value model.
++func EncodeOpenRequest(v transcript.OpenRequest) (any, error) { return encOpenRequest(v, "") }
++
++// DecodeOpenRequest converts a devalue value model tree into a pkg_transcript.OpenRequest, rejecting any
++// shape the type grammar does not admit.
++func DecodeOpenRequest(raw any) (transcript.OpenRequest, error) { return decOpenRequest(raw, "") }
++
++// StringifyOpenRequest encodes v and serializes it with devalue.
++func StringifyOpenRequest(v transcript.OpenRequest) (string, error) {
++	encoded, err := encOpenRequest(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseOpenRequest parses a devalue document and decodes it into a pkg_transcript.OpenRequest.
++func ParseOpenRequest(s string) (transcript.OpenRequest, error) {
++	var zero transcript.OpenRequest
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decOpenRequest(parsed, "")
++}
++
++func encSnapshot(v transcript.Snapshot, at string) (any, error) {
++	enc1 := devalue.NewObject()
++	var enc2 any = string(v.SessionID)
++	enc1.Set("sessionID", enc2)
++	var enc3 any = float64(v.Sequence)
++	enc1.Set("sequence", enc3)
++	var enc4 any = string(v.Text)
++	enc1.Set("text", enc4)
++	var enc5 any = string(v.Source)
++	enc1.Set("source", enc5)
++	var enc6 any = bool(v.Closed)
++	enc1.Set("closed", enc6)
++	return enc1, nil
++}
++
++func decSnapshot(raw any, at string) (transcript.Snapshot, error) {
++	var dvZero transcript.Snapshot
++	var dec1 transcript.Snapshot
++	obj2, err := dvObject(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	if err := dvKnown(obj2, at, "sessionID", "sequence", "text", "source", "closed"); err != nil {
++		return dvZero, err
++	}
++	raw3, err := dvRequired(obj2, "sessionID", at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec4, err := dvString(raw3, at+"/sessionID")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.SessionID = dec4
++	raw5, err := dvRequired(obj2, "sequence", at+"/sequence")
++	if err != nil {
++		return dvZero, err
++	}
++	num7, err := dvInteger(raw5, at+"/sequence", math.MinInt64, math.MaxInt64)
++	if err != nil {
++		return dvZero, err
++	}
++	dec6 := int64(num7)
++	dec1.Sequence = dec6
++	raw8, err := dvRequired(obj2, "text", at+"/text")
++	if err != nil {
++		return dvZero, err
++	}
++	dec9, err := dvString(raw8, at+"/text")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.Text = dec9
++	raw10, err := dvRequired(obj2, "source", at+"/source")
++	if err != nil {
++		return dvZero, err
++	}
++	dec11, err := dvString(raw10, at+"/source")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.Source = dec11
++	raw12, err := dvRequired(obj2, "closed", at+"/closed")
++	if err != nil {
++		return dvZero, err
++	}
++	dec13, err := dvBool(raw12, at+"/closed")
++	if err != nil {
++		return dvZero, err
++	}
++	dec1.Closed = dec13
++	return dec1, nil
++}
++
++// EncodeSnapshot converts v into the devalue value model.
++func EncodeSnapshot(v transcript.Snapshot) (any, error) { return encSnapshot(v, "") }
++
++// DecodeSnapshot converts a devalue value model tree into a pkg_transcript.Snapshot, rejecting any
++// shape the type grammar does not admit.
++func DecodeSnapshot(raw any) (transcript.Snapshot, error) { return decSnapshot(raw, "") }
++
++// StringifySnapshot encodes v and serializes it with devalue.
++func StringifySnapshot(v transcript.Snapshot) (string, error) {
++	encoded, err := encSnapshot(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseSnapshot parses a devalue document and decodes it into a pkg_transcript.Snapshot.
++func ParseSnapshot(s string) (transcript.Snapshot, error) {
++	var zero transcript.Snapshot
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decSnapshot(parsed, "")
++}
++
++func encRoot0(v transcript.SessionRequest, at string) (any, error) {
++	enc1, err := encSessionRequest(v, at)
++	if err != nil {
++		return nil, err
++	}
++	return enc1, nil
++}
++
++func decRoot0(raw any, at string) (transcript.SessionRequest, error) {
++	var dvZero transcript.SessionRequest
++	dec1, err := decSessionRequest(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	return dec1, nil
++}
++
++// EncodeRoot0 converts v into the devalue value model.
++func EncodeRoot0(v transcript.SessionRequest) (any, error) { return encRoot0(v, "") }
++
++// DecodeRoot0 converts a devalue value model tree into a pkg_transcript.SessionRequest, rejecting any
++// shape the type grammar does not admit.
++func DecodeRoot0(raw any) (transcript.SessionRequest, error) { return decRoot0(raw, "") }
++
++// StringifyRoot0 encodes v and serializes it with devalue.
++func StringifyRoot0(v transcript.SessionRequest) (string, error) {
++	encoded, err := encRoot0(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseRoot0 parses a devalue document and decodes it into a pkg_transcript.SessionRequest.
++func ParseRoot0(s string) (transcript.SessionRequest, error) {
++	var zero transcript.SessionRequest
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decRoot0(parsed, "")
++}
++
++func encRoot1(v transcript.Ack, at string) (any, error) {
++	enc1, err := encAck(v, at)
++	if err != nil {
++		return nil, err
++	}
++	return enc1, nil
++}
++
++func decRoot1(raw any, at string) (transcript.Ack, error) {
++	var dvZero transcript.Ack
++	dec1, err := decAck(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	return dec1, nil
++}
++
++// EncodeRoot1 converts v into the devalue value model.
++func EncodeRoot1(v transcript.Ack) (any, error) { return encRoot1(v, "") }
++
++// DecodeRoot1 converts a devalue value model tree into a pkg_transcript.Ack, rejecting any
++// shape the type grammar does not admit.
++func DecodeRoot1(raw any) (transcript.Ack, error) { return decRoot1(raw, "") }
++
++// StringifyRoot1 encodes v and serializes it with devalue.
++func StringifyRoot1(v transcript.Ack) (string, error) {
++	encoded, err := encRoot1(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseRoot1 parses a devalue document and decodes it into a pkg_transcript.Ack.
++func ParseRoot1(s string) (transcript.Ack, error) {
++	var zero transcript.Ack
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decRoot1(parsed, "")
++}
++
++func encRoot2(v transcript.Update, at string) (any, error) {
++	enc1, err := encUpdate(v, at)
++	if err != nil {
++		return nil, err
++	}
++	return enc1, nil
++}
++
++func decRoot2(raw any, at string) (transcript.Update, error) {
++	var dvZero transcript.Update
++	dec1, err := decUpdate(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	return dec1, nil
++}
++
++// EncodeRoot2 converts v into the devalue value model.
++func EncodeRoot2(v transcript.Update) (any, error) { return encRoot2(v, "") }
++
++// DecodeRoot2 converts a devalue value model tree into a pkg_transcript.Update, rejecting any
++// shape the type grammar does not admit.
++func DecodeRoot2(raw any) (transcript.Update, error) { return decRoot2(raw, "") }
++
++// StringifyRoot2 encodes v and serializes it with devalue.
++func StringifyRoot2(v transcript.Update) (string, error) {
++	encoded, err := encRoot2(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseRoot2 parses a devalue document and decodes it into a pkg_transcript.Update.
++func ParseRoot2(s string) (transcript.Update, error) {
++	var zero transcript.Update
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decRoot2(parsed, "")
++}
++
++func encRoot3(v transcript.CloseRequest, at string) (any, error) {
++	enc1, err := encCloseRequest(v, at)
++	if err != nil {
++		return nil, err
++	}
++	return enc1, nil
++}
++
++func decRoot3(raw any, at string) (transcript.CloseRequest, error) {
++	var dvZero transcript.CloseRequest
++	dec1, err := decCloseRequest(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	return dec1, nil
++}
++
++// EncodeRoot3 converts v into the devalue value model.
++func EncodeRoot3(v transcript.CloseRequest) (any, error) { return encRoot3(v, "") }
++
++// DecodeRoot3 converts a devalue value model tree into a pkg_transcript.CloseRequest, rejecting any
++// shape the type grammar does not admit.
++func DecodeRoot3(raw any) (transcript.CloseRequest, error) { return decRoot3(raw, "") }
++
++// StringifyRoot3 encodes v and serializes it with devalue.
++func StringifyRoot3(v transcript.CloseRequest) (string, error) {
++	encoded, err := encRoot3(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseRoot3 parses a devalue document and decodes it into a pkg_transcript.CloseRequest.
++func ParseRoot3(s string) (transcript.CloseRequest, error) {
++	var zero transcript.CloseRequest
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decRoot3(parsed, "")
++}
++
++func encRoot4(v transcript.OpenRequest, at string) (any, error) {
++	enc1, err := encOpenRequest(v, at)
++	if err != nil {
++		return nil, err
++	}
++	return enc1, nil
++}
++
++func decRoot4(raw any, at string) (transcript.OpenRequest, error) {
++	var dvZero transcript.OpenRequest
++	dec1, err := decOpenRequest(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	return dec1, nil
++}
++
++// EncodeRoot4 converts v into the devalue value model.
++func EncodeRoot4(v transcript.OpenRequest) (any, error) { return encRoot4(v, "") }
++
++// DecodeRoot4 converts a devalue value model tree into a pkg_transcript.OpenRequest, rejecting any
++// shape the type grammar does not admit.
++func DecodeRoot4(raw any) (transcript.OpenRequest, error) { return decRoot4(raw, "") }
++
++// StringifyRoot4 encodes v and serializes it with devalue.
++func StringifyRoot4(v transcript.OpenRequest) (string, error) {
++	encoded, err := encRoot4(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseRoot4 parses a devalue document and decodes it into a pkg_transcript.OpenRequest.
++func ParseRoot4(s string) (transcript.OpenRequest, error) {
++	var zero transcript.OpenRequest
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decRoot4(parsed, "")
++}
++
++func encRoot5(v transcript.Snapshot, at string) (any, error) {
++	enc1, err := encSnapshot(v, at)
++	if err != nil {
++		return nil, err
++	}
++	return enc1, nil
++}
++
++func decRoot5(raw any, at string) (transcript.Snapshot, error) {
++	var dvZero transcript.Snapshot
++	dec1, err := decSnapshot(raw, at)
++	if err != nil {
++		return dvZero, err
++	}
++	return dec1, nil
++}
++
++// EncodeRoot5 converts v into the devalue value model.
++func EncodeRoot5(v transcript.Snapshot) (any, error) { return encRoot5(v, "") }
++
++// DecodeRoot5 converts a devalue value model tree into a pkg_transcript.Snapshot, rejecting any
++// shape the type grammar does not admit.
++func DecodeRoot5(raw any) (transcript.Snapshot, error) { return decRoot5(raw, "") }
++
++// StringifyRoot5 encodes v and serializes it with devalue.
++func StringifyRoot5(v transcript.Snapshot) (string, error) {
++	encoded, err := encRoot5(v, "")
++	if err != nil {
++		return "", err
++	}
++	return devalue.Stringify(encoded)
++}
++
++// ParseRoot5 parses a devalue document and decodes it into a pkg_transcript.Snapshot.
++func ParseRoot5(s string) (transcript.Snapshot, error) {
++	var zero transcript.Snapshot
++	parsed, err := devalue.Parse(s, nil)
++	if err != nil {
++		return zero, err
++	}
++	return decRoot5(parsed, "")
++}
++
++func skgoCallerMatchers() skgo.CallerMatchers {
++	return skgo.CallerMatchers{}
+ }
+ 
+ // Matchers returns the app's route matchers, including routes without server loads.
+@@ -18,10 +1287,291 @@
+ 	return map[string]skgo.ParamMatcher{}
+ }
+ 
++// remote_abortSession answers src/lib/transcript.remote.ts#abortSession, a command.
++//
++// The argument is decoded by DecodeRoot0, generated by polytype for abortSession's
++// own parameter type: a shape it does not admit is a 400 naming the path,
++// never a zero value.
++// The result is encoded by EncodeRoot1, generated for its result type.
++func remote_abortSession(ctx context.Context, call skgo.Call) (any, error) {
++	if err := skgo.RequireArgument(call); err != nil {
++		return nil, err
++	}
++	in, err := DecodeRoot0(call.Arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	if err := skgoNativeCheck0(in, "", 0); err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	event, err := params.SkgoRequestEvent(skgo.EventFrom(ctx))
++	if err != nil {
++		return nil, err
++	}
++	out, err := skgo0.Skgo_abortSession(event.Context(), event, in)
++	if err != nil {
++		return nil, err
++	}
++	if err := skgoNativeCheck2(out, "", 0); err != nil {
++		return nil, err
++	}
++	return EncodeRoot1(out)
++}
++
++// requestedArg_abortSession decodes one instance's argument for skgo.Requested, with the same
++// decoder remote_abortSession uses.
++func requestedArg_abortSession(arg any) (any, error) {
++	in, err := DecodeRoot0(arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	return in, nil
++}
++
++// remote_acceptTranscript answers src/lib/transcript.remote.ts#acceptTranscript, a command.
++//
++// The argument is decoded by DecodeRoot2, generated by polytype for acceptTranscript's
++// own parameter type: a shape it does not admit is a 400 naming the path,
++// never a zero value.
++// The result is encoded by EncodeRoot1, generated for its result type.
++func remote_acceptTranscript(ctx context.Context, call skgo.Call) (any, error) {
++	if err := skgo.RequireArgument(call); err != nil {
++		return nil, err
++	}
++	in, err := DecodeRoot2(call.Arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	if err := skgoNativeCheck6(in, "", 0); err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	event, err := params.SkgoRequestEvent(skgo.EventFrom(ctx))
++	if err != nil {
++		return nil, err
++	}
++	out, err := skgo0.Skgo_acceptTranscript(event.Context(), event, in)
++	if err != nil {
++		return nil, err
++	}
++	if err := skgoNativeCheck2(out, "", 0); err != nil {
++		return nil, err
++	}
++	return EncodeRoot1(out)
++}
++
++// requestedArg_acceptTranscript decodes one instance's argument for skgo.Requested, with the same
++// decoder remote_acceptTranscript uses.
++func requestedArg_acceptTranscript(arg any) (any, error) {
++	in, err := DecodeRoot2(arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	return in, nil
++}
++
++// remote_activateSession answers src/lib/transcript.remote.ts#activateSession, a command.
++//
++// The argument is decoded by DecodeRoot0, generated by polytype for activateSession's
++// own parameter type: a shape it does not admit is a 400 naming the path,
++// never a zero value.
++// The result is encoded by EncodeRoot1, generated for its result type.
++func remote_activateSession(ctx context.Context, call skgo.Call) (any, error) {
++	if err := skgo.RequireArgument(call); err != nil {
++		return nil, err
++	}
++	in, err := DecodeRoot0(call.Arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	if err := skgoNativeCheck0(in, "", 0); err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	event, err := params.SkgoRequestEvent(skgo.EventFrom(ctx))
++	if err != nil {
++		return nil, err
++	}
++	out, err := skgo0.Skgo_activateSession(event.Context(), event, in)
++	if err != nil {
++		return nil, err
++	}
++	if err := skgoNativeCheck2(out, "", 0); err != nil {
++		return nil, err
++	}
++	return EncodeRoot1(out)
++}
++
++// requestedArg_activateSession decodes one instance's argument for skgo.Requested, with the same
++// decoder remote_activateSession uses.
++func requestedArg_activateSession(arg any) (any, error) {
++	in, err := DecodeRoot0(arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	return in, nil
++}
++
++// remote_closeSession answers src/lib/transcript.remote.ts#closeSession, a command.
++//
++// The argument is decoded by DecodeRoot3, generated by polytype for closeSession's
++// own parameter type: a shape it does not admit is a 400 naming the path,
++// never a zero value.
++// The result is encoded by EncodeRoot1, generated for its result type.
++func remote_closeSession(ctx context.Context, call skgo.Call) (any, error) {
++	if err := skgo.RequireArgument(call); err != nil {
++		return nil, err
++	}
++	in, err := DecodeRoot3(call.Arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	if err := skgoNativeCheck15(in, "", 0); err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	event, err := params.SkgoRequestEvent(skgo.EventFrom(ctx))
++	if err != nil {
++		return nil, err
++	}
++	out, err := skgo0.Skgo_closeSession(event.Context(), event, in)
++	if err != nil {
++		return nil, err
++	}
++	if err := skgoNativeCheck2(out, "", 0); err != nil {
++		return nil, err
++	}
++	return EncodeRoot1(out)
++}
++
++// requestedArg_closeSession decodes one instance's argument for skgo.Requested, with the same
++// decoder remote_closeSession uses.
++func requestedArg_closeSession(arg any) (any, error) {
++	in, err := DecodeRoot3(arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	return in, nil
++}
++
++// remote_openSession answers src/lib/transcript.remote.ts#openSession, a command.
++//
++// The argument is decoded by DecodeRoot4, generated by polytype for openSession's
++// own parameter type: a shape it does not admit is a 400 naming the path,
++// never a zero value.
++// The result is encoded by EncodeRoot1, generated for its result type.
++func remote_openSession(ctx context.Context, call skgo.Call) (any, error) {
++	if err := skgo.RequireArgument(call); err != nil {
++		return nil, err
++	}
++	in, err := DecodeRoot4(call.Arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	if err := skgoNativeCheck18(in, "", 0); err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	event, err := params.SkgoRequestEvent(skgo.EventFrom(ctx))
++	if err != nil {
++		return nil, err
++	}
++	out, err := skgo0.Skgo_openSession(event.Context(), event, in)
++	if err != nil {
++		return nil, err
++	}
++	if err := skgoNativeCheck2(out, "", 0); err != nil {
++		return nil, err
++	}
++	return EncodeRoot1(out)
++}
++
++// requestedArg_openSession decodes one instance's argument for skgo.Requested, with the same
++// decoder remote_openSession uses.
++func requestedArg_openSession(arg any) (any, error) {
++	in, err := DecodeRoot4(arg)
++	if err != nil {
++		return nil, skgo.BadRequest(err)
++	}
++	return in, nil
++}
++
++// remote_watchTranscript answers src/lib/transcript.remote.ts#watchTranscript, a query.live.
++//
++// It takes no argument, so any argument at all is refused — kit's own
++// validator for a function declared without one answers 400 too.
++// The result is encoded by EncodeRoot5, generated for its result type.
++func remote_watchTranscript(ctx context.Context, call skgo.Call, yield func(any) error) error {
++	if err := skgo.RefuseArgument(call); err != nil {
++		return err
++	}
++	return skgo0.Skgo_watchTranscript(ctx, func(out skgo0.SkgoOut_watchTranscript) error {
++		tree, err := EncodeRoot5(out)
++		if err != nil {
++			return err
++		}
++		return yield(tree)
++	})
++}
++
+ // Remotes returns every remote function declared in the app, ready to hand
+ // to skgo.NewRemotes.
+ func Remotes() []*skgo.Remote {
+-	return []*skgo.Remote{}
++	return []*skgo.Remote{
++		skgo.NewRemote(skgo.RemoteSpec{
++			Kind:           skgo.KindCommand,
++			Module:         "src/lib/transcript.remote.ts",
++			Name:           "abortSession",
++			Fn:             skgo0.Skgo_abortSession,
++			CallerMatchers: skgoCallerMatchers(),
++			CallerRoutes:   params.SkgoCallerRoutes(),
++			Call:           remote_abortSession,
++			DecodeArg:      requestedArg_abortSession,
++		}),
++		skgo.NewRemote(skgo.RemoteSpec{
++			Kind:           skgo.KindCommand,
++			Module:         "src/lib/transcript.remote.ts",
++			Name:           "acceptTranscript",
++			Fn:             skgo0.Skgo_acceptTranscript,
++			CallerMatchers: skgoCallerMatchers(),
++			CallerRoutes:   params.SkgoCallerRoutes(),
++			Call:           remote_acceptTranscript,
++			DecodeArg:      requestedArg_acceptTranscript,
++		}),
++		skgo.NewRemote(skgo.RemoteSpec{
++			Kind:           skgo.KindCommand,
++			Module:         "src/lib/transcript.remote.ts",
++			Name:           "activateSession",
++			Fn:             skgo0.Skgo_activateSession,
++			CallerMatchers: skgoCallerMatchers(),
++			CallerRoutes:   params.SkgoCallerRoutes(),
++			Call:           remote_activateSession,
++			DecodeArg:      requestedArg_activateSession,
++		}),
++		skgo.NewRemote(skgo.RemoteSpec{
++			Kind:           skgo.KindCommand,
++			Module:         "src/lib/transcript.remote.ts",
++			Name:           "closeSession",
++			Fn:             skgo0.Skgo_closeSession,
++			CallerMatchers: skgoCallerMatchers(),
++			CallerRoutes:   params.SkgoCallerRoutes(),
++			Call:           remote_closeSession,
++			DecodeArg:      requestedArg_closeSession,
++		}),
++		skgo.NewRemote(skgo.RemoteSpec{
++			Kind:           skgo.KindCommand,
++			Module:         "src/lib/transcript.remote.ts",
++			Name:           "openSession",
++			Fn:             skgo0.Skgo_openSession,
++			CallerMatchers: skgoCallerMatchers(),
++			CallerRoutes:   params.SkgoCallerRoutes(),
++			Call:           remote_openSession,
++			DecodeArg:      requestedArg_openSession,
++		}),
++		skgo.NewRemote(skgo.RemoteSpec{
++			Kind:   skgo.KindLive,
++			Module: "src/lib/transcript.remote.ts",
++			Name:   "watchTranscript",
++			Fn:     skgo0.Skgo_watchTranscript,
++			Live:   remote_watchTranscript,
++		}),
++	}
+ }
+ 
+ // Loads returns every server load declared in the app, ready to hand to
+--- before/web/package.json
++++ after/web/package.json
+@@ -1,26 +1,7 @@
+ {
+-  "name": "FieldNotes",
+-  "version": "0.0.1",
+-  "private": true,
+-  "type": "module",
+-  "imports": {
+-    "#lib": "./src/lib/index.js",
+-    "#lib/*": "./src/lib/*"
+-  },
+-  "scripts": {
+-    "build": "vp build",
+-    "build-storybook": "storybook build",
+-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+-    "dev": "vp dev",
+-    "prepare": "svelte-kit sync || echo ''",
+-    "preview": "cd .. && just serve",
+-    "storybook": "storybook dev -p 6006",
+-    "test": "pnpm run test:unit --run",
+-    "test:unit": "vitest"
+-  },
++  "dependencies": {},
+   "devDependencies": {
+-    "@skgo/sveltekit-adapter": "0.22.1",
++    "@skgo/sveltekit-adapter": "0.28.2",
+     "@storybook/addon-svelte-csf": "latest",
+     "@storybook/sveltekit": "^10.6.1",
+     "@sveltejs/kit": "3.0.0",
+@@ -39,8 +20,29 @@
+   "devEngines": {
+     "packageManager": {
+       "name": "pnpm",
+-      "version": "12.10.1",
+-      "onFail": "download"
++      "onFail": "error",
++      "version": "12.9.1"
+     }
+-  }
++  },
++  "imports": {
++    "#lib": "./src/lib/index.js",
++    "#lib/*": "./src/lib/*"
++  },
++  "name": "FieldNotes",
++  "packageManager": "pnpm@12.9.1",
++  "private": true,
++  "scripts": {
++    "build": "vp build",
++    "build-storybook": "storybook build",
++    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
++    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
++    "dev": "vp dev",
++    "prepare": "svelte-kit sync || echo ''",
++    "preview": "cd .. && just serve",
++    "storybook": "storybook dev -p 6006",
++    "test": "pnpm run test:unit --run",
++    "test:unit": "vitest"
++  },
++  "type": "module",
++  "version": "0.0.1"
+ }
+--- before/web/pnpm-lock.yaml
++++ after/web/pnpm-lock.yaml
+@@ -7,153 +7,153 @@
+     configDependencies: {}
+     packageManagerDependencies:
+       pnpm:
+-        specifier: 12.10.1
+-        version: 12.10.1
++        specifier: 12.9.1
++        version: 12.9.1
+ 
+ packages:
+ 
+-  '@pnpm/exe.android-arm64@12.10.1':
+-    resolution: {integrity: sha512-CVTlHPwNvadQCJD9bGSMzWIhFX8QpjtqC2c27dhdnn/9iKzEjZ3qL62o3gHpKbIuo6qn4WxTKRoaokgNdReBig==}
++  '@pnpm/exe.android-arm64@12.9.1':
++    resolution: {integrity: sha512-Hgm1XdqMTfBC8PdGLL+NjZWv4xyi7D6XNrN9fb24XGYlyTBmUtdCefKnCLmHujShRD8BEO1zqM30SNcKBDLysw==}
+     cpu: [arm64]
+     os: [android]
+ 
+-  '@pnpm/exe.android-x64@12.10.1':
+-    resolution: {integrity: sha512-NFiYLIaodY7da0XIebwcU3JoP7IK/lzF7zgKSSP+9H+QcFnQ1GDfBkuBKCYJzZ+Xu0WH54neIPLBBCaOjaaauA==}
++  '@pnpm/exe.android-x64@12.9.1':
++    resolution: {integrity: sha512-WDGCe6jZRVZP3RC/q6hOkZylkPkIQIi1/GcrR/d/YzbihhAHXCczrk+UYnV5TgbsEnAYO7Cx+2rX3nfhHvy24w==}
+     cpu: [x64]
+     os: [android]
+ 
+-  '@pnpm/exe.darwin-arm64@12.10.1':
+-    resolution: {integrity: sha512-0O8tdQ8ijlPJudXspLMTcitMkdBEz6uUflazL5uQE0WMs85oQIp0U+5hfEktMFB64QqEhjqlvvujTwbzdr9oMg==}
++  '@pnpm/exe.darwin-arm64@12.9.1':
++    resolution: {integrity: sha512-+7iiEEBgYN9szPWUnAuN6eOVMTI6Hrki5bcuC9n9xl9tTnT53Tpxpo45Hml+W4IrAU0d+Tmd0sPnVIbX59PD6w==}
+     cpu: [arm64]
+     os: [darwin]
+ 
+-  '@pnpm/exe.darwin-x64@12.10.1':
+-    resolution: {integrity: sha512-ud+1/uZOKEo8P/AsPynOJc/LNwfI0j6WwCElibj71rU9l4nIBnsSn+wWTIPZPkZ4BBSH5+82azSnAARMyJ1lNA==}
++  '@pnpm/exe.darwin-x64@12.9.1':
++    resolution: {integrity: sha512-SK7TxJiR12GbJZGffRFHItkc+Mx+99v6xMMJ9/X//8NwWV1wo17a2bwfGI8qZpl17YwsrmPEFOOqhzE1GIlrtQ==}
+     cpu: [x64]
+     os: [darwin]
+ 
+-  '@pnpm/exe.freebsd-x64@12.10.1':
+-    resolution: {integrity: sha512-mj9PE5rf8uAfQQ2K66HSATMSut+lNiB4eSqFd5+azFVCMnxNSy/32xpZQJT21PhnN3Y4qbK+iKHe5nWAxSuRhw==}
++  '@pnpm/exe.freebsd-x64@12.9.1':
++    resolution: {integrity: sha512-4AjLk6uvTs2iO6wMit2hcxJ2M32xb7OV5SNFk+w6G8/NzcjcMB7ENEpyeXyLiP0kcnp8uaCGUct2NfrLCJ35eQ==}
+     cpu: [x64]
+     os: [freebsd]
+ 
+-  '@pnpm/exe.linux-arm64-musl@12.10.1':
+-    resolution: {integrity: sha512-xba+00wZJ8Um6rBJJjWl88uJj0tydB8dtomvjlCLvi0uL32vpa9CRP8Vv26FIXvbiZ1bo2RCzYt/eChxJVV52w==}
++  '@pnpm/exe.linux-arm64-musl@12.9.1':
++    resolution: {integrity: sha512-dZL2ES1ckDWM9v+EtxoOklZ0WNdtayooi9iLiDUubopudX3zXPNR2mlrxBRgjbDgECOndQen2SmyxL5eZiBuKw==}
+     cpu: [arm64]
+     os: [linux]
+     libc: [musl]
+ 
+-  '@pnpm/exe.linux-arm64@12.10.1':
+-    resolution: {integrity: sha512-oBdMp69ScC9UnniG4qZAQVr2fBDSXjm4yk/72vkEVyrlwS23yMxcRQl7Qdo3sgXPAygY6TWnPRKm4rXzjoyW7w==}
++  '@pnpm/exe.linux-arm64@12.9.1':
++    resolution: {integrity: sha512-cx+uF6xqwEtm7B8NV+1ve0xBg9gcuzQZ5R+0WgOWvKG/h978UljS6BgWs1ipIGuGgUdeVhm3PKmBltXIcczLXA==}
+     cpu: [arm64]
+     os: [linux]
+     libc: [glibc]
+ 
+-  '@pnpm/exe.linux-ppc64@12.10.1':
+-    resolution: {integrity: sha512-Yyb3wu09h3c7mLme270uHFiVaAIUHC411Ru9LIU2BKUIstrGlXa9OqqVWoXaRgYRdFdOFknkwG7GNn6ygwLbnw==}
++  '@pnpm/exe.linux-ppc64@12.9.1':
++    resolution: {integrity: sha512-MpjPsy4XR17zAtLziQZfsN+wveWa/bUJggZtwfo3+SuyRmXnSvVkFD4+v8/3RTWyYaM6mwLUTjZDJ+g3urL+ew==}
+     cpu: [ppc64]
+     os: [linux]
+     libc: [glibc]
+ 
+-  '@pnpm/exe.linux-riscv64@12.10.1':
+-    resolution: {integrity: sha512-PdkeUFFkybknnGkWP0H22eMpIiS4OZXL5BcQzF4lh+vmrW3IaC2HOkbANKgot/PKO0Kl77pzA/6PKFxgbgfXIQ==}
++  '@pnpm/exe.linux-riscv64@12.9.1':
++    resolution: {integrity: sha512-Oo67TKqqH+Bno+L6X7Xyorwp1QG82zKIkL0vbo1x2kcPTDiyPbdM+d6lIs4+hzeB1KHT5FDoGzZj2dad7Ft+eg==}
+     cpu: [riscv64]
+     os: [linux]
+     libc: [glibc]
+ 
+-  '@pnpm/exe.linux-s390x@12.10.1':
+-    resolution: {integrity: sha512-1okKuHKJwJPAbofDxfhZWAUxEWtee4ZSf7Pah8kcvocaJkf2WxFJ5KVTiNIvDml5GLidDQsgf7Pcf/WHbCak7Q==}
++  '@pnpm/exe.linux-s390x@12.9.1':
++    resolution: {integrity: sha512-QAD5FRCdW36HfD58BV7DoDm6z8yv+GgSqcUV1+ERwYjpVQuG6ZTpf5o0x3KDas8eTLIW7MLYVdDdlAurWeArEg==}
+     cpu: [s390x]
+     os: [linux]
+     libc: [glibc]
+ 
+-  '@pnpm/exe.linux-x64-musl@12.10.1':
+-    resolution: {integrity: sha512-e6IqzVNkPa7srFKJKnY23uWJ+qz0LaRWiTUo/sHfFXRRMRzB5uNOr6qWWip/jqhdGwU91n9J7LrEYZ6e0tRczw==}
++  '@pnpm/exe.linux-x64-musl@12.9.1':
++    resolution: {integrity: sha512-mQDhBsGqcTkrLQM4q5igmRFcr6EAl4UM/FGawY+0CWGcqPpUmYUvDy9LHy80xxkHIWVJ886gvvso2XOjfav1Jw==}
+     cpu: [x64]
+     os: [linux]
+     libc: [musl]
+ 
+-  '@pnpm/exe.linux-x64@12.10.1':
+-    resolution: {integrity: sha512-ZByV0DRgWzGaDSjT5ddRBASdwz+r/qPMYh7o6RGmPQjtRGNFbSl94xY2DcAM8mqCOZJUUDtAXQ+wpBXcdpKlkg==}
++  '@pnpm/exe.linux-x64@12.9.1':
++    resolution: {integrity: sha512-+M5N74hM4fc87AAckxx/UIW+dUnWf2eko+HchJs/NZUxehLhekNyMI/GNaNXlvd+kWR+97XXBD51XRkkNiUtrA==}
+     cpu: [x64]
+     os: [linux]
+     libc: [glibc]
+ 
+-  '@pnpm/exe.win32-arm64@12.10.1':
+-    resolution: {integrity: sha512-I7QZHcjioG7orFeCRUFUHByJ1G0zFPnAlaGGyrUvb6MGkv5oeNwNPl7t+Gp+7zHfnMcgLGJ1a+Wfim0IDw3lOw==}
++  '@pnpm/exe.win32-arm64@12.9.1':
++    resolution: {integrity: sha512-mI28C2wxobrDi6x1OYhBRyG10hnDq/4sEIyy5RzoX6LB4kLuv6K/d25HOpMwlW20cuM4M72k9NZpOdcmUxMbEA==}
+     cpu: [arm64]
+     os: [win32]
+ 
+-  '@pnpm/exe.win32-x64@12.10.1':
+-    resolution: {integrity: sha512-4WJFdp58EKlCj0zLobrXU0vpszSZIr4X/3y/uNbAQqGW0zE+VdruZB0gFc3L2kzsUzVwTYbaCn+XEhnCYSAlTg==}
++  '@pnpm/exe.win32-x64@12.9.1':
++    resolution: {integrity: sha512-SWoDMT0oD7NrDSIoPpkKD09D9fAQKNjwFZ3lezlCUhAfXxMv70zsfrNT2/P+GoCK2kefXF9OysUZkH1l5vvvfA==}
+     cpu: [x64]
+     os: [win32]
+ 
+-  pnpm@12.10.1:
+-    resolution: {integrity: sha512-ukCjfrGjcNYP6oxM8dNkwTvMzvUY6YrSvO6VT1OdONo3RY5YJho/pV4GUjRQ6g//+fSXsTW+QfLBXBZCusrObA==}
++  pnpm@12.9.1:
++    resolution: {integrity: sha512-BrBV//XNINwSeB3hc87TMQzglRvy7GICEaFgRdVETVyTpmMhB2TvKaZTphBFm6A2jw50+E2AxUcjz5Wq57wNbQ==}
+     engines: {node: '>=18.*'}
+     hasBin: true
+ 
+ snapshots:
+ 
+-  '@pnpm/exe.android-arm64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.android-x64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.darwin-arm64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.darwin-x64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.freebsd-x64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.linux-arm64-musl@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.linux-arm64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.linux-ppc64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.linux-riscv64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.linux-s390x@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.linux-x64-musl@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.linux-x64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.win32-arm64@12.10.1':
+-    optional: true
+-
+-  '@pnpm/exe.win32-x64@12.10.1':
+-    optional: true
+-
+-  pnpm@12.10.1:
++  '@pnpm/exe.android-arm64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.android-x64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.darwin-arm64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.darwin-x64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.freebsd-x64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.linux-arm64-musl@12.9.1':
++    optional: true
++
++  '@pnpm/exe.linux-arm64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.linux-ppc64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.linux-riscv64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.linux-s390x@12.9.1':
++    optional: true
++
++  '@pnpm/exe.linux-x64-musl@12.9.1':
++    optional: true
++
++  '@pnpm/exe.linux-x64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.win32-arm64@12.9.1':
++    optional: true
++
++  '@pnpm/exe.win32-x64@12.9.1':
++    optional: true
++
++  pnpm@12.9.1:
+     optionalDependencies:
+-      '@pnpm/exe.android-arm64': 12.10.1
+-      '@pnpm/exe.android-x64': 12.10.1
+-      '@pnpm/exe.darwin-arm64': 12.10.1
+-      '@pnpm/exe.darwin-x64': 12.10.1
+-      '@pnpm/exe.freebsd-x64': 12.10.1
+-      '@pnpm/exe.linux-arm64': 12.10.1
+-      '@pnpm/exe.linux-arm64-musl': 12.10.1
+-      '@pnpm/exe.linux-ppc64': 12.10.1
+-      '@pnpm/exe.linux-riscv64': 12.10.1
+-      '@pnpm/exe.linux-s390x': 12.10.1
+-      '@pnpm/exe.linux-x64': 12.10.1
+-      '@pnpm/exe.linux-x64-musl': 12.10.1
+-      '@pnpm/exe.win32-arm64': 12.10.1
+-      '@pnpm/exe.win32-x64': 12.10.1
++      '@pnpm/exe.android-arm64': 12.9.1
++      '@pnpm/exe.android-x64': 12.9.1
++      '@pnpm/exe.darwin-arm64': 12.9.1
++      '@pnpm/exe.darwin-x64': 12.9.1
++      '@pnpm/exe.freebsd-x64': 12.9.1
++      '@pnpm/exe.linux-arm64': 12.9.1
++      '@pnpm/exe.linux-arm64-musl': 12.9.1
++      '@pnpm/exe.linux-ppc64': 12.9.1
++      '@pnpm/exe.linux-riscv64': 12.9.1
++      '@pnpm/exe.linux-s390x': 12.9.1
++      '@pnpm/exe.linux-x64': 12.9.1
++      '@pnpm/exe.linux-x64-musl': 12.9.1
++      '@pnpm/exe.win32-arm64': 12.9.1
++      '@pnpm/exe.win32-x64': 12.9.1
+ 
+ ---
+ lockfileVersion: '9.0'
+@@ -173,6 +173,7 @@
+ 
+ overrides:
+   vite@*: npm:@voidzero-dev/vite-plus-core@1.0.0
++  vitest@*: 5.0.1
+ 
+ patchedDependencies:
+   '@sveltejs/kit@3.0.0': 0d35d370d3e5fb6e0c801cd1079013b3d487d6e301e27777f26fabbf6e0106c4
+@@ -182,8 +183,8 @@
+   .:
+     devDependencies:
+       '@skgo/sveltekit-adapter':
+-        specifier: 0.22.1
+-        version: 0.22.1(@sveltejs/kit@3.0.0(patch_hash=0d35d370d3e5fb6e0c801cd1079013b3d487d6e301e27777f26fabbf6e0106c4)(@sveltejs/vite-plugin-svelte@7.3.1(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2))(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2)(typescript@6.0.3))
++        specifier: 0.28.2
++        version: 0.28.2(@sveltejs/kit@3.0.0(patch_hash=0d35d370d3e5fb6e0c801cd1079013b3d487d6e301e27777f26fabbf6e0106c4)(@sveltejs/vite-plugin-svelte@7.3.1(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2))(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2)(typescript@6.0.3))
+       '@storybook/addon-svelte-csf':
+         specifier: latest
+         version: 5.1.5(@storybook/svelte@10.6.1(storybook@10.6.1(react@19.3.0)(vite-plus@1.0.0(@vitest/browser-playwright@5.0.1)(@vitest/ui@5.0.1)(esbuild@0.28.2)(svelte@5.57.2)(typescript@6.0.3)))(svelte@5.57.2))(@sveltejs/vite-plugin-svelte@7.3.1(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2))(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(storybook@10.6.1(react@19.3.0)(vite-plus@1.0.0(@vitest/browser-playwright@5.0.1)(@vitest/ui@5.0.1)(esbuild@0.28.2)(svelte@5.57.2)(typescript@6.0.3)))(svelte@5.57.2)
+@@ -968,8 +969,8 @@
+   '@rolldown/pluginutils@1.0.1':
+     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
+ 
+-  '@skgo/sveltekit-adapter@0.22.1':
+-    resolution: {integrity: sha512-13PewE0gh9SRrtomWoU7374yr7atiSXeI9Axttp9xbE5IG4sf097bRBgAJ56VgDqoJh8fF+8FQFb9FppSwl2Nw==}
++  '@skgo/sveltekit-adapter@0.28.2':
++    resolution: {integrity: sha512-MOnq2mGVxXcDCA7rYZZmWyLJb8wMK0VP66Kh0vIGGibyl7bjXNnatJJaKo90b1TLxxdkOBeqM3UOIsBwQy/fbQ==}
+     peerDependencies:
+       '@sveltejs/kit': ^3.0.0
+ 
+@@ -1999,7 +2000,7 @@
+     resolution: {integrity: sha512-+EBXSed6NArmzOC2DY4v9sI5n9TMIyfkMnewbXNQ7sR5IckQTCx7g1BbLdkH7kzm/tkgG/eEbRYlMWSbVfBtWA==}
+     peerDependencies:
+       svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
+-      vitest: ^4.0.0 || ^5.0.0
++      vitest: 5.0.1
+ 
+   vitest@5.0.1:
+     resolution: {integrity: sha512-iA95lQbKEkvrtTkdAgnWbXfbipWiiWe/hDl2P5tMi6WFwD76G0NxXAGp/M9EOcYupeGJRr6wppMc7CoA41TQjg==}
+@@ -2506,7 +2507,7 @@
+ 
+   '@rolldown/pluginutils@1.0.1': {}
+ 
+-  '@skgo/sveltekit-adapter@0.22.1(@sveltejs/kit@3.0.0(patch_hash=0d35d370d3e5fb6e0c801cd1079013b3d487d6e301e27777f26fabbf6e0106c4)(@sveltejs/vite-plugin-svelte@7.3.1(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2))(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2)(typescript@6.0.3))':
++  '@skgo/sveltekit-adapter@0.28.2(@sveltejs/kit@3.0.0(patch_hash=0d35d370d3e5fb6e0c801cd1079013b3d487d6e301e27777f26fabbf6e0106c4)(@sveltejs/vite-plugin-svelte@7.3.1(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2))(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2)(typescript@6.0.3))':
+     dependencies:
+       '@sveltejs/kit': 3.0.0(patch_hash=0d35d370d3e5fb6e0c801cd1079013b3d487d6e301e27777f26fabbf6e0106c4)(@sveltejs/vite-plugin-svelte@7.3.1(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2))(@voidzero-dev/vite-plus-core@1.0.0(esbuild@0.28.2)(typescript@6.0.3))(svelte@5.57.2)(typescript@6.0.3)
+ 
+--- before/web/pnpm-workspace.yaml
++++ after/web/pnpm-workspace.yaml
+@@ -3,6 +3,7 @@
+   vite-plus: 1.0.0
+ overrides:
+   vite@*: "catalog:"
++  vitest@*: 5.0.1
+ peerDependencyRules:
+   allowAny:
+     - vite
+@@ -13,3 +14,5 @@
+   esbuild: true
+ patchedDependencies:
+   "@sveltejs/kit@3.0.0": patches/skgo-kit-3.0.0-queue.patch
++minimumReleaseAgeExclude:
++    - "@skgo/sveltekit-adapter@0.28.2"
+--- before/web/skgo.remotes.json
++++ after/web/skgo.remotes.json
+@@ -1,5 +1,12 @@
+ {
+-  "remotes": [],
++  "remotes": [
++    "13p9jtx/abortSession",
++    "13p9jtx/acceptTranscript",
++    "13p9jtx/activateSession",
++    "13p9jtx/closeSession",
++    "13p9jtx/openSession",
++    "13p9jtx/watchTranscript"
++  ],
+   "loads": [],
+   "actions": [],
+   "endpoints": {},
