@@ -1,6 +1,6 @@
 module github.com/tylergannon/skgo-template-voice-recorder
 
-go 1.27.2
+go 1.27.1
 
 ignore ./build
 

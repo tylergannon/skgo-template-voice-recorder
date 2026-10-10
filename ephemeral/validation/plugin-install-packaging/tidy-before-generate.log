@@ -1,0 +1,14 @@
+Initial go mod tidy with no payload: exit0. This checks declared dependencies, not the unimplemented host-pinning installer.
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go version
+go version go1.27.1 darwin/arm64
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go -C /private/tmp/recorder-tidy-before-generate.QO2XXf generate ./template
+lstat ../scripts/check-recorder.sh: no such file or directory
+exit status 1
+template/recorder.go:18: running "go": exit status 1
+Caller fixture correction: first partial archive omitted allowlisted scripts/check-recorder.sh. Added tracked scripts/ from same commit; no source patch.
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go -C /private/tmp/recorder-tidy-before-generate.QO2XXf generate ./template
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go -C /private/tmp/recorder-tidy-before-generate.QO2XXf mod tidy
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go -C /private/tmp/recorder-tidy-before-generate.QO2XXf test ./...
+ok  	github.com/tylergannon/skgo-template-voice-recorder/internal/packagefiles	0.126s
+ok  	github.com/tylergannon/skgo-template-voice-recorder/template	0.193s
+?   	github.com/tylergannon/skgo-template-voice-recorder/template/stage	[no test files]

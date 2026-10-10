@@ -1,0 +1,7 @@
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go version
+go version go1.27.1 darwin/arm64
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go generate ./template
+$ GOTOOLCHAIN=go1.27.1 GOWORK=off go test ./...
+ok  	github.com/tylergannon/skgo-template-voice-recorder/internal/packagefiles	0.129s
+ok  	github.com/tylergannon/skgo-template-voice-recorder/template	0.190s
+?   	github.com/tylergannon/skgo-template-voice-recorder/template/stage	[no test files]

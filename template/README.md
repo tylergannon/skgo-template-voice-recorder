@@ -4,7 +4,7 @@
 Prepare the embedded payload before building or checking the plugin:
 
 ```sh
-go run ./template/stage
+go generate ./template
 go test ./...
 ```
 
@@ -12,6 +12,41 @@ The stage copies only named sources, keeps a `.txt` suffix so Go does not compil
 application payload files as plugin packages, and is ignored by Git. The renderer
 removes that suffix and derives imports, display name and probe identity from the
 destination project. No application source is maintained under the payload tree.
+
+The module-root `skgo-plugin.json` contains only `{"package":"./template"}`.
+The planned builder prepares a writable source stage, applies the actual host's
+shared dependency pins, runs preparatory `go mod tidy -e`, restores the complete
+pinned `go.mod` (all plugin-declared requirements plus host pins) while retaining
+the new `go.sum`, then runs `go generate ./template` and strict `go mod tidy`.
+The preparatory tidy allows missing Go packages to be generated; the final tidy
+and shared dependency graph verification must succeed before building.
+Both tidies and generation use the host's Go toolchain
+with `GOWORK=off`. Declare generator dependencies and generated-source
+requirements in the plugin's `go.mod`; this recorder's generator uses only the
+standard library. The stage sets `GOFLAGS=-mod=mod`, inherited by generator child
+commands and builds, so committed vendor dependencies are ignored.
+No custom preparation command is needed. Its repository fetch
+must preserve the nested
+`recorder/` module: a root Go module zip omits those canonical payload inputs.
+The installer command remains pending release; the following explicit helper
+procedure is the qualified v0.27.0 path.
+The plugin module's minimum Go version is 1.27.1; this is separate from the
+Go 1.27.2 used by the retained native consumer qualification.
+
+Author preparation must use tracked regular source files. The planned builder
+stage excludes `.git`, `node_modules`, `ephemeral`, `.local`, `.cache`, `build`,
+`.build` and `*.so`, and rejects symlinks. Generation cannot rely on `git describe`
+or those omitted materials. This recorder's allowlist and generator use the
+tracked canonical sources that remain in that stage.
+
+## Historical manual helper — before managed installation
+
+Released v0.27.0 was qualified with the procedure below; v0.28.0 also predates the
+planned installer. Keep one discovered recorder copy for a host: remove its
+manual `.so` before managed installation, or use the planned `skgo plugin remove
+github.com/tylergannon/skgo-template-voice-recorder` to remove its managed copy
+when retaining manual discovery. `SKGO_PLUGIN_DIRS` will not disable managed
+discovery. Neither planned command is available in v0.27.0 or v0.28.0.
 
 The source-build wrapper stages those assets and invokes SKGo's shared
 `skgo-plugin-build`. Build separately for the actual standalone or project-tool
