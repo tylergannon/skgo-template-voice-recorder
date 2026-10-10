@@ -15,15 +15,17 @@ destination project. No application source is maintained under the payload tree.
 
 The module-root `skgo-plugin.json` contains only `{"package":"./template"}`.
 The planned builder prepares a writable source stage, applies the actual host's
-shared dependency pins, runs preparatory `go mod tidy -e`, restores the declared
-pinned requirements, then runs `go generate ./template` and strict `go mod tidy`.
+shared dependency pins, runs preparatory `go mod tidy -e`, restores the complete
+pinned `go.mod` (all plugin-declared requirements plus host pins) while retaining
+the new `go.sum`, then runs `go generate ./template` and strict `go mod tidy`.
 The preparatory tidy allows missing Go packages to be generated; the final tidy
 and shared dependency graph verification must succeed before building.
 Both tidies and generation use the host's Go toolchain
 with `GOWORK=off`. Declare generator dependencies and generated-source
 requirements in the plugin's `go.mod`; this recorder's generator uses only the
-standard library. Builds use module mode (`-mod=mod`), ignoring a committed
-vendor tree. No custom preparation command is needed. Its repository fetch
+standard library. The stage sets `GOFLAGS=-mod=mod`, inherited by generator child
+commands and builds, so committed vendor dependencies are ignored.
+No custom preparation command is needed. Its repository fetch
 must preserve the nested
 `recorder/` module: a root Go module zip omits those canonical payload inputs.
 The installer command remains pending release; the following explicit helper
