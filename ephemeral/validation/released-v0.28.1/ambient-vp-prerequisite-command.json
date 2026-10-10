@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "/private/tmp/recorder-v0281-7iiyiinf/host/skgo",
+    "new",
+    "--name",
+    "ReleaseFieldNotes",
+    "--module",
+    "example.com/release-field-notes",
+    "--template",
+    "voice-notes",
+    "--set",
+    "bundle-id=com.example.releasefieldnotes",
+    "/private/tmp/recorder-v0281-7iiyiinf/ReleaseFieldNotes"
+  ],
+  "environmentOverrides": {
+    "SKGO_PLUGIN_DIRS": "/private/tmp/recorder-v0281-7iiyiinf/plugins",
+    "CI": "1",
+    "GOWORK": "off"
+  },
+  "privateVPWrapper": false
+}

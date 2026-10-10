@@ -1,0 +1,13 @@
+$ go test ./...
+?   	example.com/release-field-notes	[no test files]
+?   	example.com/release-field-notes/cmd	[no test files]
+ok  	example.com/release-field-notes/cmd/transcript-fixture	0.394s
+?   	example.com/release-field-notes/internal/app	[no test files]
+?   	example.com/release-field-notes/internal/serverhooks	[no test files]
+?   	example.com/release-field-notes/internal/skgo	[no test files]
+?   	example.com/release-field-notes/internal/skgo/params	[no test files]
+?   	example.com/release-field-notes/internal/skgo/prerender	[no test files]
+ok  	example.com/release-field-notes/internal/transcript	0.139s
+?   	example.com/release-field-notes/native/host	[no test files]
+?   	example.com/release-field-notes/web	[no test files]
+?   	example.com/release-field-notes/web/src/lib	[no test files]

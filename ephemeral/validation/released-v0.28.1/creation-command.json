@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "/private/tmp/recorder-v0281-7iiyiinf/host/skgo",
+    "new",
+    "--name",
+    "ReleaseFieldNotes",
+    "--module",
+    "example.com/release-field-notes",
+    "--template",
+    "voice-notes",
+    "--set",
+    "bundle-id=com.example.releasefieldnotes",
+    "/private/tmp/recorder-v0281-7iiyiinf/ReleaseFieldNotes"
+  ],
+  "environmentOverrides": {
+    "SKGO_PLUGIN_DIRS": "/private/tmp/recorder-v0281-7iiyiinf/plugins",
+    "CI": "1",
+    "GOWORK": "off",
+    "VP_HOME": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp",
+    "PATH": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/bin:/Users/tyler/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Users/tyler/.local/share/vite-plus/bin:/Users/tyler/go/bin:/Users/tyler/Library/pnpm:/Users/tyler/.asdf/shims:/Users/tyler/.local/bin:/Users/tyler/.opencode/bin:/Users/tyler/.local/share/bob/nvim-bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/tyler/.codex/tmp/arg0/codex-arg0voFmjX:/Users/tyler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/tyler/.codex/tmp/arg0/codex-arg02a3QHE:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS:/Users/tyler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Users/tyler/.local/share/vite-plus/fallback-bin"
+  },
+  "privateVPWrapper": false,
+  "vpExecutable": "/private/tmp/skgo-recorder-consumer.GthvK4/update-isolated-home/vp/1.0.0/bin/vp",
+  "vpSHA256": "d787c0a83bd0d9ed715d23234473fd8363b8e5dd08937a2cea85e3eb17cd9e34",
+  "pnpmExecutable": "/opt/homebrew/bin/pnpm"
+}

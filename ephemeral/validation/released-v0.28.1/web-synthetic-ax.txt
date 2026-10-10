@@ -1,0 +1,8 @@
+Browser tab: 8, Title: "ReleaseFieldNotes", URL: "http://127.0.0.1:8197/".
+0 AXWebArea ReleaseFieldNotes, URL: 127.0.0.1:8197/
+	1 container
+		2 text Microphone capture uses the native application’s recording controls. This browser displays incoming transcripts, including synthetic playback. Stopped Synthetic transcript
+		3 container Transcript
+			4 text This is synthetic text.
+
+The focused UI element is 0 AXWebArea ReleaseFieldNotes, URL: 127.0.0.1:8197/

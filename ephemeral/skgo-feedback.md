@@ -70,3 +70,25 @@ The framework peer also removed VitePlus installer shell-init entries pointing
 into its archived qualification worktree; those entries emitted login-shell
 missing-file errors after cleanup. Preserve normal VitePlus configuration and
 avoid installer side effects referencing disposable worktrees.
+
+## Released v0.28.1 bootstrap selection and scaffold warnings
+
+Version: v0.28.1/bc267b284c19bab3ae47aaf78bc550c1cbbfcc50;
+reference: released `skgo new --help` and internal/toolchain's VitePlus1.0.0 pin.
+The ambient global vp1.1.0 was correctly rejected before scaffolding with an
+explicit install1.0.0 diagnostic. Selecting the existing unmodified vendor1.0.0
+binary through PATH/VP_HOME, with ambient pnpm12.10.1 unchanged, let ordinary new
+choose pnpm12.9.1 and create the recorder without the development wrapper.
+Generated devEngines and installed .modules.yaml both identify12.9.1. This closes
+the previously observed managed-companion selection issue for this released
+noninteractive path; it does not qualify fresh VitePlus installation or interactive
+creation. Exact commands and output: ephemeral/validation/released-v0.28.1/.
+
+Confirmed nonblocking scaffold issue: `skgo new` emitted `vp check --fix` warnings
+for an empty src/lib/index.ts and an unawaited render promise in generated
+src/lib/vitest-examples/Welcome.svelte.spec.ts (lines7-8). Expected clean generated
+scaffold checks; observed0errors/2warnings with creation exit0, followed by passing
+production build and Go tests. No patch was applied. The upstream scaffold/test
+warnings remain separate from recorder behavior and updater297. Both direct
+shell Node26.11.0 and VitePlus-reported managed Node24.21.0 are retained rather
+than presenting one inferred toolchain identity.

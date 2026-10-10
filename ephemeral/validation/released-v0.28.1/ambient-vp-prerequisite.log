@@ -1,0 +1,1 @@
+skgo: preparing the frontend environment failed: project creation requires qualified VitePlus 1.0.0; /Users/tyler/.local/share/vite-plus/bin/vp --version reported "vp v1.1.0". Install that version before running skgo new

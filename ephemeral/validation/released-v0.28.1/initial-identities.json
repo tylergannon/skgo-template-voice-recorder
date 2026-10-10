@@ -1,0 +1,21 @@
+{
+  "recorderCommit": "118f325610f924881abcaf15c3ca2ae6597da040",
+  "skgoVersion": "v0.28.1",
+  "skgoCommit": "bc267b284c19bab3ae47aaf78bc550c1cbbfcc50",
+  "hostSHA256": "7bcbbaab408f65bd714af4439dc7f6515290fa70bd192a14573ce5802c590bd7",
+  "environment": {
+    "VP_HOME": null,
+    "VP_FORCE_PNPM": null,
+    "VP_PNPM_VERSION": null,
+    "GOTOOLCHAIN": null,
+    "GOWORK": null
+  },
+  "executables": {
+    "go": "/opt/homebrew/bin/go",
+    "vp": "/Users/tyler/.local/share/vite-plus/bin/vp",
+    "pnpm": "/opt/homebrew/bin/pnpm",
+    "node": "/opt/homebrew/bin/node",
+    "git": "/opt/homebrew/bin/git",
+    "cc": "/usr/bin/cc"
+  }
+}

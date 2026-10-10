@@ -22,6 +22,13 @@ and run with this checkout and its plugins unavailable.
 See [retained validation](ephemeral/validation/fresh-consumer/release-report.md)
 for evidence and limits.
 
+Released SKGo v0.28.1 also created the fresh **ReleaseFieldNotes** consumer through
+ordinary `skgo new` with the released manual plugin helper and qualified VitePlus
+1.0.0, without a private wrapper. It selected pnpm 12.9.1 despite ambient 12.10.1;
+the production web/Go build and Go checks passed, and regular browser computer use
+observed synthetic text. This is separate from the v0.27.0 native/physical evidence;
+no new native result is claimed. See the [v0.28.1 report](ephemeral/validation/released-v0.28.1/report.md).
+
 The recorder preserves microphone selection, native recording controls, timer,
 five horizontal green bars stacked upward, live transcript delivery, synthetic
 playback and active iPhone background recording. Its transcription package remains
