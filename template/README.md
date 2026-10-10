@@ -14,10 +14,14 @@ removes that suffix and derives imports, display name and probe identity from th
 destination project. No application source is maintained under the payload tree.
 
 The module-root `skgo-plugin.json` contains only `{"package":"./template"}`.
-The planned SKGo source installer uses this package path and ordinary Go
-generation inside its existing builder's writable stage, after applying the
-actual host's shared dependency pins and before compiling the plugin. No custom
-preparation command is needed. Its repository fetch must preserve the nested
+The planned builder prepares a writable source stage, applies the actual host's
+shared dependency pins, runs `go mod tidy`, then `go generate ./template`, then
+`go mod tidy` again. It verifies the final shared dependency graph against the
+host before building. Both tidies and generation use the host's Go toolchain
+with `GOWORK=off`. Declare generator dependencies and generated-source
+requirements in the plugin's `go.mod`; this recorder's generator uses only the
+standard library. No custom preparation command is needed. Its repository fetch
+must preserve the nested
 `recorder/` module: a root Go module zip omits those canonical payload inputs.
 The installer command remains pending release; the following explicit helper
 procedure is the qualified v0.27.0 path.
