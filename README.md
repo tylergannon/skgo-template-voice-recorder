@@ -54,8 +54,9 @@ CI=1 skgo new --name FieldNotes --module example.com/field-notes \
 
 An optional `@version` selects a Go module query; omitting it means `latest`.
 The root `skgo-plugin.json` names `./template`. SKGo will fetch the pinned full
-repository, run `go generate ./template` to prepare its allowlisted payload, and
-use its shared builder to install for the executing host with automatic discovery.
+repository and use its shared builder to run `go generate ./template` in a
+writable stage with the actual host's shared dependency pins, compile the plugin,
+and install it for that host with automatic discovery.
 This runs trusted repository code. Git, Go and a working C toolchain are required.
 Installing for a consumer's `go tool skgo` is a separate invocation against that
 actual host; a changed host requires installation again.
