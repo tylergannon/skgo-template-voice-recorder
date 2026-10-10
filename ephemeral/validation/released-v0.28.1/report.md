@@ -73,13 +73,13 @@ and explained native microphone capture. Its documented external feeder submitte
 six provisional/final updates and closed the synthetic session. Regular browser
 computer use then observed Stopped, Synthetic transcript and the final sentence.
 [Feeder](feeder.log), [browser accessibility](web-synthetic-ax.txt),
-[screenshot](web-synthetic.png), [HTTP headers](web-headers.txt),
+[screenshot](web-synthetic.jpg), [HTTP headers](web-headers.txt),
 [initial response](web-response.html), [server](server.log),
 [owned process](server-process.txt). This establishes final synthetic browser
 delivery; it does not assert that every intermediate revision was visually observed.
 The owned server was stopped after the screenshot.
 
-![Released consumer synthetic text](web-synthetic.png)
+![Released consumer synthetic text](web-synthetic.jpg)
 
 ## Limits and Mission Control attribution
 
