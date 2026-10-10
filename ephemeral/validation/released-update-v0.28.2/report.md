@@ -1,6 +1,7 @@
 # Released v0.28.2 updater: safe refusal on untouched recorder input
 
-Outcome: **update incomplete during fresh-package publication**. One ordinary released updater attempt refused a
+Outcome: **update incomplete during fresh-package publication**. One ordinary
+released updater attempt refused a
 staged change to authored `pnpm-workspace.yaml` at `minimumReleaseAgeExclude`.
 The copied application and held original baseline remained byte-identical across
 all 120 input entries, including the four previously recorded authored receipts.
@@ -68,7 +69,8 @@ VitePlus update would change authored configuration in pnpm-workspace.yaml at ["
 This identifies the observed staged edit and refusal; it does not establish a
 reviewed core fix or authorize changing the consumer's release-age policy.
 The timing matters: npm records adapter 0.28.2 publication at 01:53:32 on
-10 October in Costa Rica (07:53:32 UTC). The invocation receipt was written at
+10 October in the operator's Costa Rica timezone (07:53:32 UTC).
+The invocation receipt was written at
 02:07:39 and result receipt at 02:07:44, approximately 14 minutes after package
 publication. [Registry publication and receipt times](publication-timing.json).
 The pnpm log's automatic exception is consistent with its release-age policy;
