@@ -70,3 +70,7 @@ The framework peer also removed VitePlus installer shell-init entries pointing
 into its archived qualification worktree; those entries emitted login-shell
 missing-file errors after cleanup. Preserve normal VitePlus configuration and
 avoid installer side effects referencing disposable worktrees.
+
+## v0.28.0 released updater: authored configuration guard
+
+Confirmed observed result, unresolved migration: `skgo update --root <edited27> --vp <isolated global vp1.0> --native-platform macos --native-preset synthetic` stages migration and dependencies successfully, then refuses package.json authored-config changes. Expected bounded update preserving recorder configuration; observed exit1 before application mutation, correct safe refusal but incomplete stack migration. Named authored/module/manifest/lock hashes unchanged; native build not reached. See validation/update-v0.28.0/report.md and update.log for exact invocation and reproduction. Do not classify the earlier npm-only vp setup error as an SDK defect.

@@ -1,0 +1,8 @@
+Installing skgo v0.28.0 with Go.
+CLI installed: /private/tmp/skgo-recorder-consumer.GthvK4/update-host/skgo (v0.28.0) -> /private/tmp/skgo-recorder-consumer.GthvK4/update-host/skgo (v0.28.0).
+PATH still resolves skgo to "/Users/tyler/go/bin/skgo"; use /private/tmp/skgo-recorder-consumer.GthvK4/update-host/skgo or adjust PATH.
+VitePlus aligned: 1.0.0 at /private/tmp/skgo-recorder-consumer.GthvK4/qualification-toolchain/node_modules/.bin/vp.
+Selected adapter 0.22.1 and sv add-on 0.17.1 for skgo v0.28.0.
+error: The `env` command is only available in the global `vp` CLI. See https://viteplus.dev/guide/ to install it, then run the same command via the global `vp` binary.
+skgo update incomplete: staged VitePlus migration failed; application source unchanged: /private/tmp/skgo-recorder-consumer.GthvK4/qualification-toolchain/node_modules/.bin/vp env exec --package-manager pnpm@12.9.1 /private/tmp/skgo-recorder-consumer.GthvK4/qualification-toolchain/node_modules/.bin/vp migrate --no-interactive --no-agent --no-editor --no-hooks: exit status 2
+skgo update incomplete: CLI v0.28.0 is installed, but toolchain/project update is incomplete: /private/tmp/skgo-recorder-consumer.GthvK4/update-host/skgo update --complete-version v0.28.0 --root /private/tmp/skgo-recorder-consumer.GthvK4/edited-update-consumer --vp /private/tmp/skgo-recorder-consumer.GthvK4/qualification-toolchain/node_modules/.bin/vp --native-platform macos --native-preset synthetic: exit status 1
