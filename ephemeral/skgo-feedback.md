@@ -70,3 +70,7 @@ The framework peer also removed VitePlus installer shell-init entries pointing
 into its archived qualification worktree; those entries emitted login-shell
 missing-file errors after cleanup. Preserve normal VitePlus configuration and
 avoid installer side effects referencing disposable worktrees.
+
+## v0.28.0 explicit baseline migration remains incomplete
+
+After coordinator-authorized exact generated test-script/awaited-render prerequisite on a NEW edited27 consumer, one released28 update still safely refuses authored pnpm-workspace.yaml changes. Stage/dependencies/Kit patch pass; no app/native build reached. Prior framework probe adds Vitest peer rules not stripped by authoredConfig; inferred cause distinguished from actual removed stage. Full new source inventory and authored hashes preserved. Retained exact reproduction and diagnostic diff: validation/explicit-update-v0.28.0/report.md. No guard relaxation or repeated update.

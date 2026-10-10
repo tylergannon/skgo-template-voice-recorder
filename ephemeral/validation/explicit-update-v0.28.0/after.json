@@ -1,0 +1,17 @@
+{
+  "result": "safe refusal after explicit prerequisite migration",
+  "updateExitCode": 1,
+  "projectSKGo": "v0.27.0",
+  "updaterRelease": "v0.28.0",
+  "sourceInventoryEqualsPreUpdate": true,
+  "authoredSHA256": {
+    "README.md": "25168f1356904c10c24bae07982f4dbb1c9dabaf281587d205461c312c9029f9",
+    "native/Sources/ApplicationView.swift": "2e41826086346b61128a85d5db4e99a4d97c40f671e1e505b24c6827bc7cb3f9",
+    "native/skgo-native.json": "847d853496dd6c9f155ea4ad86676584b3300d2ec677cbcb533503cf2041329d",
+    "web/src/lib/TranscriptScreen.svelte": "53dba41e80840ccef739c54f782c992481aacd221de44f6e09ed26aea74ad576"
+  },
+  "normalStartupFilesUnchanged": true,
+  "originalSafeRefusalConsumerNamedReceiptsUnchanged": true,
+  "nativeBuild": "not reached",
+  "applicationRuntime": "not rechecked because update did not reach app mutation/build"
+}
